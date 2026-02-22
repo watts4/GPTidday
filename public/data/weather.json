@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-22T17:54:21.245Z",
+  "generated_at": "2026-02-22T18:27:04.161Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-22T09:00:00-08:00",
-      "temp_f": 51,
-      "wind_mph": 6,
-      "wind_dir": "ESE",
-      "shortForecast": "Mostly Sunny",
-      "precip_prob": 0
-    },
     {
       "t": "2026-02-22T10:00:00-08:00",
       "temp_f": 53,
@@ -198,12 +190,20 @@
       "wind_dir": "ENE",
       "shortForecast": "Mostly Sunny",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-02-23T09:00:00-08:00",
+      "temp_f": 53,
+      "wind_mph": 2,
+      "wind_dir": "ENE",
+      "shortForecast": "Mostly Sunny",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
       "name": "Today",
-      "t_start": "2026-02-22T09:00:00-08:00",
+      "t_start": "2026-02-22T06:00:00-08:00",
       "t_end": "2026-02-22T18:00:00-08:00",
       "temp_f": 59,
       "text": "Mostly sunny, with a high near 59. South wind around 6 mph."
