@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T21:46:07.454Z",
+  "generated_at": "2026-02-22T21:58:58.565Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-22T21:46:06.347Z",
+    "generated_at": "2026-02-22T21:58:57.539Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,7 +18,7 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-22T21:46:05.137Z",
+    "generated_at": "2026-02-22T21:58:56.247Z",
     "latest": {
       "t": "2026-02-22T21:00:00.000Z",
       "station_id": "156",
@@ -39,7 +39,7 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-22T21:46:07.453Z",
+    "generated_at": "2026-02-22T21:58:58.564Z",
     "current": null,
     "hourly": [
       {
@@ -238,10 +238,10 @@
     "daily": [
       {
         "name": "This Afternoon",
-        "t_start": "2026-02-22T13:00:00-08:00",
+        "t_start": "2026-02-22T12:00:00-08:00",
         "t_end": "2026-02-22T18:00:00-08:00",
         "temp_f": 59,
-        "text": "Sunny, with a high near 59. South southwest wind around 6 mph."
+        "text": "Sunny, with a high near 59. South wind around 6 mph."
       },
       {
         "name": "Tonight",
