@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-23T22:52:38.431Z",
+  "generated_at": "2026-02-23T23:25:34.458Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-23T14:00:00-08:00",
-      "temp_f": 60,
-      "wind_mph": 5,
-      "wind_dir": "SSW",
-      "shortForecast": "Partly Sunny",
-      "precip_prob": 4
-    },
     {
       "t": "2026-02-23T15:00:00-08:00",
       "temp_f": 60,
@@ -198,12 +190,20 @@
       "wind_dir": "W",
       "shortForecast": "Chance Light Rain",
       "precip_prob": 34
+    },
+    {
+      "t": "2026-02-24T14:00:00-08:00",
+      "temp_f": 58,
+      "wind_mph": 7,
+      "wind_dir": "WSW",
+      "shortForecast": "Chance Light Rain",
+      "precip_prob": 40
     }
   ],
   "daily": [
     {
       "name": "This Afternoon",
-      "t_start": "2026-02-23T14:00:00-08:00",
+      "t_start": "2026-02-23T15:00:00-08:00",
       "t_end": "2026-02-23T18:00:00-08:00",
       "temp_f": 62,
       "text": "Partly sunny. High near 62, with temperatures falling to around 60 in the afternoon. Southwest wind around 5 mph."
