@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-23T12:30:36.522Z",
+  "generated_at": "2026-02-23T13:50:43.542Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-23T04:00:00-08:00",
-      "temp_f": 50,
-      "wind_mph": 1,
-      "wind_dir": "NE",
-      "shortForecast": "Mostly Cloudy",
-      "precip_prob": 0
-    },
     {
       "t": "2026-02-23T05:00:00-08:00",
       "temp_f": 51,
@@ -198,15 +190,23 @@
       "wind_dir": "E",
       "shortForecast": "Slight Chance Light Rain",
       "precip_prob": 19
+    },
+    {
+      "t": "2026-02-24T04:00:00-08:00",
+      "temp_f": 56,
+      "wind_mph": 2,
+      "wind_dir": "ESE",
+      "shortForecast": "Chance Light Rain",
+      "precip_prob": 34
     }
   ],
   "daily": [
     {
       "name": "Overnight",
-      "t_start": "2026-02-23T04:00:00-08:00",
+      "t_start": "2026-02-23T03:00:00-08:00",
       "t_end": "2026-02-23T06:00:00-08:00",
       "temp_f": 49,
-      "text": "Mostly cloudy. Low around 49, with temperatures rising to around 51 overnight. Northeast wind around 1 mph."
+      "text": "Partly cloudy. Low around 49, with temperatures rising to around 51 overnight. Northeast wind around 1 mph."
     },
     {
       "name": "Monday",
