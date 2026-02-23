@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-23T13:50:43.542Z",
+  "generated_at": "2026-02-23T14:37:31.661Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-23T05:00:00-08:00",
-      "temp_f": 51,
-      "wind_mph": 1,
-      "wind_dir": "NE",
-      "shortForecast": "Mostly Cloudy",
-      "precip_prob": 0
-    },
     {
       "t": "2026-02-23T06:00:00-08:00",
       "temp_f": 51,
@@ -198,25 +190,26 @@
       "wind_dir": "ESE",
       "shortForecast": "Chance Light Rain",
       "precip_prob": 34
+    },
+    {
+      "t": "2026-02-24T05:00:00-08:00",
+      "temp_f": 56,
+      "wind_mph": 2,
+      "wind_dir": "E",
+      "shortForecast": "Chance Light Rain",
+      "precip_prob": 34
     }
   ],
   "daily": [
     {
-      "name": "Overnight",
-      "t_start": "2026-02-23T03:00:00-08:00",
-      "t_end": "2026-02-23T06:00:00-08:00",
-      "temp_f": 49,
-      "text": "Partly cloudy. Low around 49, with temperatures rising to around 51 overnight. Northeast wind around 1 mph."
-    },
-    {
-      "name": "Monday",
+      "name": "Today",
       "t_start": "2026-02-23T06:00:00-08:00",
       "t_end": "2026-02-23T18:00:00-08:00",
       "temp_f": 62,
       "text": "Mostly sunny. High near 62, with temperatures falling to around 60 in the afternoon. South southeast wind 1 to 5 mph."
     },
     {
-      "name": "Monday Night",
+      "name": "Tonight",
       "t_start": "2026-02-23T18:00:00-08:00",
       "t_end": "2026-02-24T06:00:00-08:00",
       "temp_f": 54,
@@ -227,7 +220,7 @@
       "t_start": "2026-02-24T06:00:00-08:00",
       "t_end": "2026-02-24T18:00:00-08:00",
       "temp_f": 60,
-      "text": "Rain likely. Partly sunny, with a high near 60. South southeast wind 2 to 7 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+      "text": "Rain likely. Partly sunny. High near 60, with temperatures falling to around 58 in the afternoon. South southeast wind 2 to 7 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
     },
     {
       "name": "Tuesday Night",
@@ -241,7 +234,7 @@
       "t_start": "2026-02-25T06:00:00-08:00",
       "t_end": "2026-02-25T18:00:00-08:00",
       "temp_f": 62,
-      "text": "Areas of fog and a slight chance of rain before 1pm. Mostly cloudy, with a high near 62. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
+      "text": "Areas of fog and a slight chance of rain before 1pm. Mostly cloudy, with a high near 62. North northwest wind 0 to 7 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible."
     },
     {
       "name": "Wednesday Night",
@@ -298,6 +291,13 @@
       "t_end": "2026-03-01T18:00:00-08:00",
       "temp_f": 63,
       "text": "Partly sunny, with a high near 63."
+    },
+    {
+      "name": "Sunday Night",
+      "t_start": "2026-03-01T18:00:00-08:00",
+      "t_end": "2026-03-02T06:00:00-08:00",
+      "temp_f": 52,
+      "text": "Partly cloudy, with a low around 52."
     }
   ]
 }
