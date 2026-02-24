@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-24T22:28:56.414Z",
+  "generated_at": "2026-02-24T23:01:37.468Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-24T14:00:00-08:00",
-      "temp_f": 60,
-      "wind_mph": 8,
-      "wind_dir": "SSW",
-      "shortForecast": "Partly Sunny",
-      "precip_prob": 8
-    },
     {
       "t": "2026-02-24T15:00:00-08:00",
       "temp_f": 59,
@@ -198,12 +190,20 @@
       "wind_dir": "WSW",
       "shortForecast": "Partly Sunny",
       "precip_prob": 4
+    },
+    {
+      "t": "2026-02-25T14:00:00-08:00",
+      "temp_f": 61,
+      "wind_mph": 5,
+      "wind_dir": "W",
+      "shortForecast": "Partly Sunny",
+      "precip_prob": 4
     }
   ],
   "daily": [
     {
       "name": "This Afternoon",
-      "t_start": "2026-02-24T14:00:00-08:00",
+      "t_start": "2026-02-24T15:00:00-08:00",
       "t_end": "2026-02-24T18:00:00-08:00",
       "temp_f": 61,
       "text": "A chance of rain after 4pm. Mostly cloudy. High near 61, with temperatures falling to around 59 in the afternoon. South southwest wind around 8 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."

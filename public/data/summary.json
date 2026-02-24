@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T22:28:56.414Z",
+  "generated_at": "2026-02-24T23:01:37.469Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-24T22:28:54.062Z",
+    "generated_at": "2026-02-24T23:01:34.018Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-24T22:28:52.279Z",
+    "generated_at": "2026-02-24T23:01:32.763Z",
     "latest": {
-      "t": "2026-02-24T21:30:00.000Z",
+      "t": "2026-02-24T22:30:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
       "hs_m": 1.29,
       "hs_ft": 4.2322836,
-      "tp_s": 11.764706,
-      "ta_s": 7.7432833,
-      "tz_s": 7.1378117,
-      "dp_deg_true": 281.59375,
+      "tp_s": 11.111111,
+      "ta_s": 7.1209507,
+      "tz_s": 6.245701,
+      "dp_deg_true": 288.625,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-24T22:28:56.414Z",
+    "generated_at": "2026-02-24T23:01:37.468Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-02-24T14:00:00-08:00",
-        "temp_f": 60,
-        "wind_mph": 8,
-        "wind_dir": "SSW",
-        "shortForecast": "Partly Sunny",
-        "precip_prob": 8
-      },
       {
         "t": "2026-02-24T15:00:00-08:00",
         "temp_f": 59,
@@ -233,12 +225,20 @@
         "wind_dir": "WSW",
         "shortForecast": "Partly Sunny",
         "precip_prob": 4
+      },
+      {
+        "t": "2026-02-25T14:00:00-08:00",
+        "temp_f": 61,
+        "wind_mph": 5,
+        "wind_dir": "W",
+        "shortForecast": "Partly Sunny",
+        "precip_prob": 4
       }
     ],
     "daily": [
       {
         "name": "This Afternoon",
-        "t_start": "2026-02-24T14:00:00-08:00",
+        "t_start": "2026-02-24T15:00:00-08:00",
         "t_end": "2026-02-24T18:00:00-08:00",
         "temp_f": 61,
         "text": "A chance of rain after 4pm. Mostly cloudy. High near 61, with temperatures falling to around 59 in the afternoon. South southwest wind around 8 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
