@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-24T20:01:29.993Z",
+  "generated_at": "2026-02-24T20:49:13.371Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-24T11:00:00-08:00",
-      "temp_f": 59,
-      "wind_mph": 6,
-      "wind_dir": "SSE",
-      "shortForecast": "Partly Sunny",
-      "precip_prob": 5
-    },
     {
       "t": "2026-02-24T12:00:00-08:00",
       "temp_f": 59,
@@ -194,6 +186,14 @@
     {
       "t": "2026-02-25T10:00:00-08:00",
       "temp_f": 59,
+      "wind_mph": 1,
+      "wind_dir": "N",
+      "shortForecast": "Patchy Fog",
+      "precip_prob": 4
+    },
+    {
+      "t": "2026-02-25T11:00:00-08:00",
+      "temp_f": 60,
       "wind_mph": 1,
       "wind_dir": "N",
       "shortForecast": "Patchy Fog",
