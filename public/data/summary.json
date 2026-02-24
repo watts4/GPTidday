@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T15:39:44.198Z",
+  "generated_at": "2026-02-24T16:44:05.283Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-24T15:39:43.534Z",
+    "generated_at": "2026-02-24T16:43:54.210Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-24T15:39:41.845Z",
+    "generated_at": "2026-02-24T16:43:52.721Z",
     "latest": {
-      "t": "2026-02-24T15:00:00.000Z",
+      "t": "2026-02-24T16:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 1.36,
-      "hs_ft": 4.4619424,
-      "tp_s": 10.526316,
-      "ta_s": 8.105098,
-      "tz_s": 7.420146,
-      "dp_deg_true": 288.625,
+      "hs_m": 1.24,
+      "hs_ft": 4.0682416,
+      "tp_s": 11.111111,
+      "ta_s": 7.7806487,
+      "tz_s": 6.7763133,
+      "dp_deg_true": 277.375,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-24T15:39:44.197Z",
+    "generated_at": "2026-02-24T16:44:05.282Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-02-24T07:00:00-08:00",
-        "temp_f": 56,
-        "wind_mph": 2,
-        "wind_dir": "ESE",
-        "shortForecast": "Slight Chance Light Rain",
-        "precip_prob": 15
-      },
       {
         "t": "2026-02-24T08:00:00-08:00",
         "temp_f": 56,
@@ -233,15 +225,23 @@
         "wind_dir": "",
         "shortForecast": "Areas Of Fog",
         "precip_prob": 15
+      },
+      {
+        "t": "2026-02-25T07:00:00-08:00",
+        "temp_f": 57,
+        "wind_mph": 0,
+        "wind_dir": "",
+        "shortForecast": "Areas Of Fog",
+        "precip_prob": 15
       }
     ],
     "daily": [
       {
         "name": "Today",
-        "t_start": "2026-02-24T07:00:00-08:00",
+        "t_start": "2026-02-24T08:00:00-08:00",
         "t_end": "2026-02-24T18:00:00-08:00",
         "temp_f": 61,
-        "text": "Rain likely. Partly sunny. High near 61, with temperatures falling to around 59 in the afternoon. South wind 2 to 8 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
+        "text": "Rain likely. Partly sunny. High near 61, with temperatures falling to around 59 in the afternoon. South wind 3 to 8 mph. Chance of precipitation is 70%. New rainfall amounts between a quarter and half of an inch possible."
       },
       {
         "name": "Tonight",
