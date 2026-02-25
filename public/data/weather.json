@@ -4,25 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-25T15:11:37.584Z",
+  "generated_at": "2026-02-25T16:19:57.362Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-25T06:00:00-08:00",
-      "temp_f": 57,
-      "wind_mph": 1,
-      "wind_dir": "NNE",
-      "shortForecast": "Areas Of Fog",
-      "precip_prob": 21
-    },
-    {
-      "t": "2026-02-25T07:00:00-08:00",
-      "temp_f": 57,
-      "wind_mph": 1,
-      "wind_dir": "NE",
-      "shortForecast": "Areas Of Fog",
-      "precip_prob": 17
-    },
     {
       "t": "2026-02-25T08:00:00-08:00",
       "temp_f": 57,
@@ -198,15 +182,31 @@
       "wind_dir": "E",
       "shortForecast": "Patchy Fog",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-02-26T06:00:00-08:00",
+      "temp_f": 56,
+      "wind_mph": 1,
+      "wind_dir": "NE",
+      "shortForecast": "Patchy Fog",
+      "precip_prob": 0
+    },
+    {
+      "t": "2026-02-26T07:00:00-08:00",
+      "temp_f": 55,
+      "wind_mph": 1,
+      "wind_dir": "NNE",
+      "shortForecast": "Patchy Fog",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
       "name": "Today",
-      "t_start": "2026-02-25T06:00:00-08:00",
+      "t_start": "2026-02-25T08:00:00-08:00",
       "t_end": "2026-02-25T18:00:00-08:00",
       "temp_f": 62,
-      "text": "Areas of fog and a slight chance of rain before noon. Mostly cloudy, with a high near 62. Northwest wind 1 to 6 mph. Chance of precipitation is 20%."
+      "text": "Areas of fog before noon. Mostly cloudy, with a high near 62. West northwest wind 1 to 6 mph."
     },
     {
       "name": "Tonight",

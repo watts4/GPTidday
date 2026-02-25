@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T15:11:37.952Z",
+  "generated_at": "2026-02-25T16:19:57.363Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-25T15:11:37.951Z",
+    "generated_at": "2026-02-25T16:19:56.831Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-25T15:11:36.100Z",
+    "generated_at": "2026-02-25T16:19:55.436Z",
     "latest": {
-      "t": "2026-02-25T14:00:00.000Z",
+      "t": "2026-02-25T15:30:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 1.28,
-      "hs_ft": 4.1994752,
-      "tp_s": 9.876543,
-      "ta_s": 7.081197,
-      "tz_s": 6.3059044,
-      "dp_deg_true": 277.375,
+      "hs_m": 1.23,
+      "hs_ft": 4.0354332,
+      "tp_s": 9.090909,
+      "ta_s": 7.166801,
+      "tz_s": 6.433855,
+      "dp_deg_true": 268.9375,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,25 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-25T15:11:37.584Z",
+    "generated_at": "2026-02-25T16:19:57.362Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-02-25T06:00:00-08:00",
-        "temp_f": 57,
-        "wind_mph": 1,
-        "wind_dir": "NNE",
-        "shortForecast": "Areas Of Fog",
-        "precip_prob": 21
-      },
-      {
-        "t": "2026-02-25T07:00:00-08:00",
-        "temp_f": 57,
-        "wind_mph": 1,
-        "wind_dir": "NE",
-        "shortForecast": "Areas Of Fog",
-        "precip_prob": 17
-      },
       {
         "t": "2026-02-25T08:00:00-08:00",
         "temp_f": 57,
@@ -233,15 +217,31 @@
         "wind_dir": "E",
         "shortForecast": "Patchy Fog",
         "precip_prob": 0
+      },
+      {
+        "t": "2026-02-26T06:00:00-08:00",
+        "temp_f": 56,
+        "wind_mph": 1,
+        "wind_dir": "NE",
+        "shortForecast": "Patchy Fog",
+        "precip_prob": 0
+      },
+      {
+        "t": "2026-02-26T07:00:00-08:00",
+        "temp_f": 55,
+        "wind_mph": 1,
+        "wind_dir": "NNE",
+        "shortForecast": "Patchy Fog",
+        "precip_prob": 0
       }
     ],
     "daily": [
       {
         "name": "Today",
-        "t_start": "2026-02-25T06:00:00-08:00",
+        "t_start": "2026-02-25T08:00:00-08:00",
         "t_end": "2026-02-25T18:00:00-08:00",
         "temp_f": 62,
-        "text": "Areas of fog and a slight chance of rain before noon. Mostly cloudy, with a high near 62. Northwest wind 1 to 6 mph. Chance of precipitation is 20%."
+        "text": "Areas of fog before noon. Mostly cloudy, with a high near 62. West northwest wind 1 to 6 mph."
       },
       {
         "name": "Tonight",
