@@ -4,24 +4,16 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-25T19:36:44.977Z",
+  "generated_at": "2026-02-25T20:02:39.348Z",
   "current": null,
   "hourly": [
     {
-      "t": "2026-02-25T11:00:00-08:00",
-      "temp_f": 59,
-      "wind_mph": 1,
-      "wind_dir": "SE",
-      "shortForecast": "Patchy Fog",
-      "precip_prob": 8
-    },
-    {
       "t": "2026-02-25T12:00:00-08:00",
-      "temp_f": 59,
+      "temp_f": 60,
       "wind_mph": 2,
-      "wind_dir": "WSW",
+      "wind_dir": "W",
       "shortForecast": "Partly Sunny",
-      "precip_prob": 8
+      "precip_prob": 3
     },
     {
       "t": "2026-02-25T13:00:00-08:00",
@@ -29,23 +21,23 @@
       "wind_mph": 3,
       "wind_dir": "W",
       "shortForecast": "Partly Sunny",
-      "precip_prob": 8
+      "precip_prob": 3
     },
     {
       "t": "2026-02-25T14:00:00-08:00",
       "temp_f": 61,
-      "wind_mph": 5,
+      "wind_mph": 6,
       "wind_dir": "W",
-      "shortForecast": "Partly Sunny",
-      "precip_prob": 10
+      "shortForecast": "Mostly Sunny",
+      "precip_prob": 5
     },
     {
       "t": "2026-02-25T15:00:00-08:00",
       "temp_f": 61,
       "wind_mph": 6,
       "wind_dir": "W",
-      "shortForecast": "Mostly Cloudy",
-      "precip_prob": 9
+      "shortForecast": "Partly Sunny",
+      "precip_prob": 5
     },
     {
       "t": "2026-02-25T16:00:00-08:00",
@@ -53,111 +45,111 @@
       "wind_mph": 6,
       "wind_dir": "W",
       "shortForecast": "Partly Sunny",
-      "precip_prob": 11
+      "precip_prob": 6
     },
     {
       "t": "2026-02-25T17:00:00-08:00",
       "temp_f": 62,
       "wind_mph": 5,
       "wind_dir": "W",
-      "shortForecast": "Mostly Sunny",
-      "precip_prob": 9
+      "shortForecast": "Partly Sunny",
+      "precip_prob": 6
     },
     {
       "t": "2026-02-25T18:00:00-08:00",
       "temp_f": 61,
       "wind_mph": 3,
       "wind_dir": "W",
-      "shortForecast": "Partly Cloudy",
-      "precip_prob": 9
+      "shortForecast": "Mostly Cloudy",
+      "precip_prob": 5
     },
     {
       "t": "2026-02-25T19:00:00-08:00",
-      "temp_f": 60,
+      "temp_f": 61,
       "wind_mph": 2,
-      "wind_dir": "N",
+      "wind_dir": "NNW",
       "shortForecast": "Mostly Cloudy",
-      "precip_prob": 7
+      "precip_prob": 4
     },
     {
       "t": "2026-02-25T20:00:00-08:00",
       "temp_f": 60,
-      "wind_mph": 2,
-      "wind_dir": "NE",
-      "shortForecast": "Partly Cloudy",
-      "precip_prob": 5
+      "wind_mph": 1,
+      "wind_dir": "ENE",
+      "shortForecast": "Patchy Fog",
+      "precip_prob": 3
     },
     {
       "t": "2026-02-25T21:00:00-08:00",
       "temp_f": 60,
       "wind_mph": 1,
-      "wind_dir": "E",
-      "shortForecast": "Patchy Fog",
-      "precip_prob": 5
-    },
-    {
-      "t": "2026-02-25T22:00:00-08:00",
-      "temp_f": 59,
-      "wind_mph": 1,
-      "wind_dir": "E",
+      "wind_dir": "NE",
       "shortForecast": "Patchy Fog",
       "precip_prob": 4
     },
     {
-      "t": "2026-02-25T23:00:00-08:00",
-      "temp_f": 58,
+      "t": "2026-02-25T22:00:00-08:00",
+      "temp_f": 59,
       "wind_mph": 1,
       "wind_dir": "NE",
       "shortForecast": "Patchy Fog",
       "precip_prob": 4
     },
     {
+      "t": "2026-02-25T23:00:00-08:00",
+      "temp_f": 59,
+      "wind_mph": 0,
+      "wind_dir": "",
+      "shortForecast": "Areas Of Fog",
+      "precip_prob": 6
+    },
+    {
       "t": "2026-02-26T00:00:00-08:00",
       "temp_f": 58,
       "wind_mph": 1,
-      "wind_dir": "N",
+      "wind_dir": "NNE",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 4
+      "precip_prob": 7
     },
     {
       "t": "2026-02-26T01:00:00-08:00",
       "temp_f": 57,
       "wind_mph": 1,
       "wind_dir": "N",
-      "shortForecast": "Patchy Fog",
-      "precip_prob": 4
+      "shortForecast": "Areas Of Fog",
+      "precip_prob": 7
     },
     {
       "t": "2026-02-26T02:00:00-08:00",
-      "temp_f": 56,
+      "temp_f": 57,
       "wind_mph": 1,
       "wind_dir": "NNW",
       "shortForecast": "Areas Of Fog",
-      "precip_prob": 4
+      "precip_prob": 6
     },
     {
       "t": "2026-02-26T03:00:00-08:00",
       "temp_f": 56,
       "wind_mph": 1,
-      "wind_dir": "N",
+      "wind_dir": "NNW",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 4
+      "precip_prob": 6
     },
     {
       "t": "2026-02-26T04:00:00-08:00",
-      "temp_f": 55,
-      "wind_mph": 0,
-      "wind_dir": "",
+      "temp_f": 56,
+      "wind_mph": 1,
+      "wind_dir": "N",
       "shortForecast": "Areas Of Fog",
-      "precip_prob": 0
+      "precip_prob": 4
     },
     {
       "t": "2026-02-26T05:00:00-08:00",
       "temp_f": 56,
       "wind_mph": 1,
-      "wind_dir": "E",
+      "wind_dir": "N",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 0
+      "precip_prob": 4
     },
     {
       "t": "2026-02-26T06:00:00-08:00",
@@ -165,90 +157,98 @@
       "wind_mph": 1,
       "wind_dir": "NE",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 0
+      "precip_prob": 4
     },
     {
       "t": "2026-02-26T07:00:00-08:00",
-      "temp_f": 55,
+      "temp_f": 56,
       "wind_mph": 1,
-      "wind_dir": "NNE",
+      "wind_dir": "N",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 0
+      "precip_prob": 3
     },
     {
       "t": "2026-02-26T08:00:00-08:00",
       "temp_f": 56,
-      "wind_mph": 2,
-      "wind_dir": "NNE",
+      "wind_mph": 1,
+      "wind_dir": "N",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 0
+      "precip_prob": 3
     },
     {
       "t": "2026-02-26T09:00:00-08:00",
       "temp_f": 58,
-      "wind_mph": 2,
+      "wind_mph": 1,
       "wind_dir": "N",
       "shortForecast": "Patchy Fog",
-      "precip_prob": 0
+      "precip_prob": 2
     },
     {
       "t": "2026-02-26T10:00:00-08:00",
       "temp_f": 59,
       "wind_mph": 2,
-      "wind_dir": "N",
+      "wind_dir": "SW",
       "shortForecast": "Sunny",
-      "precip_prob": 0
+      "precip_prob": 2
+    },
+    {
+      "t": "2026-02-26T11:00:00-08:00",
+      "temp_f": 60,
+      "wind_mph": 2,
+      "wind_dir": "SW",
+      "shortForecast": "Sunny",
+      "precip_prob": 2
     }
   ],
   "daily": [
     {
-      "name": "Today",
-      "t_start": "2026-02-25T11:00:00-08:00",
+      "name": "This Afternoon",
+      "t_start": "2026-02-25T12:00:00-08:00",
       "t_end": "2026-02-25T18:00:00-08:00",
       "temp_f": 62,
-      "text": "Patchy fog before noon. Partly sunny, with a high near 62. West southwest wind 1 to 6 mph."
+      "text": "Partly sunny, with a high near 62. West wind 2 to 6 mph."
     },
     {
       "name": "Tonight",
       "t_start": "2026-02-25T18:00:00-08:00",
       "t_end": "2026-02-26T06:00:00-08:00",
-      "temp_f": 54,
-      "text": "Areas of fog after 9pm. Mostly cloudy. Low around 54, with temperatures rising to around 56 overnight. North northeast wind 0 to 3 mph."
+      "temp_f": 55,
+      "text": "Areas of fog after 8pm. Mostly cloudy, with a low around 55. North wind 0 to 3 mph."
     },
     {
       "name": "Thursday",
       "t_start": "2026-02-26T06:00:00-08:00",
       "t_end": "2026-02-26T18:00:00-08:00",
       "temp_f": 66,
-      "text": "Patchy fog before 10am. Mostly sunny. High near 66, with temperatures falling to around 64 in the afternoon. North wind 1 to 5 mph."
+      "text": "Patchy fog before 10am. Mostly sunny, with a high near 66. West northwest wind 1 to 5 mph."
     },
     {
       "name": "Thursday Night",
       "t_start": "2026-02-26T18:00:00-08:00",
       "t_end": "2026-02-27T06:00:00-08:00",
-      "temp_f": 56,
-      "text": "Mostly cloudy, with a low around 56. North wind around 5 mph."
+      "temp_f": 55,
+      "text": "Partly cloudy, with a low around 55. North wind around 3 mph."
     },
     {
       "name": "Friday",
       "t_start": "2026-02-27T06:00:00-08:00",
       "t_end": "2026-02-27T18:00:00-08:00",
       "temp_f": 69,
-      "text": "Partly sunny, with a high near 69. North northeast wind around 5 mph."
+      "text": "Partly sunny, with a high near 69. North wind around 5 mph."
     },
     {
       "name": "Friday Night",
       "t_start": "2026-02-27T18:00:00-08:00",
       "t_end": "2026-02-28T06:00:00-08:00",
-      "temp_f": 56,
-      "text": "Mostly cloudy, with a low around 56."
+      "temp_f": 57,
+      "text": "Mostly cloudy, with a low around 57."
     },
     {
       "name": "Saturday",
       "t_start": "2026-02-28T06:00:00-08:00",
       "t_end": "2026-02-28T18:00:00-08:00",
-      "temp_f": 64,
-      "text": "Mostly sunny, with a high near 64."
+      "temp_f": 66,
+      "text": "Partly sunny, with a high near 66."
     },
     {
       "name": "Saturday Night",
@@ -262,35 +262,35 @@
       "t_start": "2026-03-01T06:00:00-08:00",
       "t_end": "2026-03-01T18:00:00-08:00",
       "temp_f": 61,
-      "text": "A slight chance of rain after 4pm. Partly sunny, with a high near 61."
+      "text": "Patchy fog between 7am and 10am, then a slight chance of rain. Mostly cloudy, with a high near 61."
     },
     {
       "name": "Sunday Night",
       "t_start": "2026-03-01T18:00:00-08:00",
       "t_end": "2026-03-02T06:00:00-08:00",
-      "temp_f": 51,
-      "text": "A slight chance of rain before 4am. Partly cloudy, with a low around 51."
+      "temp_f": 52,
+      "text": "A slight chance of rain before 4am. Partly cloudy, with a low around 52."
     },
     {
       "name": "Monday",
       "t_start": "2026-03-02T06:00:00-08:00",
       "t_end": "2026-03-02T18:00:00-08:00",
-      "temp_f": 61,
-      "text": "Mostly sunny, with a high near 61."
+      "temp_f": 62,
+      "text": "Mostly sunny, with a high near 62."
     },
     {
       "name": "Monday Night",
       "t_start": "2026-03-02T18:00:00-08:00",
       "t_end": "2026-03-03T06:00:00-08:00",
-      "temp_f": 51,
-      "text": "Mostly clear, with a low around 51."
+      "temp_f": 50,
+      "text": "Mostly clear, with a low around 50."
     },
     {
       "name": "Tuesday",
       "t_start": "2026-03-03T06:00:00-08:00",
       "t_end": "2026-03-03T18:00:00-08:00",
-      "temp_f": 64,
-      "text": "Mostly sunny, with a high near 64."
+      "temp_f": 63,
+      "text": "Mostly sunny, with a high near 63."
     },
     {
       "name": "Tuesday Night",
