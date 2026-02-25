@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T00:01:28.620Z",
+  "generated_at": "2026-02-25T02:54:36.963Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-25T00:01:28.505Z",
+    "generated_at": "2026-02-25T02:54:33.949Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-25T00:01:27.947Z",
+    "generated_at": "2026-02-25T02:54:32.705Z",
     "latest": {
-      "t": "2026-02-24T23:00:00.000Z",
+      "t": "2026-02-25T02:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 1.47,
-      "hs_ft": 4.8228348,
-      "tp_s": 10.526316,
-      "ta_s": 7.171076,
-      "tz_s": 6.1960726,
-      "dp_deg_true": 278.78125,
+      "hs_m": 1.32,
+      "hs_ft": 4.3307088,
+      "tp_s": 12.5,
+      "ta_s": 7.3957148,
+      "tz_s": 6.306167,
+      "dp_deg_true": 285.8125,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,33 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-25T00:01:28.620Z",
+    "generated_at": "2026-02-25T02:54:36.962Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-02-24T15:00:00-08:00",
-        "temp_f": 59,
-        "wind_mph": 8,
-        "wind_dir": "SSW",
-        "shortForecast": "Mostly Cloudy",
-        "precip_prob": 10
-      },
-      {
-        "t": "2026-02-24T16:00:00-08:00",
-        "temp_f": 59,
-        "wind_mph": 7,
-        "wind_dir": "SSW",
-        "shortForecast": "Slight Chance Light Rain",
-        "precip_prob": 17
-      },
-      {
-        "t": "2026-02-24T17:00:00-08:00",
-        "temp_f": 59,
-        "wind_mph": 6,
-        "wind_dir": "S",
-        "shortForecast": "Chance Light Rain",
-        "precip_prob": 27
-      },
       {
         "t": "2026-02-24T18:00:00-08:00",
         "temp_f": 60,
@@ -233,16 +209,33 @@
         "wind_dir": "W",
         "shortForecast": "Partly Sunny",
         "precip_prob": 4
+      },
+      {
+        "t": "2026-02-25T15:00:00-08:00",
+        "temp_f": 61,
+        "wind_mph": 6,
+        "wind_dir": "W",
+        "shortForecast": "Mostly Sunny",
+        "precip_prob": 4
+      },
+      {
+        "t": "2026-02-25T16:00:00-08:00",
+        "temp_f": 61,
+        "wind_mph": 6,
+        "wind_dir": "W",
+        "shortForecast": "Mostly Sunny",
+        "precip_prob": 1
+      },
+      {
+        "t": "2026-02-25T17:00:00-08:00",
+        "temp_f": 62,
+        "wind_mph": 5,
+        "wind_dir": "W",
+        "shortForecast": "Mostly Sunny",
+        "precip_prob": 1
       }
     ],
     "daily": [
-      {
-        "name": "This Afternoon",
-        "t_start": "2026-02-24T15:00:00-08:00",
-        "t_end": "2026-02-24T18:00:00-08:00",
-        "temp_f": 61,
-        "text": "A chance of rain after 4pm. Mostly cloudy. High near 61, with temperatures falling to around 59 in the afternoon. South southwest wind around 8 mph. Chance of precipitation is 30%. New rainfall amounts between a tenth and quarter of an inch possible."
-      },
       {
         "name": "Tonight",
         "t_start": "2026-02-24T18:00:00-08:00",
@@ -262,7 +255,7 @@
         "t_start": "2026-02-25T18:00:00-08:00",
         "t_end": "2026-02-26T06:00:00-08:00",
         "temp_f": 53,
-        "text": "Patchy fog between 7pm and 5am. Partly cloudy, with a low around 53. North wind around 2 mph."
+        "text": "Patchy fog between 7pm and 5am. Partly cloudy. Low around 53, with temperatures rising to around 55 overnight. North wind around 2 mph."
       },
       {
         "name": "Thursday",
@@ -276,7 +269,7 @@
         "t_start": "2026-02-26T18:00:00-08:00",
         "t_end": "2026-02-27T06:00:00-08:00",
         "temp_f": 55,
-        "text": "Mostly cloudy, with a low around 55."
+        "text": "Mostly cloudy, with a low around 55. North wind 2 to 6 mph."
       },
       {
         "name": "Friday",
@@ -333,6 +326,13 @@
         "t_end": "2026-03-03T06:00:00-08:00",
         "temp_f": 52,
         "text": "Mostly clear, with a low around 52."
+      },
+      {
+        "name": "Tuesday",
+        "t_start": "2026-03-03T06:00:00-08:00",
+        "t_end": "2026-03-03T18:00:00-08:00",
+        "temp_f": 64,
+        "text": "Sunny, with a high near 64."
       }
     ]
   }
