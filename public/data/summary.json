@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T23:00:55.237Z",
+  "generated_at": "2026-02-27T23:33:46.686Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-27T23:00:55.236Z",
+    "generated_at": "2026-02-27T23:33:46.174Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,7 +18,7 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-27T23:00:53.913Z",
+    "generated_at": "2026-02-27T23:33:44.779Z",
     "latest": {
       "t": "2026-02-27T22:30:00.000Z",
       "station_id": "156",
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-27T23:00:55.181Z",
+    "generated_at": "2026-02-27T23:33:46.685Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-02-27T14:00:00-08:00",
-        "temp_f": 67,
-        "wind_mph": 5,
-        "wind_dir": "WNW",
-        "shortForecast": "Sunny",
-        "precip_prob": 2
-      },
       {
         "t": "2026-02-27T15:00:00-08:00",
         "temp_f": 68,
@@ -233,15 +225,23 @@
         "wind_dir": "W",
         "shortForecast": "Sunny",
         "precip_prob": 3
+      },
+      {
+        "t": "2026-02-28T14:00:00-08:00",
+        "temp_f": 66,
+        "wind_mph": 7,
+        "wind_dir": "WSW",
+        "shortForecast": "Sunny",
+        "precip_prob": 3
       }
     ],
     "daily": [
       {
         "name": "This Afternoon",
-        "t_start": "2026-02-27T14:00:00-08:00",
+        "t_start": "2026-02-27T15:00:00-08:00",
         "t_end": "2026-02-27T18:00:00-08:00",
-        "temp_f": 69,
-        "text": "Mostly sunny, with a high near 69. Northwest wind 1 to 5 mph."
+        "temp_f": 71,
+        "text": "Mostly sunny. High near 71, with temperatures falling to around 69 in the afternoon. Northwest wind 1 to 5 mph."
       },
       {
         "name": "Tonight",
