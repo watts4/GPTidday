@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-28T18:57:27.363Z",
+  "generated_at": "2026-02-28T19:22:46.092Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-28T10:00:00-08:00",
-      "temp_f": 65,
-      "wind_mph": 3,
-      "wind_dir": "W",
-      "shortForecast": "Sunny",
-      "precip_prob": 1
-    },
     {
       "t": "2026-02-28T11:00:00-08:00",
       "temp_f": 66,
@@ -198,12 +190,20 @@
       "wind_dir": "W",
       "shortForecast": "Areas Of Fog",
       "precip_prob": 3
+    },
+    {
+      "t": "2026-03-01T10:00:00-08:00",
+      "temp_f": 56,
+      "wind_mph": 3,
+      "wind_dir": "W",
+      "shortForecast": "Mostly Cloudy",
+      "precip_prob": 3
     }
   ],
   "daily": [
     {
       "name": "Today",
-      "t_start": "2026-02-28T07:00:00-08:00",
+      "t_start": "2026-02-28T08:00:00-08:00",
       "t_end": "2026-02-28T18:00:00-08:00",
       "temp_f": 69,
       "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West wind 2 to 7 mph."
