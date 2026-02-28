@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-28T18:32:01.779Z",
+  "generated_at": "2026-02-28T18:57:27.363Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-02-28T09:00:00-08:00",
-      "temp_f": 63,
-      "wind_mph": 2,
-      "wind_dir": "NE",
-      "shortForecast": "Sunny",
-      "precip_prob": 1
-    },
     {
       "t": "2026-02-28T10:00:00-08:00",
       "temp_f": 65,
@@ -198,6 +190,14 @@
       "wind_dir": "",
       "shortForecast": "Areas Of Fog",
       "precip_prob": 4
+    },
+    {
+      "t": "2026-03-01T09:00:00-08:00",
+      "temp_f": 56,
+      "wind_mph": 1,
+      "wind_dir": "W",
+      "shortForecast": "Areas Of Fog",
+      "precip_prob": 3
     }
   ],
   "daily": [
