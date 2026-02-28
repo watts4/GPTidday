@@ -4,7 +4,7 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-28T21:09:27.048Z",
+  "generated_at": "2026-02-28T21:33:09.035Z",
   "current": null,
   "hourly": [
     {
@@ -202,39 +202,39 @@
   ],
   "daily": [
     {
-      "name": "This Afternoon",
-      "t_start": "2026-02-28T12:00:00-08:00",
+      "name": "Today",
+      "t_start": "2026-02-28T08:00:00-08:00",
       "t_end": "2026-02-28T18:00:00-08:00",
       "temp_f": 69,
-      "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West wind around 7 mph."
+      "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West wind 2 to 7 mph."
     },
     {
       "name": "Tonight",
       "t_start": "2026-02-28T18:00:00-08:00",
       "t_end": "2026-03-01T06:00:00-08:00",
       "temp_f": 54,
-      "text": "Patchy fog after 11pm. Mostly cloudy, with a low around 54. North northwest wind 0 to 3 mph."
+      "text": "Patchy fog after 11pm. Mostly cloudy, with a low around 54. Northeast wind 0 to 3 mph."
     },
     {
       "name": "Sunday",
       "t_start": "2026-03-01T06:00:00-08:00",
       "t_end": "2026-03-01T18:00:00-08:00",
       "temp_f": 60,
-      "text": "Areas of fog before 10am. Partly sunny. High near 60, with temperatures falling to around 58 in the afternoon. West wind 0 to 9 mph."
+      "text": "Areas of fog before 10am. Partly sunny. High near 60, with temperatures falling to around 58 in the afternoon. West northwest wind 0 to 10 mph."
     },
     {
       "name": "Sunday Night",
       "t_start": "2026-03-01T18:00:00-08:00",
       "t_end": "2026-03-02T06:00:00-08:00",
       "temp_f": 52,
-      "text": "A slight chance of rain between 10pm and 4am, then patchy fog and a slight chance of rain. Partly cloudy, with a low around 52. West wind 0 to 6 mph. Chance of precipitation is 20%."
+      "text": "A slight chance of rain between 10pm and 4am, then patchy fog and a slight chance of rain. Partly cloudy, with a low around 52. West wind 0 to 10 mph. Chance of precipitation is 20%."
     },
     {
       "name": "Monday",
       "t_start": "2026-03-02T06:00:00-08:00",
       "t_end": "2026-03-02T18:00:00-08:00",
       "temp_f": 60,
-      "text": "Patchy fog and a slight chance of rain before 10am. Mostly sunny, with a high near 60. West southwest wind 0 to 10 mph. Chance of precipitation is 20%."
+      "text": "Patchy fog and a slight chance of rain before 10am. Mostly sunny, with a high near 60. West northwest wind 0 to 9 mph. Chance of precipitation is 20%."
     },
     {
       "name": "Monday Night",
