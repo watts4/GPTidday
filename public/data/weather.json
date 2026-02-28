@@ -4,7 +4,7 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-02-28T19:50:19.282Z",
+  "generated_at": "2026-02-28T19:58:54.704Z",
   "current": null,
   "hourly": [
     {
@@ -203,10 +203,10 @@
   "daily": [
     {
       "name": "Today",
-      "t_start": "2026-02-28T06:00:00-08:00",
+      "t_start": "2026-02-28T11:00:00-08:00",
       "t_end": "2026-02-28T18:00:00-08:00",
       "temp_f": 69,
-      "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West northwest wind 2 to 7 mph."
+      "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West wind 3 to 7 mph."
     },
     {
       "name": "Tonight",

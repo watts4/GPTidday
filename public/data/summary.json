@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T19:50:19.283Z",
+  "generated_at": "2026-02-28T19:58:54.705Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-02-28T19:50:19.017Z",
+    "generated_at": "2026-02-28T19:58:54.408Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,7 +18,7 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-02-28T19:50:17.241Z",
+    "generated_at": "2026-02-28T19:58:53.218Z",
     "latest": {
       "t": "2026-02-28T19:00:00.000Z",
       "station_id": "156",
@@ -39,7 +39,7 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-02-28T19:50:19.282Z",
+    "generated_at": "2026-02-28T19:58:54.704Z",
     "current": null,
     "hourly": [
       {
@@ -238,10 +238,10 @@
     "daily": [
       {
         "name": "Today",
-        "t_start": "2026-02-28T06:00:00-08:00",
+        "t_start": "2026-02-28T11:00:00-08:00",
         "t_end": "2026-02-28T18:00:00-08:00",
         "temp_f": 69,
-        "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West northwest wind 2 to 7 mph."
+        "text": "Mostly sunny. High near 69, with temperatures falling to around 64 in the afternoon. West wind 3 to 7 mph."
       },
       {
         "name": "Tonight",
