@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T10:13:31.647Z",
+  "generated_at": "2026-03-01T10:44:47.243Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-01T10:13:31.646Z",
+    "generated_at": "2026-03-01T10:44:46.614Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-01T10:13:29.856Z",
+    "generated_at": "2026-03-01T10:44:45.401Z",
     "latest": {
-      "t": "2026-03-01T09:00:00.000Z",
+      "t": "2026-03-01T10:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
       "hs_m": 0.96,
       "hs_ft": 3.1496063999999997,
-      "tp_s": 14.285714,
-      "ta_s": 6.613304,
-      "tz_s": 5.3613644,
-      "dp_deg_true": 267.53125,
+      "tp_s": 13.333333,
+      "ta_s": 7.504677,
+      "tz_s": 6.256236,
+      "dp_deg_true": 291.4375,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-01T10:13:31.296Z",
+    "generated_at": "2026-03-01T10:44:47.242Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-01T01:00:00-08:00",
-        "temp_f": 57,
-        "wind_mph": 0,
-        "wind_dir": "",
-        "shortForecast": "Patchy Fog",
-        "precip_prob": 0
-      },
       {
         "t": "2026-03-01T02:00:00-08:00",
         "temp_f": 56,
@@ -233,12 +225,20 @@
         "wind_dir": "W",
         "shortForecast": "Mostly Cloudy",
         "precip_prob": 9
+      },
+      {
+        "t": "2026-03-02T01:00:00-08:00",
+        "temp_f": 54,
+        "wind_mph": 0,
+        "wind_dir": "",
+        "shortForecast": "Mostly Cloudy",
+        "precip_prob": 9
       }
     ],
     "daily": [
       {
         "name": "Overnight",
-        "t_start": "2026-03-01T01:00:00-08:00",
+        "t_start": "2026-03-01T02:00:00-08:00",
         "t_end": "2026-03-01T06:00:00-08:00",
         "temp_f": 55,
         "text": "Patchy fog. Mostly cloudy, with a low around 55. Northwest wind around 1 mph."
