@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T20:24:39.699Z",
+  "generated_at": "2026-03-01T20:47:18.766Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-01T20:24:39.698Z",
+    "generated_at": "2026-03-01T20:47:18.385Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-01T20:24:37.919Z",
+    "generated_at": "2026-03-01T20:47:16.994Z",
     "latest": {
-      "t": "2026-03-01T19:30:00.000Z",
+      "t": "2026-03-01T20:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 0.74,
-      "hs_ft": 2.4278216,
-      "tp_s": 12.5,
-      "ta_s": 6.6819615,
-      "tz_s": 5.644086,
-      "dp_deg_true": 292.84375,
+      "hs_m": 0.79,
+      "hs_ft": 2.5918636,
+      "tp_s": 9.090909,
+      "ta_s": 7.0423193,
+      "tz_s": 6.0215983,
+      "dp_deg_true": 271.75,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-01T20:24:39.343Z",
+    "generated_at": "2026-03-01T20:47:18.765Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-01T11:00:00-08:00",
-        "temp_f": 57,
-        "wind_mph": 3,
-        "wind_dir": "WSW",
-        "shortForecast": "Areas Of Fog",
-        "precip_prob": 3
-      },
       {
         "t": "2026-03-01T12:00:00-08:00",
         "temp_f": 57,
@@ -229,6 +221,14 @@
       {
         "t": "2026-03-02T10:00:00-08:00",
         "temp_f": 55,
+        "wind_mph": 3,
+        "wind_dir": "WSW",
+        "shortForecast": "Areas Of Fog",
+        "precip_prob": 8
+      },
+      {
+        "t": "2026-03-02T11:00:00-08:00",
+        "temp_f": 56,
         "wind_mph": 3,
         "wind_dir": "WSW",
         "shortForecast": "Areas Of Fog",
