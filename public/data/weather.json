@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-03T06:28:28.202Z",
+  "generated_at": "2026-03-03T07:25:55.682Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-03-02T22:00:00-08:00",
-      "temp_f": 56,
-      "wind_mph": 3,
-      "wind_dir": "N",
-      "shortForecast": "Mostly Clear",
-      "precip_prob": 0
-    },
     {
       "t": "2026-03-02T23:00:00-08:00",
       "temp_f": 55,
@@ -198,15 +190,23 @@
       "wind_dir": "NNW",
       "shortForecast": "Mostly Clear",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-03-03T22:00:00-08:00",
+      "temp_f": 55,
+      "wind_mph": 6,
+      "wind_dir": "NNW",
+      "shortForecast": "Mostly Clear",
+      "precip_prob": 1
     }
   ],
   "daily": [
     {
       "name": "Tonight",
-      "t_start": "2026-03-02T22:00:00-08:00",
+      "t_start": "2026-03-02T23:00:00-08:00",
       "t_end": "2026-03-03T06:00:00-08:00",
       "temp_f": 50,
-      "text": "Patchy fog between 2am and 5am. Partly cloudy, with a low around 50. North wind around 3 mph."
+      "text": "Patchy fog between 2am and 5am. Partly cloudy, with a low around 50. North wind around 2 mph."
     },
     {
       "name": "Tuesday",
