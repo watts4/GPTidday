@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-03T21:20:34.865Z",
+  "generated_at": "2026-03-03T21:51:08.655Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-03-03T12:00:00-08:00",
-      "temp_f": 58,
-      "wind_mph": 5,
-      "wind_dir": "W",
-      "shortForecast": "Sunny",
-      "precip_prob": 0
-    },
     {
       "t": "2026-03-03T13:00:00-08:00",
       "temp_f": 60,
@@ -198,15 +190,23 @@
       "wind_dir": "NW",
       "shortForecast": "Mostly Sunny",
       "precip_prob": 1
+    },
+    {
+      "t": "2026-03-04T12:00:00-08:00",
+      "temp_f": 60,
+      "wind_mph": 13,
+      "wind_dir": "NW",
+      "shortForecast": "Sunny",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
       "name": "This Afternoon",
-      "t_start": "2026-03-03T12:00:00-08:00",
+      "t_start": "2026-03-03T13:00:00-08:00",
       "t_end": "2026-03-03T18:00:00-08:00",
       "temp_f": 62,
-      "text": "Sunny, with a high near 62. West northwest wind 5 to 10 mph."
+      "text": "Sunny, with a high near 62. West northwest wind 6 to 10 mph."
     },
     {
       "name": "Tonight",
