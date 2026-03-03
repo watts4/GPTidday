@@ -4,7 +4,7 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-03T11:37:51.256Z",
+  "generated_at": "2026-03-03T11:59:01.321Z",
   "current": null,
   "hourly": [
     {
@@ -203,10 +203,10 @@
   "daily": [
     {
       "name": "Overnight",
-      "t_start": "2026-03-03T03:00:00-08:00",
+      "t_start": "2026-03-03T01:00:00-08:00",
       "t_end": "2026-03-03T06:00:00-08:00",
       "temp_f": 50,
-      "text": "Patchy fog between 4am and 5am. Partly cloudy, with a low around 50. North northwest wind around 1 mph."
+      "text": "Patchy fog between 2am and 5am. Partly cloudy, with a low around 50. North wind around 1 mph."
     },
     {
       "name": "Tuesday",

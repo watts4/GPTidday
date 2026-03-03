@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T11:37:51.257Z",
+  "generated_at": "2026-03-03T11:59:01.322Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-03T11:37:48.991Z",
+    "generated_at": "2026-03-03T11:59:00.245Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,7 +18,7 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-03T11:37:47.957Z",
+    "generated_at": "2026-03-03T11:58:58.393Z",
     "latest": {
       "t": "2026-03-03T11:00:00.000Z",
       "station_id": "156",
@@ -39,7 +39,7 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-03T11:37:51.256Z",
+    "generated_at": "2026-03-03T11:59:01.321Z",
     "current": null,
     "hourly": [
       {
@@ -238,10 +238,10 @@
     "daily": [
       {
         "name": "Overnight",
-        "t_start": "2026-03-03T03:00:00-08:00",
+        "t_start": "2026-03-03T01:00:00-08:00",
         "t_end": "2026-03-03T06:00:00-08:00",
         "temp_f": 50,
-        "text": "Patchy fog between 4am and 5am. Partly cloudy, with a low around 50. North northwest wind around 1 mph."
+        "text": "Patchy fog between 2am and 5am. Partly cloudy, with a low around 50. North wind around 1 mph."
       },
       {
         "name": "Tuesday",
