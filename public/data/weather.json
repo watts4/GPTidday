@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-05T08:31:22.497Z",
+  "generated_at": "2026-03-05T09:09:13.611Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-03-05T00:00:00-08:00",
-      "temp_f": 54,
-      "wind_mph": 23,
-      "wind_dir": "NNW",
-      "shortForecast": "Clear",
-      "precip_prob": 0
-    },
     {
       "t": "2026-03-05T01:00:00-08:00",
       "temp_f": 53,
@@ -198,15 +190,23 @@
       "wind_dir": "N",
       "shortForecast": "Clear",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-03-06T00:00:00-08:00",
+      "temp_f": 55,
+      "wind_mph": 22,
+      "wind_dir": "N",
+      "shortForecast": "Clear",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
       "name": "Overnight",
-      "t_start": "2026-03-05T00:00:00-08:00",
+      "t_start": "2026-03-05T01:00:00-08:00",
       "t_end": "2026-03-05T06:00:00-08:00",
       "temp_f": 49,
-      "text": "Clear, with a low around 49. North northwest wind 14 to 23 mph, with gusts as high as 36 mph."
+      "text": "Clear, with a low around 49. North northwest wind 14 to 22 mph, with gusts as high as 32 mph."
     },
     {
       "name": "Thursday",
