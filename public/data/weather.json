@@ -4,17 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-06T05:29:14.236Z",
+  "generated_at": "2026-03-06T06:06:28.418Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-03-05T21:00:00-08:00",
-      "temp_f": 57,
-      "wind_mph": 17,
-      "wind_dir": "NNW",
-      "shortForecast": "Clear",
-      "precip_prob": 0
-    },
     {
       "t": "2026-03-05T22:00:00-08:00",
       "temp_f": 57,
@@ -198,12 +190,20 @@
       "wind_dir": "N",
       "shortForecast": "Clear",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-03-06T21:00:00-08:00",
+      "temp_f": 58,
+      "wind_mph": 12,
+      "wind_dir": "N",
+      "shortForecast": "Clear",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
       "name": "Tonight",
-      "t_start": "2026-03-05T18:00:00-08:00",
+      "t_start": "2026-03-05T22:00:00-08:00",
       "t_end": "2026-03-06T06:00:00-08:00",
       "temp_f": 50,
       "text": "Clear. Low around 50, with temperatures rising to around 52 overnight. North northwest wind 16 to 22 mph, with gusts as high as 40 mph."
