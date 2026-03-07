@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T20:23:28.241Z",
+  "generated_at": "2026-03-07T20:45:12.238Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-07T20:23:27.836Z",
+    "generated_at": "2026-03-07T20:45:12.237Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-07T20:23:26.037Z",
+    "generated_at": "2026-03-07T20:45:10.480Z",
     "latest": {
-      "t": "2026-03-07T19:30:00.000Z",
+      "t": "2026-03-07T20:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 1.39,
-      "hs_ft": 4.560367599999999,
-      "tp_s": 9.876543,
-      "ta_s": 7.681266,
-      "tz_s": 7.0566115,
-      "dp_deg_true": 290.03125,
+      "hs_m": 1.4,
+      "hs_ft": 4.593176,
+      "tp_s": 11.111111,
+      "ta_s": 7.913913,
+      "tz_s": 7.267028,
+      "dp_deg_true": 291.4375,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,7 +39,7 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-07T20:23:28.240Z",
+    "generated_at": "2026-03-07T20:45:11.932Z",
     "current": null,
     "hourly": [
       {
