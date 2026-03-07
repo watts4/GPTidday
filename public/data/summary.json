@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T03:18:59.056Z",
+  "generated_at": "2026-03-07T04:42:27.650Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-07T03:18:57.643Z",
+    "generated_at": "2026-03-07T04:42:27.318Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-07T03:18:56.330Z",
+    "generated_at": "2026-03-07T04:42:26.339Z",
     "latest": {
-      "t": "2026-03-07T02:30:00.000Z",
+      "t": "2026-03-07T04:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 1.71,
-      "hs_ft": 5.6102364,
+      "hs_m": 1.55,
+      "hs_ft": 5.085302,
       "tp_s": 10.526316,
-      "ta_s": 6.94144,
-      "tz_s": 6.030875,
-      "dp_deg_true": 294.25,
+      "ta_s": 7.2178025,
+      "tz_s": 6.3360143,
+      "dp_deg_true": 285.8125,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-07T03:18:59.055Z",
+    "generated_at": "2026-03-07T04:42:27.649Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-06T19:00:00-08:00",
-        "temp_f": 59,
-        "wind_mph": 9,
-        "wind_dir": "N",
-        "shortForecast": "Clear",
-        "precip_prob": 0
-      },
       {
         "t": "2026-03-06T20:00:00-08:00",
         "temp_f": 58,
@@ -233,12 +225,20 @@
         "wind_dir": "W",
         "shortForecast": "Clear",
         "precip_prob": 0
+      },
+      {
+        "t": "2026-03-07T19:00:00-08:00",
+        "temp_f": 61,
+        "wind_mph": 5,
+        "wind_dir": "NE",
+        "shortForecast": "Mostly Clear",
+        "precip_prob": 0
       }
     ],
     "daily": [
       {
         "name": "Tonight",
-        "t_start": "2026-03-06T19:00:00-08:00",
+        "t_start": "2026-03-06T20:00:00-08:00",
         "t_end": "2026-03-07T06:00:00-08:00",
         "temp_f": 50,
         "text": "Mostly clear, with a low around 50. Northeast wind 3 to 12 mph."
