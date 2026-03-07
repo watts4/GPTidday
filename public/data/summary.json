@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T17:00:57.432Z",
+  "generated_at": "2026-03-07T17:30:45.451Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-07T17:00:48.833Z",
+    "generated_at": "2026-03-07T17:30:36.963Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,19 +18,19 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-07T17:00:53.660Z",
+    "generated_at": "2026-03-07T17:30:35.582Z",
     "latest": {
-      "t": "2026-03-07T16:30:00.000Z",
-      "station_id": "158",
-      "station_name": "CABRILLO POINT NEARSHORE, CA BUOY - 158p1",
-      "hs_m": 0.82,
-      "hs_ft": 2.6902888,
+      "t": "2026-03-07T17:00:00.000Z",
+      "station_id": "156",
+      "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
+      "hs_m": 1.43,
+      "hs_ft": 4.6916012,
       "tp_s": 9.876543,
-      "ta_s": 8.397232,
-      "tz_s": 7.13182,
-      "dp_deg_true": 340.65625,
-      "lat": 36.6263,
-      "lon": -121.9071
+      "ta_s": 7.426716,
+      "tz_s": 6.418148,
+      "dp_deg_true": 291.4375,
+      "lat": 36.759167,
+      "lon": -121.95028
     }
   },
   "weather": {
@@ -39,7 +39,7 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-07T17:00:57.431Z",
+    "generated_at": "2026-03-07T17:30:45.450Z",
     "current": null,
     "hourly": [
       {
@@ -238,7 +238,7 @@
     "daily": [
       {
         "name": "Today",
-        "t_start": "2026-03-07T09:00:00-08:00",
+        "t_start": "2026-03-07T07:00:00-08:00",
         "t_end": "2026-03-07T18:00:00-08:00",
         "temp_f": 66,
         "text": "Sunny. High near 66, with temperatures falling to around 64 in the afternoon. South southwest wind around 6 mph."
