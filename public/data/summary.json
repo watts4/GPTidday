@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T18:40:45.829Z",
+  "generated_at": "2026-03-07T19:01:27.105Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-07T18:40:45.285Z",
+    "generated_at": "2026-03-07T19:01:20.985Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,7 +18,7 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-07T18:40:43.432Z",
+    "generated_at": "2026-03-07T19:01:19.898Z",
     "latest": {
       "t": "2026-03-07T18:00:00.000Z",
       "station_id": "156",
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-07T18:40:45.828Z",
+    "generated_at": "2026-03-07T19:01:27.104Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-07T10:00:00-08:00",
-        "temp_f": 58,
-        "wind_mph": 3,
-        "wind_dir": "E",
-        "shortForecast": "Sunny",
-        "precip_prob": 0
-      },
       {
         "t": "2026-03-07T11:00:00-08:00",
         "temp_f": 61,
@@ -233,15 +225,23 @@
         "wind_dir": "ENE",
         "shortForecast": "Sunny",
         "precip_prob": 0
+      },
+      {
+        "t": "2026-03-08T11:00:00-07:00",
+        "temp_f": 61,
+        "wind_mph": 2,
+        "wind_dir": "E",
+        "shortForecast": "Sunny",
+        "precip_prob": 0
       }
     ],
     "daily": [
       {
         "name": "Today",
-        "t_start": "2026-03-07T10:00:00-08:00",
+        "t_start": "2026-03-07T11:00:00-08:00",
         "t_end": "2026-03-07T18:00:00-08:00",
         "temp_f": 66,
-        "text": "Sunny. High near 66, with temperatures falling to around 64 in the afternoon. South southwest wind around 6 mph."
+        "text": "Sunny. High near 66, with temperatures falling to around 64 in the afternoon. Southwest wind around 6 mph."
       },
       {
         "name": "Tonight",
