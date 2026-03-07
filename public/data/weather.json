@@ -4,7 +4,7 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-07T05:25:41.121Z",
+  "generated_at": "2026-03-07T05:57:53.067Z",
   "current": null,
   "hourly": [
     {
@@ -203,10 +203,10 @@
   "daily": [
     {
       "name": "Tonight",
-      "t_start": "2026-03-06T20:00:00-08:00",
+      "t_start": "2026-03-06T21:00:00-08:00",
       "t_end": "2026-03-07T06:00:00-08:00",
       "temp_f": 50,
-      "text": "Mostly clear, with a low around 50. Northeast wind 3 to 12 mph."
+      "text": "Mostly clear, with a low around 50. Northeast wind 3 to 8 mph."
     },
     {
       "name": "Saturday",
