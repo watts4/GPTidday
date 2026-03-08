@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T05:26:20.143Z",
+  "generated_at": "2026-03-08T06:02:33.093Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-08T05:26:17.444Z",
+    "generated_at": "2026-03-08T06:02:30.568Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,16 +18,16 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-08T05:26:16.249Z",
+    "generated_at": "2026-03-08T06:02:29.067Z",
     "latest": {
-      "t": "2026-03-08T04:30:00.000Z",
+      "t": "2026-03-08T05:30:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 1.2,
-      "hs_ft": 3.9370079999999996,
-      "tp_s": 9.090909,
-      "ta_s": 7.250544,
-      "tz_s": 6.5986814,
+      "hs_m": 1.22,
+      "hs_ft": 4.0026247999999995,
+      "tp_s": 10.526316,
+      "ta_s": 7.5122347,
+      "tz_s": 6.8318853,
       "dp_deg_true": 294.25,
       "lat": 36.759167,
       "lon": -121.95028
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-08T05:26:20.142Z",
+    "generated_at": "2026-03-08T06:02:33.092Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-07T21:00:00-08:00",
-        "temp_f": 58,
-        "wind_mph": 7,
-        "wind_dir": "E",
-        "shortForecast": "Clear",
-        "precip_prob": 0
-      },
       {
         "t": "2026-03-07T22:00:00-08:00",
         "temp_f": 58,
@@ -233,12 +225,20 @@
         "wind_dir": "ESE",
         "shortForecast": "Mostly Clear",
         "precip_prob": 0
+      },
+      {
+        "t": "2026-03-08T22:00:00-07:00",
+        "temp_f": 59,
+        "wind_mph": 8,
+        "wind_dir": "ESE",
+        "shortForecast": "Partly Cloudy",
+        "precip_prob": 0
       }
     ],
     "daily": [
       {
         "name": "Tonight",
-        "t_start": "2026-03-07T21:00:00-08:00",
+        "t_start": "2026-03-07T22:00:00-08:00",
         "t_end": "2026-03-08T06:00:00-07:00",
         "temp_f": 53,
         "text": "Clear. Low around 53, with temperatures rising to around 55 overnight. East northeast wind 1 to 7 mph."
