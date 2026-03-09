@@ -4,7 +4,7 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-09T17:10:09.012Z",
+  "generated_at": "2026-03-09T17:59:15.229Z",
   "current": null,
   "hourly": [
     {
@@ -203,10 +203,10 @@
   "daily": [
     {
       "name": "Today",
-      "t_start": "2026-03-09T10:00:00-07:00",
+      "t_start": "2026-03-09T08:00:00-07:00",
       "t_end": "2026-03-09T18:00:00-07:00",
       "temp_f": 63,
-      "text": "Areas of fog before 2pm. Sunny, with a high near 63. West northwest wind 2 to 9 mph."
+      "text": "Areas of fog before 2pm. Sunny, with a high near 63. Northwest wind 1 to 9 mph."
     },
     {
       "name": "Tonight",
