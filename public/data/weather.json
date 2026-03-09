@@ -4,25 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-09T02:53:18.723Z",
+  "generated_at": "2026-03-09T04:46:02.221Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-03-08T19:00:00-07:00",
-      "temp_f": 61,
-      "wind_mph": 3,
-      "wind_dir": "SW",
-      "shortForecast": "Partly Cloudy",
-      "precip_prob": 0
-    },
-    {
-      "t": "2026-03-08T20:00:00-07:00",
-      "temp_f": 59,
-      "wind_mph": 3,
-      "wind_dir": "ESE",
-      "shortForecast": "Partly Cloudy",
-      "precip_prob": 0
-    },
     {
       "t": "2026-03-08T21:00:00-07:00",
       "temp_f": 58,
@@ -198,12 +182,28 @@
       "wind_dir": "W",
       "shortForecast": "Mostly Clear",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-03-09T19:00:00-07:00",
+      "temp_f": 60,
+      "wind_mph": 7,
+      "wind_dir": "WSW",
+      "shortForecast": "Mostly Clear",
+      "precip_prob": 0
+    },
+    {
+      "t": "2026-03-09T20:00:00-07:00",
+      "temp_f": 59,
+      "wind_mph": 6,
+      "wind_dir": "NW",
+      "shortForecast": "Mostly Clear",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
       "name": "Tonight",
-      "t_start": "2026-03-08T19:00:00-07:00",
+      "t_start": "2026-03-08T21:00:00-07:00",
       "t_end": "2026-03-09T06:00:00-07:00",
       "temp_f": 51,
       "text": "Partly cloudy, with a low around 51. Southeast wind 0 to 5 mph."
