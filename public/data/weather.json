@@ -4,33 +4,9 @@
     "lon": -121.9535707,
     "provider": "NWS api.weather.gov"
   },
-  "generated_at": "2026-03-09T23:58:31.335Z",
+  "generated_at": "2026-03-10T02:31:22.112Z",
   "current": null,
   "hourly": [
-    {
-      "t": "2026-03-09T16:00:00-07:00",
-      "temp_f": 61,
-      "wind_mph": 9,
-      "wind_dir": "WNW",
-      "shortForecast": "Sunny",
-      "precip_prob": 0
-    },
-    {
-      "t": "2026-03-09T17:00:00-07:00",
-      "temp_f": 61,
-      "wind_mph": 9,
-      "wind_dir": "WNW",
-      "shortForecast": "Mostly Sunny",
-      "precip_prob": 0
-    },
-    {
-      "t": "2026-03-09T18:00:00-07:00",
-      "temp_f": 60,
-      "wind_mph": 8,
-      "wind_dir": "NW",
-      "shortForecast": "Mostly Clear",
-      "precip_prob": 0
-    },
     {
       "t": "2026-03-09T19:00:00-07:00",
       "temp_f": 59,
@@ -198,22 +174,39 @@
       "wind_dir": "WSW",
       "shortForecast": "Sunny",
       "precip_prob": 0
+    },
+    {
+      "t": "2026-03-10T16:00:00-07:00",
+      "temp_f": 60,
+      "wind_mph": 12,
+      "wind_dir": "WNW",
+      "shortForecast": "Sunny",
+      "precip_prob": 0
+    },
+    {
+      "t": "2026-03-10T17:00:00-07:00",
+      "temp_f": 61,
+      "wind_mph": 10,
+      "wind_dir": "NW",
+      "shortForecast": "Sunny",
+      "precip_prob": 0
+    },
+    {
+      "t": "2026-03-10T18:00:00-07:00",
+      "temp_f": 62,
+      "wind_mph": 9,
+      "wind_dir": "WNW",
+      "shortForecast": "Mostly Clear",
+      "precip_prob": 0
     }
   ],
   "daily": [
     {
-      "name": "This Afternoon",
-      "t_start": "2026-03-09T15:00:00-07:00",
-      "t_end": "2026-03-09T18:00:00-07:00",
-      "temp_f": 63,
-      "text": "Sunny. High near 63, with temperatures falling to around 61 in the afternoon. West northwest wind around 9 mph."
-    },
-    {
       "name": "Tonight",
-      "t_start": "2026-03-09T18:00:00-07:00",
+      "t_start": "2026-03-09T19:00:00-07:00",
       "t_end": "2026-03-10T06:00:00-07:00",
       "temp_f": 49,
-      "text": "Partly cloudy, with a low around 49. North northwest wind 1 to 8 mph."
+      "text": "Partly cloudy, with a low around 49. North northwest wind 1 to 6 mph."
     },
     {
       "name": "Tuesday",
@@ -227,7 +220,7 @@
       "t_start": "2026-03-10T18:00:00-07:00",
       "t_end": "2026-03-11T06:00:00-07:00",
       "temp_f": 48,
-      "text": "Mostly clear, with a low around 48. Northwest wind 1 to 9 mph."
+      "text": "Mostly clear. Low around 48, with temperatures rising to around 50 overnight. Northwest wind 1 to 9 mph."
     },
     {
       "name": "Wednesday",
@@ -241,7 +234,7 @@
       "t_start": "2026-03-11T18:00:00-07:00",
       "t_end": "2026-03-12T06:00:00-07:00",
       "temp_f": 53,
-      "text": "Clear, with a low around 53."
+      "text": "Clear, with a low around 53. North wind 2 to 7 mph."
     },
     {
       "name": "Thursday",
@@ -298,6 +291,13 @@
       "t_end": "2026-03-16T06:00:00-07:00",
       "temp_f": 57,
       "text": "Mostly cloudy, with a low around 57."
+    },
+    {
+      "name": "Monday",
+      "t_start": "2026-03-16T06:00:00-07:00",
+      "t_end": "2026-03-16T18:00:00-07:00",
+      "temp_f": 74,
+      "text": "Mostly sunny, with a high near 74."
     }
   ]
 }
