@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T14:32:53.794Z",
+  "generated_at": "2026-03-10T15:39:28.361Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-10T14:32:53.727Z",
+    "generated_at": "2026-03-10T15:39:27.901Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-10T14:32:51.890Z",
+    "generated_at": "2026-03-10T15:39:26.061Z",
     "latest": {
-      "t": "2026-03-10T14:00:00.000Z",
+      "t": "2026-03-10T15:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 2.44,
-      "hs_ft": 8.005249599999999,
-      "tp_s": 11.764706,
-      "ta_s": 7.468835,
-      "tz_s": 6.837824,
-      "dp_deg_true": 292.84375,
+      "hs_m": 2.09,
+      "hs_ft": 6.856955599999999,
+      "tp_s": 9.876543,
+      "ta_s": 7.336993,
+      "tz_s": 6.643023,
+      "dp_deg_true": 298.46875,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,17 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-10T14:32:53.794Z",
+    "generated_at": "2026-03-10T15:39:28.360Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-10T07:00:00-07:00",
-        "temp_f": 50,
-        "wind_mph": 1,
-        "wind_dir": "NNW",
-        "shortForecast": "Mostly Sunny",
-        "precip_prob": 0
-      },
       {
         "t": "2026-03-10T08:00:00-07:00",
         "temp_f": 50,
@@ -233,15 +225,23 @@
         "wind_dir": "N",
         "shortForecast": "Sunny",
         "precip_prob": 0
+      },
+      {
+        "t": "2026-03-11T07:00:00-07:00",
+        "temp_f": 51,
+        "wind_mph": 1,
+        "wind_dir": "N",
+        "shortForecast": "Sunny",
+        "precip_prob": 0
       }
     ],
     "daily": [
       {
         "name": "Today",
-        "t_start": "2026-03-10T07:00:00-07:00",
+        "t_start": "2026-03-10T08:00:00-07:00",
         "t_end": "2026-03-10T18:00:00-07:00",
         "temp_f": 62,
-        "text": "Sunny. High near 62, with temperatures falling to around 60 in the afternoon. Northwest wind 1 to 12 mph."
+        "text": "Sunny. High near 62, with temperatures falling to around 60 in the afternoon. Northwest wind 2 to 12 mph."
       },
       {
         "name": "Tonight",
