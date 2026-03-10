@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T12:28:53.333Z",
+  "generated_at": "2026-03-10T13:44:06.790Z",
   "tides": {
     "meta": {
       "station": "9413745",
@@ -7,7 +7,7 @@
       "datum": "MLLW",
       "time_zone": "America/Los_Angeles"
     },
-    "generated_at": "2026-03-10T12:28:53.332Z",
+    "generated_at": "2026-03-10T13:44:04.148Z",
     "predictions": [],
     "observations": [],
     "next_extrema": []
@@ -18,17 +18,17 @@
       "primary_station_id": "156",
       "fallback_station_id": "158"
     },
-    "generated_at": "2026-03-10T12:28:52.144Z",
+    "generated_at": "2026-03-10T13:44:02.572Z",
     "latest": {
-      "t": "2026-03-10T11:30:00.000Z",
+      "t": "2026-03-10T13:00:00.000Z",
       "station_id": "156",
       "station_name": "MONTEREY CANYON OUTER, CA BUOY - 156p1",
-      "hs_m": 2.56,
-      "hs_ft": 8.3989504,
-      "tp_s": 9.090909,
-      "ta_s": 7.4001117,
-      "tz_s": 6.792875,
-      "dp_deg_true": 294.25,
+      "hs_m": 2.48,
+      "hs_ft": 8.1364832,
+      "tp_s": 10.526316,
+      "ta_s": 7.3595023,
+      "tz_s": 6.748596,
+      "dp_deg_true": 291.4375,
       "lat": 36.759167,
       "lon": -121.95028
     }
@@ -39,25 +39,9 @@
       "lon": -121.9535707,
       "provider": "NWS api.weather.gov"
     },
-    "generated_at": "2026-03-10T12:28:53.278Z",
+    "generated_at": "2026-03-10T13:44:06.789Z",
     "current": null,
     "hourly": [
-      {
-        "t": "2026-03-10T04:00:00-07:00",
-        "temp_f": 51,
-        "wind_mph": 1,
-        "wind_dir": "NNW",
-        "shortForecast": "Mostly Cloudy",
-        "precip_prob": 0
-      },
-      {
-        "t": "2026-03-10T05:00:00-07:00",
-        "temp_f": 50,
-        "wind_mph": 1,
-        "wind_dir": "NNW",
-        "shortForecast": "Partly Cloudy",
-        "precip_prob": 0
-      },
       {
         "t": "2026-03-10T06:00:00-07:00",
         "temp_f": 50,
@@ -233,25 +217,34 @@
         "wind_dir": "N",
         "shortForecast": "Clear",
         "precip_prob": 0
+      },
+      {
+        "t": "2026-03-11T04:00:00-07:00",
+        "temp_f": 50,
+        "wind_mph": 1,
+        "wind_dir": "N",
+        "shortForecast": "Mostly Clear",
+        "precip_prob": 0
+      },
+      {
+        "t": "2026-03-11T05:00:00-07:00",
+        "temp_f": 50,
+        "wind_mph": 1,
+        "wind_dir": "N",
+        "shortForecast": "Mostly Clear",
+        "precip_prob": 0
       }
     ],
     "daily": [
       {
-        "name": "Overnight",
-        "t_start": "2026-03-10T04:00:00-07:00",
-        "t_end": "2026-03-10T06:00:00-07:00",
-        "temp_f": 49,
-        "text": "Mostly cloudy, with a low around 49. North northwest wind around 1 mph."
-      },
-      {
-        "name": "Tuesday",
+        "name": "Today",
         "t_start": "2026-03-10T06:00:00-07:00",
         "t_end": "2026-03-10T18:00:00-07:00",
         "temp_f": 62,
         "text": "Sunny. High near 62, with temperatures falling to around 60 in the afternoon. Northwest wind 1 to 12 mph."
       },
       {
-        "name": "Tuesday Night",
+        "name": "Tonight",
         "t_start": "2026-03-10T18:00:00-07:00",
         "t_end": "2026-03-11T06:00:00-07:00",
         "temp_f": 48,
@@ -262,7 +255,7 @@
         "t_start": "2026-03-11T06:00:00-07:00",
         "t_end": "2026-03-11T18:00:00-07:00",
         "temp_f": 67,
-        "text": "Sunny, with a high near 67. North northwest wind 1 to 6 mph."
+        "text": "Sunny. High near 67, with temperatures falling to around 65 in the afternoon. North northwest wind 1 to 6 mph."
       },
       {
         "name": "Wednesday Night",
@@ -276,7 +269,7 @@
         "t_start": "2026-03-12T06:00:00-07:00",
         "t_end": "2026-03-12T18:00:00-07:00",
         "temp_f": 70,
-        "text": "Sunny, with a high near 70."
+        "text": "Sunny, with a high near 70. North wind 2 to 6 mph."
       },
       {
         "name": "Thursday Night",
@@ -333,6 +326,13 @@
         "t_end": "2026-03-16T18:00:00-07:00",
         "temp_f": 74,
         "text": "Sunny, with a high near 74."
+      },
+      {
+        "name": "Monday Night",
+        "t_start": "2026-03-16T18:00:00-07:00",
+        "t_end": "2026-03-17T06:00:00-07:00",
+        "temp_f": 59,
+        "text": "Mostly clear, with a low around 59."
       }
     ]
   }
