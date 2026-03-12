@@ -1,0 +1,12 @@
+export const ADAPTATIONS = [
+  { id: 'mucus-resist', name: 'Mucus Resistance', category: 'Barrier Survival', cost: 10, description: 'Reduces clearance in mucosal tissues.', effects: { clearanceMod: -1, routes: ['mucosal'] }, tradeoff: '+0.4 immune attention each turn' },
+  { id: 'acid-tolerance', name: 'Acid Tolerance', category: 'Environmental Tolerance', cost: 12, description: 'Improves colonization in acidic tissue.', effects: { acidicBonus: 3 }, tradeoff: '-1 replication in neutral pH tissues' },
+  { id: 'immune-camouflage', name: 'Immune Camouflage', category: 'Immune Evasion', cost: 16, description: 'Lowers detection from growth actions.', effects: { stealth: 2 }, tradeoff: '-1 damage output' },
+  { id: 'blood-survival', name: 'Bloodstream Survival', category: 'Dissemination Routes', cost: 14, description: 'Allows safer bloodstream transit.', effects: { bloodBonus: 3, unlockRoutes: ['bloodstream'] }, tradeoff: '+1 viability pressure from systemic burden' },
+  { id: 'lymph-hop', name: 'Lymphatic Hitchhiking', category: 'Dissemination Routes', cost: 14, description: 'Expands spread through lymphatic links.', effects: { unlockRoutes: ['lymphatic'], immuneAttentionMod: -0.3 }, tradeoff: '-1 replication in non-lymph tissues' },
+  { id: 'dormancy', name: 'Dormancy Program', category: 'Persistence & Reservoirs', cost: 18, description: 'Reserve mode protects colonies during immune spikes.', effects: { persistence: 2, crisisReduction: 2 }, tradeoff: '-2 replication while active' },
+  { id: 'broad-tropism', name: 'Broad Tropism', category: 'Tissue Entry & Adhesion', cost: 15, description: 'Can colonize more tissue classes.', effects: { broadTropism: true }, tradeoff: '-1 colonization efficiency everywhere' },
+  { id: 'biofilm', name: 'Biofilm / Fortress Colony', category: 'Persistence & Reservoirs', cost: 15, description: 'Improves defense in established colonies.', effects: { defense: 2 }, tradeoff: '+0.5 inflammation from chronic irritation' },
+  { id: 'oxidative-shield', name: 'Oxidative Stress Shield', category: 'Barrier Survival', cost: 13, description: 'Better survival in high immune pressure zones.', effects: { immuneResist: 2 }, tradeoff: '-1 diversity gain' },
+  { id: 'burst-replication', name: 'Burst Replication', category: 'Nutrient Utilization', cost: 12, description: 'Large one-turn expansion pulses.', effects: { replication: 2, burst: true }, tradeoff: '+2 immune attention after spread action' }
+];

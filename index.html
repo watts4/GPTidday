@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pathogen Dominion</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div id="app" class="shell">
+      <header class="topbar pixel-panel">
+        <h1>Pathogen Dominion</h1>
+        <div class="topbar-actions">
+          <button id="newGameBtn">New Infection</button>
+          <button id="saveBtn">Save</button>
+          <button id="loadBtn">Load</button>
+          <button id="exportBtn">Export</button>
+          <label class="import-label">Import <input type="file" id="importInput" accept="application/json" /></label>
+          <button id="codexBtn">Codex</button>
+          <button id="settingsBtn">Settings</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="map-wrap pixel-panel">
+          <canvas id="mapCanvas" width="960" height="540" aria-label="Body map"></canvas>
+          <div class="map-legend">Click region to inspect. Shift+Click adjacent region to attempt spread.</div>
+        </section>
+
+        <aside class="sidebar">
+          <section class="panel pixel-panel" id="hostPanel"></section>
+          <section class="panel pixel-panel" id="factionPanel"></section>
+          <section class="panel pixel-panel" id="regionPanel"></section>
+          <section class="panel pixel-panel" id="researchPanel"></section>
+          <section class="panel pixel-panel" id="logPanel"></section>
+          <section class="panel pixel-panel controls">
+            <button id="endTurnBtn" class="cta">End Turn</button>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <dialog id="menuDialog" class="pixel-panel modal"></dialog>
+    <dialog id="codexDialog" class="pixel-panel modal"></dialog>
+    <dialog id="settingsDialog" class="pixel-panel modal"></dialog>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
