@@ -1,0 +1,69 @@
+[
+  {
+    "description": "Classic checkerboard skate style scaled for little feet.",
+    "image": "https://images.vans.com/is/image/Vans/VN0A4VHRBLA-HERO?$PDP-FULL-IMAGE$",
+    "price": "40.00",
+    "currency": "USD",
+    "availability": "InStock",
+    "sizes": [
+      "4T",
+      "5T",
+      "6T"
+    ],
+    "name": "Toddler Checkerboard Slip-On V Shoe"
+  },
+  {
+    "description": "Low-profile toddler skate sneaker with durable upper.",
+    "image": "https://images.vans.com/is/image/Vans/VN000D3YBKA-HERO?$PDP-FULL-IMAGE$",
+    "price": "38.00",
+    "currency": "USD",
+    "availability": "InStock",
+    "sizes": [
+      "4T",
+      "5T",
+      "6T"
+    ],
+    "name": "Toddler Ward Shoe"
+  },
+  {
+    "description": "Stretch surf boardshorts for tiny wave riders.",
+    "image": "https://media.quiksilver.com/is/image/Quiksilver/EQKBS03300_kvj0_front",
+    "price": "34.00",
+    "currency": "USD",
+    "availability": "InStock",
+    "sizes": [
+      "2T",
+      "3T",
+      "4T"
+    ],
+    "name": "Baby Boys Surfsilk Tijuana Boardshorts"
+  },
+  {
+    "description": "Washed surf hoodie for cool beach nights.",
+    "image": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/fa3106002_1.jpg",
+    "price": "39.50",
+    "currency": "USD",
+    "availability": "InStock",
+    "sizes": [
+      "2T",
+      "3T",
+      "4T",
+      "5T"
+    ],
+    "name": "Boys Balance Hoodie"
+  },
+  {
+    "description": "Soft graphic tee with sunny surf energy.",
+    "image": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/sp4106039_1.jpg",
+    "price": "24.00",
+    "currency": "USD",
+    "availability": "InStock",
+    "sizes": [
+      "2T",
+      "3T",
+      "4T",
+      "5T"
+    ],
+    "name": "Girls Saltwater Dreams Tee"
+  }
+]

@@ -1,69 +1,97 @@
-# Pathogen Dominion
+# Tiny Thrash Threads
 
-A static, browser-based turn-based strategy game inspired by classic empire builders, reimagined as within-host pathogen ecology.
+Tiny Thrash Threads is a curated shopping aggregator focused on infant and toddler punk/surf/skate clothing and accessories. The site does **not** handle checkout; every product links directly to the source retailer page.
 
-## MVP Features
-- Main menu with 6 asymmetric pathogen archetypes.
-- Turn-based body-map strategy with anatomical adjacency and route-constrained spread.
-- Tissue-aware colonization (barrier, clearance, immune pressure, pH context).
-- Adaptation tree with explicit tradeoffs.
-- Layered immune-system opposition and random host/intervention events.
-- Win/loss conditions balancing domination vs host viability.
-- Save/load in `localStorage` and JSON export/import.
-- In-game codex and settings (difficulty + scanline/CRT toggles).
+## Architecture
 
-## Project Structure
+This repository uses a static, dependency-light stack:
 
-```text
-.
-├── assets/
-│   ├── faction-icons-placeholder.svg
-│   └── tile-atlas-placeholder.svg
-├── docs/
-│   ├── project-plan.md
-│   └── scientific-notes.md
-├── src/
-│   ├── data/
-│   │   ├── adaptations.js
-│   │   ├── events.js
-│   │   ├── factions.js
-│   │   └── regions.js
-│   ├── game/
-│   │   ├── mechanics.js
-│   │   ├── state.js
-│   │   └── storage.js
-│   ├── ui/
-│   │   ├── dialogs.js
-│   │   └── render.js
-│   └── main.js
-├── styles/
-│   └── main.css
-└── index.html
+- `index.html` + `src/main.js`: mobile-first hash-routed web app.
+- `styles/main.css`: visual system and responsive layout.
+- `src/model.js`: search/filter/sort and curation helpers.
+- `scripts/refresh_data.py`: source ingestion, normalization, dedupe, and refresh-status reporting.
+- `data/products.generated.json`: generated catalog consumed by the frontend.
+- `tests/test_model.py`: unit tests for normalization/curation logic.
+
+## UX features
+
+- Homepage with hero, curated collections, and trending products.
+- Browse/catalog with:
+  - keyword search
+  - filters (age, category, brand, retailer, style tags, gender)
+  - min/max price filters
+  - sorting (featured, newest, price asc/desc, recently updated)
+  - incremental “Load more” pagination
+- Product detail view with source attribution and outbound retailer link.
+- Favorites saved in `localStorage`.
+- About/methodology page with source refresh status and warnings.
+- Outbound click analytics hook via `CustomEvent('outbound_product_click', ...)`.
+
+## Data model
+
+Generated products include:
+
+- `id`, `slug`, `product_hash`
+- `title`, `description_short`, `brand`
+- `retailer_name`, `retailer_domain`, `source_product_url`, `source_type`
+- `image_url`, `additional_images`
+- `current_price`, `original_price`, `currency`
+- `age_range`, `sizes`, `gender`
+- `category`, `style_tags`
+- `availability`, `last_checked_at`
+- `featured_score`, `recently_updated`
+
+The generated catalog file also includes refresh metadata:
+
+- `generated_at`
+- `sources[]` with per-retailer `live` vs `fallback` status
+- `warnings[]` for ingestion failures or fallback conditions
+
+## Ingestion and adapter behavior
+
+Seeded adapters target curated infant/toddler-appropriate URLs from:
+
+- Vans
+- Quiksilver
+- O'Neill
+
+Refresh pipeline behavior:
+
+1. Fetch public retailer page HTML.
+2. Parse Product JSON-LD.
+3. Normalize to one schema.
+4. Apply curation logic:
+   - include/exclude keyword rules
+   - style-tag inference
+   - category normalization
+   - dedupe by product hash
+5. If live fetch fails, use curated fallback snapshot (`data/fallback_products.json`).
+6. If both live and fallback fail and a previous generated snapshot exists, preserve previous products to avoid an empty catalog.
+
+## Refresh product data
+
+```bash
+python3 scripts/refresh_data.py
 ```
 
-## Run Locally
-Any static server works.
+This command is scheduler-friendly (cron/CI).
+
+## Run locally
 
 ```bash
 python3 -m http.server 8080
-# then open http://localhost:8080
+# open http://localhost:8080
 ```
 
-## GitHub Pages Deployment
-1. Push repository to GitHub.
-2. In repo settings, open **Pages**.
-3. Set source to **Deploy from a branch**.
-4. Pick branch (`main` or your release branch) and root folder (`/`).
-5. Save. GitHub Pages serves `index.html` as a static site.
+## Test
 
-No backend or runtime Node dependencies required.
+```bash
+python3 -m unittest tests/test_model.py
+```
 
-## Controls
-- **Click region**: inspect region.
-- **Shift+Click adjacent region**: attempt colonization spread from current selected region.
-- **End Turn**: process economy, immune response, events, and victory/loss checks.
+## Freshness and limitations
 
-## Content & Safety Notes
-- Science is presented as high-level host-pathogen ecology.
-- No laboratory protocols or actionable engineering content is included.
-- Endgame domination is fictionalized for strategy gameplay.
+- Product prices/availability can change at any time on retailer sites.
+- Retailer page structures can change and may temporarily break live ingestion.
+- In constrained environments (or when blocked by upstream protections), refresh may rely on fallback snapshot data.
+- Always treat the outbound retailer page as the final source of truth before purchase.

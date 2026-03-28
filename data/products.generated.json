@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-03-28T20:16:27Z",
+  "product_count": 5,
+  "products": [
+    {
+      "id": "317cdd1875ea",
+      "slug": "o-neill-girls-saltwater-dreams-tee",
+      "title": "Girls Saltwater Dreams Tee",
+      "description_short": "Soft graphic tee with sunny surf energy.",
+      "brand": "O'Neill",
+      "retailer_name": "O'Neill",
+      "retailer_domain": "us.oneill.com",
+      "source_product_url": "https://us.oneill.com/products/sp4106039-girls-saltwater-dreams-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/sp4106039_1.jpg",
+      "additional_images": [],
+      "current_price": 24.0,
+      "original_price": null,
+      "currency": "USD",
+      "age_range": "2T-7",
+      "sizes": [],
+      "category": "tees",
+      "style_tags": [
+        "beach",
+        "graphic",
+        "punk",
+        "surf"
+      ],
+      "availability": "unknown",
+      "last_checked_at": "2026-03-28T20:16:27Z",
+      "source_type": "json_ld",
+      "product_hash": "4655451b3c477f6bb018d3ba8b511b875fb8bff3",
+      "gender": "girl",
+      "featured_score": 62,
+      "recently_updated": true
+    },
+    {
+      "id": "56d5d6721b3c",
+      "slug": "vans-toddler-checkerboard-slip-on-v-shoe",
+      "title": "Toddler Checkerboard Slip-On V Shoe",
+      "description_short": "Classic checkerboard skate style scaled for little feet.",
+      "brand": "Vans",
+      "retailer_name": "Vans",
+      "retailer_domain": "www.vans.com",
+      "source_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla",
+      "image_url": "https://images.vans.com/is/image/Vans/VN0A4VHRBLA-HERO?$PDP-FULL-IMAGE$",
+      "additional_images": [],
+      "current_price": 40.0,
+      "original_price": null,
+      "currency": "USD",
+      "age_range": "2T-4T",
+      "sizes": [],
+      "category": "shoes",
+      "style_tags": [
+        "checkerboard",
+        "classic",
+        "skate"
+      ],
+      "availability": "unknown",
+      "last_checked_at": "2026-03-28T20:16:27Z",
+      "source_type": "json_ld",
+      "product_hash": "791fed085efc86deb3ba4134f57eaf31a13ba183",
+      "gender": "neutral",
+      "featured_score": 55,
+      "recently_updated": true
+    },
+    {
+      "id": "ad45179aacab",
+      "slug": "o-neill-boys-balance-hoodie",
+      "title": "Boys Balance Hoodie",
+      "description_short": "Washed surf hoodie for cool beach nights.",
+      "brand": "O'Neill",
+      "retailer_name": "O'Neill",
+      "retailer_domain": "us.oneill.com",
+      "source_product_url": "https://us.oneill.com/products/fa3106002-boyss-balance-hoodie",
+      "image_url": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/fa3106002_1.jpg",
+      "additional_images": [],
+      "current_price": 39.5,
+      "original_price": null,
+      "currency": "USD",
+      "age_range": "2T-7",
+      "sizes": [],
+      "category": "hoodies",
+      "style_tags": [
+        "beach",
+        "streetwear",
+        "surf",
+        "vintage wash"
+      ],
+      "availability": "unknown",
+      "last_checked_at": "2026-03-28T20:16:27Z",
+      "source_type": "json_ld",
+      "product_hash": "a29efb9cd015fdc53b4161589c9228f89eaeb297",
+      "gender": "boy",
+      "featured_score": 50,
+      "recently_updated": true
+    },
+    {
+      "id": "4e07474ea71e",
+      "slug": "quiksilver-baby-boys-surfsilk-tijuana-boardshorts",
+      "title": "Baby Boys Surfsilk Tijuana Boardshorts",
+      "description_short": "Stretch surf boardshorts for tiny wave riders.",
+      "brand": "Quiksilver",
+      "retailer_name": "Quiksilver",
+      "retailer_domain": "www.quiksilver.com",
+      "source_product_url": "https://www.quiksilver.com/baby-boys-2-7-surfsilk-tijuana-boardshorts-EQKBS03300.html",
+      "image_url": "https://media.quiksilver.com/is/image/Quiksilver/EQKBS03300_kvj0_front",
+      "additional_images": [],
+      "current_price": 34.0,
+      "original_price": null,
+      "currency": "USD",
+      "age_range": "2T-7",
+      "sizes": [],
+      "category": "boardshorts",
+      "style_tags": [
+        "beach",
+        "graphic",
+        "surf"
+      ],
+      "availability": "unknown",
+      "last_checked_at": "2026-03-28T20:16:27Z",
+      "source_type": "json_ld",
+      "product_hash": "64b605ffc654427e9c4cc124ae94b837038f755f",
+      "gender": "boy",
+      "featured_score": 40,
+      "recently_updated": true
+    },
+    {
+      "id": "74bea2d56aa9",
+      "slug": "vans-toddler-ward-shoe",
+      "title": "Toddler Ward Shoe",
+      "description_short": "Low-profile toddler skate sneaker with durable upper.",
+      "brand": "Vans",
+      "retailer_name": "Vans",
+      "retailer_domain": "www.vans.com",
+      "source_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka",
+      "image_url": "https://images.vans.com/is/image/Vans/VN000D3YBKA-HERO?$PDP-FULL-IMAGE$",
+      "additional_images": [],
+      "current_price": 38.0,
+      "original_price": null,
+      "currency": "USD",
+      "age_range": "2T-4T",
+      "sizes": [],
+      "category": "shoes",
+      "style_tags": [
+        "skate",
+        "streetwear"
+      ],
+      "availability": "unknown",
+      "last_checked_at": "2026-03-28T20:16:27Z",
+      "source_type": "json_ld",
+      "product_hash": "e03aa612aed85e3669688f88087251275b327115",
+      "gender": "neutral",
+      "featured_score": 30,
+      "recently_updated": true
+    }
+  ],
+  "sources": [
+    {
+      "retailer_name": "Vans",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "Vans",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "Quiksilver",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "O'Neill",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "O'Neill",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "warnings": [
+    "Live ingestion failed for Vans (https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for Vans (https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for Quiksilver (https://www.quiksilver.com/baby-boys-2-7-surfsilk-tijuana-boardshorts-EQKBS03300.html): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for O'Neill (https://us.oneill.com/products/fa3106002-boyss-balance-hoodie): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for O'Neill (https://us.oneill.com/products/sp4106039-girls-saltwater-dreams-tee): <urlopen error Tunnel connection failed: 403 Forbidden>"
+  ]
+}
