@@ -4,38 +4,32 @@ Tiny Thrash Threads is a curated shopping aggregator focused on infant and toddl
 
 ## Architecture
 
-This repository is implemented as a static web app with a build-time data ingestion pipeline:
+This repository uses a static, dependency-light stack:
 
-- `index.html` + `src/main.js`: hash-routed SPA-like experience.
-- `src/model.js`: filtering, sorting, and curation utilities.
-- `scripts/refresh_data.py`: source ingestion and normalization pipeline.
-- `data/products.generated.json`: generated product catalog for the frontend.
+- `index.html` + `src/main.js`: mobile-first hash-routed web app.
+- `styles/main.css`: visual system and responsive layout.
+- `src/model.js`: search/filter/sort and curation helpers.
+- `scripts/refresh_data.py`: source ingestion, normalization, dedupe, and refresh-status reporting.
+- `data/products.generated.json`: generated catalog consumed by the frontend.
 - `tests/test_model.py`: unit tests for normalization/curation logic.
 
-## Features
+## UX features
 
 - Homepage with hero, curated collections, and trending products.
-- Browse page with search + filters:
-  - age range
-  - category
-  - brand
-  - retailer/source
-  - style tags
-  - gender (when source metadata supports it)
-- Sorting:
-  - featured/curated
-  - newest
-  - price low→high
-  - price high→low
-  - recently updated
-- Product detail route emphasizing source attribution and outbound retailer link.
-- Favorites page backed by `localStorage`.
-- About/methodology page with generated data freshness timestamp.
-- Outbound click tracking hook via `CustomEvent('outbound_product_click', ...)`.
+- Browse/catalog with:
+  - keyword search
+  - filters (age, category, brand, retailer, style tags, gender)
+  - min/max price filters
+  - sorting (featured, newest, price asc/desc, recently updated)
+  - incremental “Load more” pagination
+- Product detail view with source attribution and outbound retailer link.
+- Favorites saved in `localStorage`.
+- About/methodology page with source refresh status and warnings.
+- Outbound click analytics hook via `CustomEvent('outbound_product_click', ...)`.
 
 ## Data model
 
-Normalized product schema fields include:
+Generated products include:
 
 - `id`, `slug`, `product_hash`
 - `title`, `description_short`, `brand`
@@ -47,26 +41,32 @@ Normalized product schema fields include:
 - `availability`, `last_checked_at`
 - `featured_score`, `recently_updated`
 
-## Ingestion and adapters
+The generated catalog file also includes refresh metadata:
 
-Seeded adapters (in `scripts/refresh_data.py`) currently target curated product pages from:
+- `generated_at`
+- `sources[]` with per-retailer `live` vs `fallback` status
+- `warnings[]` for ingestion failures or fallback conditions
+
+## Ingestion and adapter behavior
+
+Seeded adapters target curated infant/toddler-appropriate URLs from:
 
 - Vans
 - Quiksilver
 - O'Neill
 
-Pipeline steps:
+Refresh pipeline behavior:
 
-1. Fetch public product pages.
-2. Parse `application/ld+json` Product metadata.
-3. Normalize fields into the shared schema.
+1. Fetch public retailer page HTML.
+2. Parse Product JSON-LD.
+3. Normalize to one schema.
 4. Apply curation logic:
-   - include/exclude keywords
+   - include/exclude keyword rules
    - style-tag inference
    - category normalization
-   - age-targeted hints
-5. Deduplicate with `product_hash`.
-6. Write `data/products.generated.json`.
+   - dedupe by product hash
+5. If live fetch fails, use curated fallback snapshot (`data/fallback_products.json`).
+6. If both live and fallback fail and a previous generated snapshot exists, preserve previous products to avoid an empty catalog.
 
 ## Refresh product data
 
@@ -74,7 +74,7 @@ Pipeline steps:
 python3 scripts/refresh_data.py
 ```
 
-This command is cron/scheduler-ready and safe to run repeatedly.
+This command is scheduler-friendly (cron/CI).
 
 ## Run locally
 
@@ -89,9 +89,9 @@ python3 -m http.server 8080
 python3 -m unittest tests/test_model.py
 ```
 
-## Operational notes & limitations
+## Freshness and limitations
 
-- Source sites may change their markup/JSON-LD structure.
-- Prices/availability can drift quickly; always rely on outbound retailer page as ground truth.
-- The current starter adapters use a curated set of source URLs and can be extended by adding seeds.
-- No anti-bot/authentication bypass behavior is implemented.
+- Product prices/availability can change at any time on retailer sites.
+- Retailer page structures can change and may temporarily break live ingestion.
+- In constrained environments (or when blocked by upstream protections), refresh may rely on fallback snapshot data.
+- Always treat the outbound retailer page as the final source of truth before purchase.

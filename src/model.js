@@ -1,9 +1,18 @@
 export const DEFAULT_FILTERS = {
-  query: '', ageRange: 'all', category: 'all', brand: 'all', retailer: 'all', styleTag: 'all', gender: 'all', sort: 'featured', minPrice: 0, maxPrice: 500
+  query: '',
+  ageRange: 'all',
+  category: 'all',
+  brand: 'all',
+  retailer: 'all',
+  styleTag: 'all',
+  gender: 'all',
+  sort: 'featured',
+  minPrice: 0,
+  maxPrice: 500
 };
 
 const includeKeywords = ['toddler', 'baby', 'infant', 'kid', 'romper', 'onesie', 'boardshort', 'skate', 'surf', 'checkerboard', 'hoodie', 'beanie', 'tee', 'shoe'];
-const excludeKeywords = ['adult', 'men', 'women', 'gift card'];
+const excludePatterns = [/\badult\b/i, /\bgift\s*card\b/i, /\bmen(?:'s)?\b/i, /\bwomen(?:'s)?\b/i];
 
 const styleKeywordMap = {
   punk: ['punk', 'distressed', 'grunge', 'alt'],
@@ -17,7 +26,9 @@ const styleKeywordMap = {
 
 export function relevancePass(text) {
   const lowered = text.toLowerCase();
-  return includeKeywords.some((k) => lowered.includes(k)) && !excludeKeywords.some((k) => lowered.includes(k));
+  const include = includeKeywords.some((word) => lowered.includes(word));
+  const excluded = excludePatterns.some((pattern) => pattern.test(text));
+  return include && !excluded;
 }
 
 export function inferStyleTags(text, seedTags = []) {
@@ -29,7 +40,21 @@ export function inferStyleTags(text, seedTags = []) {
 }
 
 export function normalizeCategory(categoryHint, text) {
-  const options = [['onesie', 'onesies'], ['romper', 'rompers'], ['tee', 'tees'], ['hoodie', 'hoodies'], ['short', 'boardshorts'], ['beanie', 'beanies'], ['sock', 'socks'], ['shoe', 'shoes'], ['jacket', 'jackets'], ['overall', 'overalls'], ['hat', 'hats'], ['bag', 'accessories']];
+  const options = [
+    ['onesie', 'onesies'],
+    ['romper', 'rompers'],
+    ['tee', 'tees'],
+    ['hoodie', 'hoodies'],
+    ['short', 'boardshorts'],
+    ['beanie', 'beanies'],
+    ['sock', 'socks'],
+    ['shoe', 'shoes'],
+    ['jacket', 'jackets'],
+    ['overall', 'overalls'],
+    ['hat', 'hats'],
+    ['bag', 'accessories']
+  ];
+
   const lowered = `${categoryHint} ${text}`.toLowerCase();
   const match = options.find(([needle]) => lowered.includes(needle));
   return match ? match[1] : 'clothing';
@@ -57,6 +82,7 @@ export function applyFilters(products, f) {
     if (p.current_price < f.minPrice || p.current_price > f.maxPrice) return false;
     return true;
   });
+
   return filtered.sort((a, b) => {
     if (f.sort === 'newest') return b.last_checked_at.localeCompare(a.last_checked_at);
     if (f.sort === 'updated') return Number(b.recently_updated) - Number(a.recently_updated);
@@ -64,4 +90,14 @@ export function applyFilters(products, f) {
     if (f.sort === 'price_desc') return b.current_price - a.current_price;
     return b.featured_score - a.featured_score;
   });
+}
+
+export function getFilterOptions(products) {
+  return {
+    ages: [...new Set(products.map((p) => p.age_range))],
+    categories: [...new Set(products.map((p) => p.category))],
+    brands: [...new Set(products.map((p) => p.brand))],
+    retailers: [...new Set(products.map((p) => p.retailer_name))],
+    styleTags: [...new Set(products.flatMap((p) => p.style_tags))]
+  };
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T20:08:37Z",
+  "generated_at": "2026-03-28T20:16:27Z",
   "product_count": 5,
   "products": [
     {
@@ -26,7 +26,7 @@
         "surf"
       ],
       "availability": "unknown",
-      "last_checked_at": "2026-03-28T20:08:37Z",
+      "last_checked_at": "2026-03-28T20:16:27Z",
       "source_type": "json_ld",
       "product_hash": "4655451b3c477f6bb018d3ba8b511b875fb8bff3",
       "gender": "girl",
@@ -56,7 +56,7 @@
         "skate"
       ],
       "availability": "unknown",
-      "last_checked_at": "2026-03-28T20:08:37Z",
+      "last_checked_at": "2026-03-28T20:16:27Z",
       "source_type": "json_ld",
       "product_hash": "791fed085efc86deb3ba4134f57eaf31a13ba183",
       "gender": "neutral",
@@ -87,7 +87,7 @@
         "vintage wash"
       ],
       "availability": "unknown",
-      "last_checked_at": "2026-03-28T20:08:37Z",
+      "last_checked_at": "2026-03-28T20:16:27Z",
       "source_type": "json_ld",
       "product_hash": "a29efb9cd015fdc53b4161589c9228f89eaeb297",
       "gender": "boy",
@@ -117,7 +117,7 @@
         "surf"
       ],
       "availability": "unknown",
-      "last_checked_at": "2026-03-28T20:08:37Z",
+      "last_checked_at": "2026-03-28T20:16:27Z",
       "source_type": "json_ld",
       "product_hash": "64b605ffc654427e9c4cc124ae94b837038f755f",
       "gender": "boy",
@@ -146,12 +146,46 @@
         "streetwear"
       ],
       "availability": "unknown",
-      "last_checked_at": "2026-03-28T20:08:37Z",
+      "last_checked_at": "2026-03-28T20:16:27Z",
       "source_type": "json_ld",
       "product_hash": "e03aa612aed85e3669688f88087251275b327115",
       "gender": "neutral",
       "featured_score": 30,
       "recently_updated": true
     }
+  ],
+  "sources": [
+    {
+      "retailer_name": "Vans",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "Vans",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "Quiksilver",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "O'Neill",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "retailer_name": "O'Neill",
+      "status": "fallback",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "warnings": [
+    "Live ingestion failed for Vans (https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for Vans (https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for Quiksilver (https://www.quiksilver.com/baby-boys-2-7-surfsilk-tijuana-boardshorts-EQKBS03300.html): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for O'Neill (https://us.oneill.com/products/fa3106002-boyss-balance-hoodie): <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "Live ingestion failed for O'Neill (https://us.oneill.com/products/sp4106039-girls-saltwater-dreams-tee): <urlopen error Tunnel connection failed: 403 Forbidden>"
   ]
 }
