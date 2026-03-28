@@ -6,67 +6,85 @@ Tiny Thrash Threads is a curated shopping aggregator focused on infant and toddl
 
 - `index.html` + `src/main.js`: hash-routed frontend with product cards/detail/filtering.
 - `styles/main.css`: visual styles.
-- `src/model.js`: filter and sort logic.
-- `scripts/refresh_data.py`: product ingestion + validation + normalization + publish gating.
-- `data/products.generated.json`: published catalog (active + validated only).
-- `data/products.rejected.json`: debug artifact of rejected candidates and reasons.
-- `tests/test_model.py`: unit tests for normalization and validation helpers.
+- `src/model.js`: filter + sort logic used by browse UI.
+- `scripts/refresh_data.py`: discovery → normalization → scoring/curation → publish-validation pipeline.
+- `data/products.generated.json`: published catalog snapshot (active products only).
+- `data/products.rejected.json`: rejection/debug artifact with stage + reason.
+- `data/fallback_products.json`: resilience metadata used only when live source fetch fails.
+- `tests/test_model.py`: unit tests for pipeline helpers.
 
-## Validated source pipeline
+## Product pipeline (4 stages)
 
-`refresh_data.py` now publishes products only when all active-product checks pass:
+### A) Discovery
+Adapters discover candidates from retailer listing/category/search pages first. If all listing fetches fail for an adapter, it can temporarily fall back to adapter-specific known product candidates (never guessed URLs).
 
-1. Fetch source product URL and follow redirects.
-2. Verify final response is successful HTML and still looks like a product detail page.
-3. Parse canonical URL and Product JSON-LD metadata.
-4. Extract required fields (`title`, `brand`, `retailer`, `price`, `currency`, `availability`, `image`, `canonical_product_url`).
-5. Validate primary image URL is live and serves image content.
-6. Reject candidates that fail validation and write failure reasons to `data/products.rejected.json`.
-7. Publish only products with:
-   - `is_active: true`
-   - `validation_status: "passed"`
+### B) Normalize
+Each candidate is mapped to one schema:
 
-No fallback snapshots are published into the visible catalog.
-
-## Data schema (published products)
-
-Each product includes:
-
-- `id`, `slug`
-- `title`, `brand`
+- `id`, `slug`, `title`, `brand`
 - `retailer_name`, `retailer_domain`
-- `source_product_url`, `canonical_product_url`
+- `source_listing_url`, `source_product_url`, `canonical_product_url`
 - `image_url`, `additional_images`
-- `current_price`, `original_price`, `currency`
-- `availability`
-- `category`, `age_range`, `sizes`, `style_tags`, `gender`
-- `last_checked_at`
+- `current_price`, `original_price`, `currency`, `availability`
+- `category`, `age_range`, `sizes`, `style_tags`, `gender_target`
+- `discovered_at`, `last_checked_at`, `source_adapter`
 - `is_active`, `validation_status`, `validation_errors`
-- `source_adapter`, `product_signature`
+- `relevance_score`, `dedupe_key`
 
-## Refresh + validation commands
+### C) Curate / score
+A transparent niche score combines infant/toddler age signals, surf/skate/punk style signals, category quality, and exclusion penalties. Low-relevance products are filtered out without collapsing the entire catalog.
+
+### D) Publish validation
+Validation is the final quality gate.
+
+Hard blockers:
+
+- missing trustworthy source URL
+- missing primary price
+- missing primary image
+- clear 404/410/non-product redirect
+
+Soft uncertainty (publishable as `soft_pass` if relevance is high):
+
+- temporary network failures while checking PDP/image
+- fallback-snapshot normalization when source site blocks runtime access
+
+## Adapter health + debug visibility
+
+`products.generated.json` includes `pipeline_debug` with:
+
+- discovered/normalized/validated/published counts
+- discovered/accepted/rejected counts by adapter/stage
+- top rejection reasons
+- missing-price/missing-image counts
+- redirected-away-from-PDP count
+- dedupe collision count + examples
+
+## Refresh, validation, and reports
 
 ```bash
-# Refresh from live sources and publish only validated products
+# Full refresh: discover -> normalize -> score -> validate -> publish
 python3 scripts/refresh_data.py refresh
 
-# Validate an existing generated catalog
+# Re-validate a generated catalog
 python3 scripts/refresh_data.py validate --path data/products.generated.json
 
-# Run unit tests
+# Summarize rejection reasons
+python3 scripts/refresh_data.py report-rejected --path data/products.rejected.json
+
+# Show per-adapter health + pipeline debug block
+python3 scripts/refresh_data.py report-health --path data/products.generated.json
+
+# Unit tests
 python3 -m unittest tests/test_model.py
 ```
 
-## Frontend publish gating
+## Notes on enabled adapters
 
-At runtime, the frontend applies an additional safety filter and renders only products where:
+Current adapters are enabled for:
 
-- `is_active === true`
-- `validation_status === 'passed'`
+- Vans kids/toddler listings
+- Quiksilver kids/baby listings
+- O'Neill little-boys/little-girls listings
 
-Product cards/detail views show price, retailer attribution, and direct outbound link to the canonical retailer PDP.
-
-## Current limitations
-
-- Some retailer domains may block automated validation traffic in restricted execution environments.
-- When validation cannot confirm a candidate (blocked page, missing product metadata, bad image, missing price), it is excluded from the published catalog by design.
+An adapter may degrade to backup candidates when listing pages are blocked, but failures are isolated to that adapter so the rest of the catalog can still publish.

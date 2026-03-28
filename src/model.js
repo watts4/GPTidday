@@ -78,7 +78,7 @@ export function applyFilters(products, f) {
     if (f.brand !== 'all' && p.brand !== f.brand) return false;
     if (f.retailer !== 'all' && p.retailer_name !== f.retailer) return false;
     if (f.styleTag !== 'all' && !p.style_tags.includes(f.styleTag)) return false;
-    if (f.gender !== 'all' && p.gender !== f.gender) return false;
+    if (f.gender !== 'all' && (p.gender_target || p.gender) !== f.gender) return false;
     if (p.current_price < f.minPrice || p.current_price > f.maxPrice) return false;
     return true;
   });

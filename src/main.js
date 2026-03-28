@@ -60,7 +60,7 @@ function productCard(p) {
     <div class="body">
       <p class="brand">${p.brand}</p>
       <h3><a href="#/product/${p.slug}">${p.title}</a></h3>
-      <p class="meta">${p.category} • ${p.age_range}${p.gender ? ` • ${p.gender}` : ''}</p>
+      <p class="meta">${p.category} • ${p.age_range}${p.gender_target ? ` • ${p.gender_target}` : ''}</p>
       <div class="tags">${p.style_tags.slice(0, 4).map((t) => `<span>${t}</span>`).join('')}</div>
       <p class="price"><strong>${safeCurrency(p.current_price, p.currency)}</strong>${p.original_price ? `<s>${safeCurrency(p.original_price, p.currency)}</s>` : ''}</p>
       <div class="actions">
@@ -302,7 +302,7 @@ async function init() {
     const response = await fetch('data/products.generated.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`Failed to load catalog (${response.status})`);
     data = await response.json();
-    data.products = (data.products || []).filter((product) => product.is_active === true && product.validation_status === 'passed');
+    data.products = (data.products || []).filter((product) => product.is_active === true && ['passed', 'soft_pass'].includes(product.validation_status));
     data.product_count = data.products.length;
     render();
     window.addEventListener('hashchange', render);
