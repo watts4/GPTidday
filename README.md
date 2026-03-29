@@ -17,10 +17,9 @@ Tiny Thrash Threads is a curated shopping aggregator focused on infant/toddler/l
 ### 1) Fetch live listing pages
 Each enabled adapter fetches its retailer category/search page(s):
 
-- Vans little kids & toddlers
-- Red Devil all-kids collection
-- TeePublic punk kids t-shirt listing
-- O'Neill kids collection
+- O’Neill, Vans, Quiksilver, Billabong, Hurley, and Volcom official kids collections
+- Red Devil Clothing and Blackcraft official alt/punk kids collections
+- TeePublic (hardcore punk + punk rock kids t-shirt queries) and Etsy (kids gothic clothing) marketplace pages
 
 ### 2) Extract listing cards
 Extraction reads only what is present on listing cards:
@@ -82,3 +81,12 @@ python3 -m unittest tests/test_model.py
 - top rejection reasons (`dead URL`, `non-product redirect`, `missing price`, `missing image`, `broken image`, etc.)
 - duplicate collision count
 - sample accepted products per adapter
+
+
+## Source groups
+
+- `surf_skate_official`: O’Neill, Vans, Quiksilver, Billabong, Hurley, Volcom
+- `alt_punk_official`: Red Devil Clothing, Blackcraft
+- `marketplace`: TeePublic Hardcore Punk, TeePublic Punk Rock, Etsy Kids Gothic Clothing
+
+Marketplace products include `seller_name`, `marketplace_confidence`, and `marketplace_query_context` when available.

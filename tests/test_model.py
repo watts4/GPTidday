@@ -65,13 +65,13 @@ class ModelTests(unittest.TestCase):
             canonical_product_url='https://shop.example.com/products/test-tee', image_url='https://shop.example.com/img.jpg',
             additional_images=[], current_price=0, original_price=None, currency='USD', availability='in_stock',
             category='tees', subcategory='tees', age_range='kids', sizes=[], gender_target='neutral', style_tags=['punk'],
-            source_adapter='listing_card_v1', source_type='retailer', marketplace=False, discovered_at='2026-01-01T00:00:00Z',
+            source_adapter='listing_card_v1', source_type='official_brand', source_group='surf_skate_official', marketplace=False, discovered_at='2026-01-01T00:00:00Z',
             last_checked_at='2026-01-01T00:00:00Z', is_active=False, validation_status='pending', validation_errors=[],
             relevance_score=50, dedupe_key='k'
         )
         out, reason = validate_candidate(p)
         self.assertFalse(out.is_active)
-        self.assertIn(reason, {'missing price', 'dead URL', 'broken image'})
+        self.assertIn(reason, {'no parseable price', 'source product URL 404s', 'no usable primary image'})
 
 
 if __name__ == '__main__':

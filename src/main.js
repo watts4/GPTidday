@@ -55,6 +55,7 @@ function productCard(p) {
     <div class="img-wrap">
       ${productImage(p)}
       <span class="pill">${p.retailer_name}</span>
+      <span class="pill">${p.source_type === 'official_brand' ? 'Official Brand' : p.source_type === 'alt_brand' ? 'Alt Brand' : 'Marketplace'}</span>
       ${p.original_price ? '<span class="sale">Sale</span>' : ''}
     </div>
     <div class="body">
@@ -77,7 +78,7 @@ function freshnessBanner() {
 }
 
 function homePage() {
-  const collections = ['Tiny Groms', 'Mini Punk', 'Surf Baby', 'Toddler Streetwear', 'Checkerboard Classics'];
+  const collections = ['Tiny Groms', 'Mini Punk', 'Surf Baby', 'Toddler Streetwear', 'Little Rebels', 'Goth Kiddos', 'Checkerboard Classics'];
 
   return `${nav()}<main>
     <section class="hero">
@@ -200,7 +201,7 @@ function favoritesPage() {
 
 function aboutPage() {
   const sources = data.sources?.length
-    ? `<ul>${data.sources.map((s) => `<li><strong>${s.retailer_name}</strong>: ${s.status}${s.error ? ` (${s.error})` : ''}</li>`).join('')}</ul>`
+    ? `<ul>${data.sources.map((s) => `<li><strong>${s.source_label || s.retailer_name}</strong> • ${s.source_group} • discovered ${s.discovered_count}, published ${s.published_count}, rejected ${s.rejected_count}</li>`).join('')}</ul>`
     : '<p>No source status available for this snapshot.</p>';
 
   const warnings = data.warnings?.length ? `<ul>${data.warnings.map((w) => `<li>${w}</li>`).join('')}</ul>` : '<p>No refresh warnings recorded.</p>';
@@ -275,6 +276,8 @@ function attachCollectionListeners() {
       if (name.toLowerCase().includes('surf')) filters.styleTag = 'surf';
       if (name.toLowerCase().includes('punk')) filters.styleTag = 'punk';
       if (name.toLowerCase().includes('streetwear')) filters.styleTag = 'streetwear';
+      if (name.toLowerCase().includes('goth')) filters.styleTag = 'goth';
+      if (name.toLowerCase().includes('rebel')) filters.styleTag = 'alt';
       window.location.hash = '#/browse';
     });
   });
