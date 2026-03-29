@@ -1,92 +1,35 @@
 # Tiny Thrash Threads
 
-Tiny Thrash Threads is a curated shopping aggregator focused on infant/toddler/little-kids punk/surf/skate/alt apparel. The site does **not** handle checkout; every product links directly to a live retailer product page.
+Tiny Thrash Threads is a static catalog discovery site for kids surf/skate + punk/alt clothing.
 
-## Architecture
+## New static build-time catalog architecture
 
-- `index.html` + `src/main.js`: hash-routed frontend with product cards/detail/filtering.
-- `styles/main.css`: visual styles.
-- `src/model.js`: browse/filter/sort logic.
-- `scripts/refresh_data.py`: **listing-card-first** discovery → normalization → validation → publish pipeline.
-- `data/products.generated.json`: published catalog snapshot (active products only).
-- `data/products.rejected.json`: rejection/debug artifact with stage + reason.
-- `tests/test_model.py`: unit tests for parser + validation helpers.
+The catalog is generated **before** site build using Playwright (headless browser):
 
-## Listing-card-first catalog pipeline
+1. Load each source listing/search URL with a real browser.
+2. Extract only visible listing cards.
+3. Normalize into a shared schema.
+4. Validate product URLs, redirects, images, title, and parseable price.
+5. Publish static JSON files for GitHub Pages/static hosting.
 
-### 1) Fetch live listing pages
-Each enabled adapter fetches its retailer category/search page(s):
+Generated files:
+- `public/data/catalog.json`
+- `public/data/reports/adapter-report.json`
 
-- O’Neill, Vans, Quiksilver, Billabong, Hurley, and Volcom official kids collections
-- Red Devil Clothing and Blackcraft official alt/punk kids collections
-- TeePublic (hardcore punk + punk rock kids t-shirt queries) and Etsy (kids gothic clothing) marketplace pages
-
-### 2) Extract listing cards
-Extraction reads only what is present on listing cards:
-
-- card anchor (`href`) for `source_product_url`
-- title text
-- visible price text
-- card image (`src`, `data-src`, `srcset`)
-- badges (sale/new/out-of-stock)
-
-No guessed slugs, guessed PDP URLs, guessed image URLs, or synthetic title generation is allowed.
-
-### 3) Normalize
-Candidates are normalized to a single schema including:
-
-- `source_listing_url`, `source_product_url`, `canonical_product_url`
-- `title`, `image_url`, `current_price`, `original_price`
-- `retailer_name`, `retailer_domain`, `source_adapter`
-- `source_type` and `marketplace` (for TeePublic)
-- `category`, `subcategory`, `age_range`, `style_tags`
-- validation + relevance metadata
-
-### 4) Validate and publish
-Hard publish blockers:
-
-- dead product URL / 404 / failed resolution
-- redirect to non-product page
-- missing/broken primary image
-- missing/unparseable primary price
-- empty title
-
-Only products passing those checks are published.
+No runtime retailer scraping is required for page render.
 
 ## Commands
 
 ```bash
-# fetch live listings -> extract cards -> normalize -> validate -> publish
-python3 scripts/refresh_data.py refresh
-
-# re-check URLs and images in a generated catalog
-python3 scripts/refresh_data.py validate --path data/products.generated.json
-
-# rejection summary + reason counts
-python3 scripts/refresh_data.py report-rejected --path data/products.rejected.json
-
-# adapter health + discovered/published/rejected counts
-python3 scripts/refresh_data.py report-health --path data/products.generated.json
-
-# unit tests
-python3 -m unittest tests/test_model.py
+npm install
+npx playwright install chromium
+npm run catalog:build
+npm run catalog:validate
+npm run catalog:report
 ```
 
-## Adapter health / debug outputs
+## Adapter coverage
 
-`data/products.generated.json` includes:
-
-- discovered / normalized / validated / published counts
-- per-adapter discovered / published / rejected counts
-- top rejection reasons (`dead URL`, `non-product redirect`, `missing price`, `missing image`, `broken image`, etc.)
-- duplicate collision count
-- sample accepted products per adapter
-
-
-## Source groups
-
-- `surf_skate_official`: O’Neill, Vans, Quiksilver, Billabong, Hurley, Volcom
-- `alt_punk_official`: Red Devil Clothing, Blackcraft
-- `marketplace`: TeePublic Hardcore Punk, TeePublic Punk Rock, Etsy Kids Gothic Clothing
-
-Marketplace products include `seller_name`, `marketplace_confidence`, and `marketplace_query_context` when available.
+- surf_skate_official: O’Neill, Vans, Quiksilver, Billabong, Hurley, Volcom
+- alt_punk_official: Red Devil Clothing, Blackcraft
+- marketplace: TeePublic Hardcore Punk, TeePublic Punk Rock, Etsy Kids Gothic Clothing

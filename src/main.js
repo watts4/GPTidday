@@ -333,7 +333,8 @@ function render() {
 async function init() {
   app.innerHTML = `${nav()}<main><p>Loading catalog…</p></main>${footer()}`;
   try {
-    const response = await fetch('data/products.generated.json', { cache: 'no-store' });
+    let response = await fetch('public/data/catalog.json', { cache: 'no-store' });
+    if (!response.ok) response = await fetch('data/products.generated.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`Failed to load catalog (${response.status})`);
     data = await response.json();
     data.products = (data.products || [])

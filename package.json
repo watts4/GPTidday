@@ -1,0 +1,15 @@
+{
+  "name": "tiny-thrash-threads",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog:build": "node scripts/catalog/build.mjs",
+    "catalog:validate": "node scripts/catalog/validate.mjs",
+    "catalog:report": "node scripts/catalog/report.mjs",
+    "prebuild": "npm run catalog:build",
+    "build": "npm run catalog:build && npm run catalog:validate && npm run catalog:report"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  }
+}
