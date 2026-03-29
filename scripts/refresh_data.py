@@ -7,7 +7,7 @@ import hashlib
 import json
 import re
 from collections import Counter, defaultdict
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass
 from html import unescape
 from pathlib import Path
 from typing import Any
@@ -20,77 +20,109 @@ NOW = lambda: datetime.datetime.utcnow().replace(microsecond=0).isoformat() + 'Z
 
 ADAPTERS: list[dict[str, Any]] = [
     {
-        'name': 'vans_kids_listing',
-        'retailer_name': 'Vans',
-        'retailer_domain': 'www.vans.com',
-        'brand': 'Vans',
+        'name': 'oneill_kids', 'display_name': "O'Neill", 'group': 'surf_skate_official',
+        'retailer_name': "O'Neill", 'retailer_domain': 'us.oneill.com', 'brand': "O'Neill",
+        'listing_urls': ['https://us.oneill.com/collections/kids'], 'age_range': 'kids',
+        'category_context': 'kids surf beach streetwear boardshorts tees hoodies accessories',
+        'style_tags': ['surf', 'beach', 'streetwear'], 'source_type': 'official_brand', 'enabled': True,
+    },
+    {
+        'name': 'vans_little_kids_toddlers', 'display_name': 'Vans', 'group': 'surf_skate_official',
+        'retailer_name': 'Vans', 'retailer_domain': 'www.vans.com', 'brand': 'Vans',
         'listing_urls': ['https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202'],
         'age_range': 'little-kids-and-toddlers',
-        'category_context': 'kids clothing little kids toddlers skate checkerboard',
-        'style_tags': ['skate', 'streetwear'],
-        'source_adapter': 'listing_card_v1',
-        'source_type': 'retailer',
-        'marketplace': False,
-        'enabled': True,
+        'category_context': 'kids little kids toddler skate checkerboard shoes streetwear tees hoodies accessories',
+        'style_tags': ['skate', 'streetwear', 'checkerboard'], 'source_type': 'official_brand', 'enabled': True,
     },
     {
-        'name': 'reddevil_kids_listing',
-        'retailer_name': 'Red Devil Clothing',
-        'retailer_domain': 'reddevilclothing.com',
-        'brand': 'Red Devil Clothing',
-        'listing_urls': ['https://reddevilclothing.com/collections/all-kids'],
-        'age_range': 'kids',
-        'category_context': 'all kids punk rockabilly alt',
-        'style_tags': ['punk', 'alt', 'rockabilly'],
-        'source_adapter': 'listing_card_v1',
-        'source_type': 'retailer',
-        'marketplace': False,
-        'enabled': True,
+        'name': 'quiksilver_boys', 'display_name': 'Quiksilver', 'group': 'surf_skate_official',
+        'retailer_name': 'Quiksilver', 'retailer_domain': 'www.quiksilver.com', 'brand': 'Quiksilver',
+        'listing_urls': ['https://www.quiksilver.com/collections/boys'], 'age_range': 'boys',
+        'category_context': 'boys kids surf beach boardshorts tees hoodies accessories streetwear',
+        'style_tags': ['surf', 'beach', 'streetwear'], 'source_type': 'official_brand', 'enabled': True,
     },
     {
-        'name': 'teepublic_punk_kids_listing',
-        'retailer_name': 'TeePublic',
-        'retailer_domain': 'www.teepublic.com',
-        'brand': 'TeePublic',
-        'listing_urls': ['https://www.teepublic.com/kids-t-shirt/punk'],
-        'age_range': 'kids',
-        'category_context': 'kids t-shirt punk',
-        'style_tags': ['punk', 'graphic'],
-        'source_adapter': 'listing_card_v1',
-        'source_type': 'marketplace',
-        'marketplace': True,
-        'enabled': True,
+        'name': 'billabong_kids_boys', 'display_name': 'Billabong', 'group': 'surf_skate_official',
+        'retailer_name': 'Billabong', 'retailer_domain': 'www.billabong.com', 'brand': 'Billabong',
+        'listing_urls': ['https://www.billabong.com/collections/kids-boys'], 'age_range': 'kids-boys',
+        'category_context': 'kids boys surf beach boardshorts tees hoodies accessories',
+        'style_tags': ['surf', 'beach'], 'source_type': 'official_brand', 'enabled': True,
     },
     {
-        'name': 'oneill_kids_listing',
-        'retailer_name': "O'Neill",
-        'retailer_domain': 'us.oneill.com',
-        'brand': "O'Neill",
-        'listing_urls': ['https://us.oneill.com/collections/kids'],
-        'age_range': 'kids',
-        'category_context': 'kids surf beach lifestyle',
-        'style_tags': ['surf', 'beach', 'lifestyle'],
-        'source_adapter': 'listing_card_v1',
-        'source_type': 'retailer',
-        'marketplace': False,
-        'enabled': True,
+        'name': 'hurley_kids', 'display_name': 'Hurley', 'group': 'surf_skate_official',
+        'retailer_name': 'Hurley', 'retailer_domain': 'www.hurley.com', 'brand': 'Hurley',
+        'listing_urls': ['https://www.hurley.com/collections/kids'], 'age_range': 'kids',
+        'category_context': 'kids surf beach streetwear boardshorts tees hoodies accessories',
+        'style_tags': ['surf', 'beach', 'streetwear'], 'source_type': 'official_brand', 'enabled': True,
+    },
+    {
+        'name': 'volcom_kids', 'display_name': 'Volcom', 'group': 'surf_skate_official',
+        'retailer_name': 'Volcom', 'retailer_domain': 'www.volcom.com', 'brand': 'Volcom',
+        'listing_urls': ['https://www.volcom.com/collections/kids'], 'age_range': 'kids',
+        'category_context': 'kids skate surf streetwear tees hoodies accessories shoes',
+        'style_tags': ['skate', 'surf', 'streetwear'], 'source_type': 'official_brand', 'enabled': True,
+    },
+    {
+        'name': 'red_devil_kids', 'display_name': 'Red Devil Clothing', 'group': 'alt_punk_official',
+        'retailer_name': 'Red Devil Clothing', 'retailer_domain': 'reddevilclothing.com', 'brand': 'Red Devil Clothing',
+        'listing_urls': ['https://reddevilclothing.com/collections/all-kids'], 'age_range': 'kids',
+        'category_context': 'all kids punk goth alternative rockabilly streetwear graphic tees accessories',
+        'style_tags': ['punk', 'alt', 'goth', 'rockabilly', 'streetwear', 'graphic'], 'source_type': 'alt_brand', 'enabled': True,
+    },
+    {
+        'name': 'blackcraft_kids', 'display_name': 'Blackcraft', 'group': 'alt_punk_official',
+        'retailer_name': 'Blackcraft', 'retailer_domain': 'www.blackcraftcult.com', 'brand': 'Blackcraft',
+        'listing_urls': ['https://www.blackcraftcult.com/collections/kids'], 'age_range': 'kids',
+        'category_context': 'kids punk goth gothic alternative rock streetwear graphic tees accessories',
+        'style_tags': ['punk', 'goth', 'alt', 'streetwear', 'graphic'], 'source_type': 'alt_brand', 'enabled': True,
+    },
+    {
+        'name': 'teepublic_hardcore_punk_kids', 'display_name': 'TeePublic Hardcore Punk', 'group': 'marketplace',
+        'retailer_name': 'TeePublic', 'retailer_domain': 'www.teepublic.com', 'brand': 'TeePublic',
+        'listing_urls': ['https://www.teepublic.com/kids-t-shirt/hardcore-punk'], 'age_range': 'kids',
+        'category_context': 'kids t-shirt hardcore punk rock graphic tee',
+        'style_tags': ['punk', 'graphic'], 'source_type': 'marketplace', 'marketplace': True,
+        'marketplace_query_context': 'hardcore punk kids t-shirt', 'enabled': True,
+    },
+    {
+        'name': 'teepublic_punk_rock_kids', 'display_name': 'TeePublic Punk Rock', 'group': 'marketplace',
+        'retailer_name': 'TeePublic', 'retailer_domain': 'www.teepublic.com', 'brand': 'TeePublic',
+        'listing_urls': ['https://www.teepublic.com/kids-t-shirt/punk-rock'], 'age_range': 'kids',
+        'category_context': 'kids t-shirt punk rock graphic tee',
+        'style_tags': ['punk', 'graphic'], 'source_type': 'marketplace', 'marketplace': True,
+        'marketplace_query_context': 'punk rock kids t-shirt', 'enabled': True,
+    },
+    {
+        'name': 'etsy_kids_gothic', 'display_name': 'Etsy Kids Gothic Clothing', 'group': 'marketplace',
+        'retailer_name': 'Etsy', 'retailer_domain': 'www.etsy.com', 'brand': 'Etsy',
+        'listing_urls': ['https://www.etsy.com/market/kids_gothic_clothing'], 'age_range': 'kids',
+        'category_context': 'kids gothic goth alternative punk clothing accessories',
+        'style_tags': ['goth', 'alt', 'punk'], 'source_type': 'marketplace', 'marketplace': True,
+        'marketplace_query_context': 'kids gothic clothing', 'enabled': True,
     },
 ]
 
 STYLE_SIGNALS = {
-    'punk': {'punk', 'alt', 'grunge', 'distressed'},
-    'surf': {'surf', 'beach', 'saltwater', 'wave', 'boardshort'},
-    'skate': {'skate', 'checkerboard', 'vans', 'streetwear'},
-    'rockabilly': {'rockabilly'},
-    'graphic': {'graphic', 'print', 'logo'},
-    'lifestyle': {'lifestyle'},
+    'punk': {'punk', 'punk rock', 'hardcore'}, 'goth': {'goth', 'gothic'}, 'alt': {'alt', 'alternative'},
+    'rockabilly': {'rockabilly'}, 'surf': {'surf', 'beach', 'saltwater', 'wave', 'boardshorts', 'boardshort'},
+    'skate': {'skate', 'checkerboard', 'slip-on'}, 'streetwear': {'streetwear'},
+    'graphic': {'graphic tee', 'graphic', 'logo', 'print'}, 'hoodie': {'hoodie'},
+}
+POSITIVE_SIGNALS = {
+    'kids', 'little kids', 'toddlers', 'toddler', 'infant', 'baby', 'boys', 'girls', 'youth',
+    'punk', 'punk rock', 'hardcore', 'goth', 'gothic', 'skate', 'surf', 'checkerboard',
+    'boardshorts', 'graphic tee', 'hoodie', 'slip-on', 'streetwear', 'alt', 'rockabilly',
+}
+NEGATIVE_SIGNALS = {
+    'adult-only', 'adult only', 'home decor', 'wall art', 'sticker', 'stickers', 'men', "men's", 'women', "women's",
 }
 CATEGORY_MAP = [
     ('onesie', 'onesies'), ('bodysuit', 'onesies'), ('romper', 'rompers'), ('tee', 'tees'), ('t-shirt', 'tees'),
     ('hoodie', 'hoodies'), ('short', 'boardshorts'), ('boardshort', 'boardshorts'), ('beanie', 'beanies'),
     ('sock', 'socks'), ('shoe', 'shoes'), ('slip-on', 'shoes'), ('sneaker', 'shoes'), ('jacket', 'jackets'),
-    ('hat', 'hats'), ('backpack', 'accessories'), ('bag', 'accessories'),
+    ('hat', 'hats'), ('backpack', 'accessories'), ('bag', 'accessories'), ('accessory', 'accessories'),
 ]
+SOURCE_TYPE_PRIORITY = {'official_brand': 3, 'alt_brand': 2, 'marketplace': 1}
 
 
 @dataclass
@@ -104,6 +136,7 @@ class FetchResult:
 @dataclass
 class ListingCandidate:
     source_adapter: str
+    source_group: str
     source_type: str
     marketplace: bool
     retailer_name: str
@@ -114,10 +147,12 @@ class ListingCandidate:
     title: str
     price_text: str
     image_url: str
+    seller_name: str | None
     badges: list[str]
     category_context: str
     age_range_hint: str
     style_seed_tags: list[str]
+    marketplace_query_context: str | None
     discovered_at: str
 
 
@@ -129,6 +164,9 @@ class Product:
     brand: str
     retailer_name: str
     retailer_domain: str
+    source_type: str
+    source_group: str
+    marketplace: bool
     source_listing_url: str
     source_product_url: str
     canonical_product_url: str
@@ -144,16 +182,17 @@ class Product:
     sizes: list[str]
     gender_target: str | None
     style_tags: list[str]
-    source_adapter: str
-    source_type: str
-    marketplace: bool
     discovered_at: str
     last_checked_at: str
+    source_adapter: str
     is_active: bool
     validation_status: str
     validation_errors: list[str]
     relevance_score: int
     dedupe_key: str
+    seller_name: str | None = None
+    marketplace_confidence: float | None = None
+    marketplace_query_context: str | None = None
     description_short: str = ''
     featured_score: int = 0
     recently_updated: bool = True
@@ -170,15 +209,10 @@ def strip_tracking_params(url: str) -> str:
 
 
 def fetch_url(url: str, method: str = 'GET', accept: str = 'text/html,*/*') -> FetchResult:
-    req = Request(url, headers={'User-Agent': 'Mozilla/5.0 TinyThrashThreadsBot/4.0', 'Accept': accept}, method=method)
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0 TinyThrashThreadsBot/5.0', 'Accept': accept}, method=method)
     with urlopen(req, timeout=20) as res:
         status_code = getattr(res, 'status', res.getcode())
-        return FetchResult(
-            status_code=status_code,
-            final_url=res.geturl(),
-            body=res.read().decode('utf-8', 'ignore') if method == 'GET' else '',
-            content_type=(res.headers.get('Content-Type') or '').lower(),
-        )
+        return FetchResult(status_code=status_code, final_url=res.geturl(), body=res.read().decode('utf-8', 'ignore') if method == 'GET' else '', content_type=(res.headers.get('Content-Type') or '').lower())
 
 
 def text_only(html_fragment: str) -> str:
@@ -224,11 +258,19 @@ def infer_style_tags(text: str, seed_tags: list[str] | None = None) -> list[str]
 
 
 def is_product_like_url(url: str) -> bool:
-    parsed = urlparse(url)
-    path = parsed.path.lower()
-    if any(x in path for x in ['/search', '/collections', '/collection', '/category', '/c/']):
+    path = urlparse(url).path.lower()
+    if any(x in path for x in ['/search', '/collections', '/collection', '/category', '/c/', '/market/']):
         return False
-    return any(x in path for x in ['/product', '/products/', '.html', '-p']) or path.count('/') >= 2
+    return any(x in path for x in ['/product', '/products/', '/listing/', '.html', '-p']) or path.count('/') >= 2
+
+
+def extract_seller_name(chunk: str) -> str | None:
+    byline_patterns = [r'by\s+<[^>]*>([^<]+)<', r'\bSeller\s*:\s*([^<\n]+)', r'\bby\s+([A-Za-z0-9_\- ]{3,40})']
+    for pattern in byline_patterns:
+        m = re.search(pattern, chunk, flags=re.I)
+        if m:
+            return text_only(m.group(1))[:80]
+    return None
 
 
 def extract_listing_cards(listing_url: str, html: str, adapter: dict[str, Any]) -> list[ListingCandidate]:
@@ -250,16 +292,17 @@ def extract_listing_cards(listing_url: str, html: str, adapter: dict[str, Any]) 
         if len(title) < 4:
             continue
 
-        start = max(0, match.start() - 1000)
-        end = min(len(html), match.end() + 1200)
+        start = max(0, match.start() - 1400)
+        end = min(len(html), match.end() + 1600)
         chunk = html[start:end]
         price_text = ' '.join(re.findall(r'\$\s*\d+(?:[\.,]\d{2})?', chunk))
         image_url = pick_image_from_chunk(chunk, listing_url)
         badges = [b.lower() for b in re.findall(r'\b(sale|new|best seller|out of stock)\b', chunk, flags=re.I)]
 
         cards.append(ListingCandidate(
-            source_adapter=adapter['source_adapter'],
-            source_type=adapter['source_type'],
+            source_adapter=adapter.get('name', adapter.get('source_adapter', 'listing_card_v1')),
+            source_group=adapter.get('group', 'surf_skate_official'),
+            source_type=adapter.get('source_type', 'official_brand' if not adapter.get('marketplace') else 'marketplace'),
             marketplace=bool(adapter.get('marketplace')),
             retailer_name=adapter['retailer_name'],
             retailer_domain=adapter['retailer_domain'],
@@ -269,10 +312,12 @@ def extract_listing_cards(listing_url: str, html: str, adapter: dict[str, Any]) 
             title=title,
             price_text=price_text,
             image_url=image_url,
+            seller_name=extract_seller_name(chunk) if adapter.get('marketplace') else None,
             badges=badges,
             category_context=adapter['category_context'],
             age_range_hint=adapter['age_range'],
             style_seed_tags=list(adapter.get('style_tags', [])),
+            marketplace_query_context=adapter.get('marketplace_query_context'),
             discovered_at=NOW(),
         ))
         seen.add(href)
@@ -304,6 +349,9 @@ def discover_candidates(now: str) -> tuple[list[ListingCandidate], list[dict[str
         name = adapter['name']
         health[name] = {
             'adapter': name,
+            'source_label': adapter.get('display_name', adapter['retailer_name']),
+            'source_group': adapter['group'],
+            'source_type': adapter['source_type'],
             'retailer_name': adapter['retailer_name'],
             'enabled': bool(adapter.get('enabled', True)),
             'listing_fetch_ok': 0,
@@ -311,6 +359,7 @@ def discover_candidates(now: str) -> tuple[list[ListingCandidate], list[dict[str
             'discovered_count': 0,
             'published_count': 0,
             'rejected_count': 0,
+            'top_rejection_reasons': [],
             'notes': [],
             'sample_accepted': [],
         }
@@ -321,7 +370,6 @@ def discover_candidates(now: str) -> tuple[list[ListingCandidate], list[dict[str
         for final_url, page in fetch_listing_pages(adapter, health[name]):
             adapter_cards.extend(extract_listing_cards(final_url, page.body, adapter))
 
-        # listing-card-first hard rule: no synthetic fallback candidates.
         if not adapter_cards:
             health[name]['notes'].append('no listing cards extracted')
 
@@ -331,16 +379,21 @@ def discover_candidates(now: str) -> tuple[list[ListingCandidate], list[dict[str
     return candidates, rejected, health
 
 
-def score_candidate(title: str, category: str, style_tags: list[str], age_range: str) -> int:
-    text = f'{title} {category} {age_range}'.lower()
+def score_candidate(product: Product) -> int:
+    text = f"{product.title} {product.category} {product.age_range} {' '.join(product.style_tags)} {product.marketplace_query_context or ''}".lower()
     score = 0
-    if any(w in text for w in ['infant', 'baby', 'toddler', 'little kid', 'kids']):
-        score += 35
-    score += min(30, len(style_tags) * 8)
-    if category in {'shoes', 'tees', 'hoodies', 'boardshorts', 'onesies', 'rompers'}:
-        score += 25
-    if any(w in text for w in ['adult', 'home goods', 'furniture']):
-        score -= 60
+    score += sum(6 for w in POSITIVE_SIGNALS if w in text)
+    score -= sum(12 for w in NEGATIVE_SIGNALS if w in text)
+    if product.source_type == 'official_brand':
+        score += 20
+    elif product.source_type == 'alt_brand':
+        score += 12
+    else:
+        score += 4
+    if product.category in {'shoes', 'tees', 'hoodies', 'boardshorts', 'onesies', 'rompers', 'accessories'}:
+        score += 15
+    if product.marketplace and not any(w in text for w in {'kids', 'toddler', 'baby', 'boys', 'girls'}):
+        score -= 25
     return max(0, min(100, score))
 
 
@@ -355,29 +408,34 @@ def normalize_candidate(candidate: ListingCandidate, now: str) -> Product:
     text = f"{candidate.title} {candidate.category_context} {' '.join(candidate.badges)}"
     style_tags = infer_style_tags(text, candidate.style_seed_tags)
     category = normalize_category(candidate.category_context, candidate.title)
-    relevance_score = score_candidate(candidate.title, category, style_tags, candidate.age_range_hint)
 
     canonical_url = strip_tracking_params(candidate.source_product_url)
     id_seed = f"{candidate.retailer_name}:{canonical_url}:{candidate.title}"
     pid = hashlib.sha1(id_seed.encode()).hexdigest()[:12]
+    norm_title = slugify(candidate.title)
+    image_sig = hashlib.sha1(candidate.image_url.encode()).hexdigest()[:10] if candidate.image_url else 'noimg'
+    dedupe_key = hashlib.sha1(f"{norm_title}|{candidate.brand_hint.lower()}|{canonical_url}|{image_sig}|{current_price}|{candidate.retailer_domain}".encode()).hexdigest()
 
     errs: list[str] = []
     if not candidate.title:
-        errs.append('missing title')
+        errs.append('title missing')
     if not candidate.image_url:
-        errs.append('missing image')
+        errs.append('no usable primary image')
     if current_price <= 0:
-        errs.append('missing price')
+        errs.append('no parseable price')
     if not candidate.source_product_url:
         errs.append('missing source_product_url')
 
-    return Product(
+    product = Product(
         id=pid,
         slug=slugify(f"{candidate.brand_hint}-{candidate.title}-{pid[:6]}"),
         title=candidate.title,
         brand=candidate.brand_hint,
         retailer_name=candidate.retailer_name,
         retailer_domain=candidate.retailer_domain,
+        source_type=candidate.source_type,
+        source_group=candidate.source_group,
+        marketplace=candidate.marketplace,
         source_listing_url=candidate.source_listing_url,
         source_product_url=candidate.source_product_url,
         canonical_product_url=canonical_url,
@@ -393,25 +451,31 @@ def normalize_candidate(candidate: ListingCandidate, now: str) -> Product:
         sizes=[],
         gender_target='neutral',
         style_tags=style_tags,
-        source_adapter=candidate.source_adapter,
-        source_type=candidate.source_type,
-        marketplace=candidate.marketplace,
         discovered_at=candidate.discovered_at,
         last_checked_at=now,
+        source_adapter=candidate.source_adapter,
         is_active=False,
         validation_status='pending',
         validation_errors=errs,
-        relevance_score=relevance_score,
-        dedupe_key=hashlib.sha1(f"{candidate.retailer_name}:{canonical_url}".encode()).hexdigest(),
+        relevance_score=0,
+        dedupe_key=dedupe_key,
+        seller_name=candidate.seller_name,
+        marketplace_confidence=None,
+        marketplace_query_context=candidate.marketplace_query_context,
         description_short='',
-        featured_score=relevance_score,
+        featured_score=0,
         recently_updated=True,
     )
+    product.relevance_score = score_candidate(product)
+    if candidate.marketplace:
+        product.marketplace_confidence = round(product.relevance_score / 100.0, 2)
+    product.featured_score = product.relevance_score + (SOURCE_TYPE_PRIORITY.get(product.source_type, 0) * 10)
+    return product
 
 
 def check_image_url(image_url: str) -> tuple[bool, str | None]:
     if not image_url:
-        return False, 'missing image'
+        return False, 'no usable primary image'
     try:
         res = fetch_url(image_url, method='HEAD', accept='image/*,*/*')
         if res.status_code >= 400:
@@ -427,10 +491,10 @@ def is_probable_product_page(final_url: str, html: str, title: str | None = None
     path = urlparse(final_url).path.lower()
     if path in {'', '/'}:
         return False
-    if any(token in path for token in ['/search', '/collections', '/collection', '/category']):
+    if any(token in path for token in ['/search', '/collections', '/collection', '/category', '/market/']):
         return False
-    content = f"{title or ''} {html[:2000]}".lower()
-    if any(bad in content for bad in ['search results', 'page not found', '404', 'collection of']):
+    content = f"{title or ''} {html[:2500]}".lower()
+    if any(bad in content for bad in ['search results', 'page not found', '404', 'collection of', 'results for']):
         return False
     return True
 
@@ -438,36 +502,40 @@ def is_probable_product_page(final_url: str, html: str, title: str | None = None
 def validate_candidate(product: Product) -> tuple[Product, str | None]:
     reasons = list(product.validation_errors)
 
-    if product.relevance_score < 25:
+    if product.relevance_score < 20:
         reasons.append('low relevance')
 
     try:
         page = fetch_url(product.source_product_url)
         if page.status_code >= 400:
-            reasons.append('dead URL')
+            reasons.append('source product URL 404s')
         if not is_probable_product_page(page.final_url, page.body, product.title):
-            reasons.append('non-product redirect')
+            reasons.append('URL redirects to a non-product page')
         product.canonical_product_url = strip_tracking_params(page.final_url)
     except Exception:
-        reasons.append('dead URL')
+        reasons.append('source product URL 404s')
 
-    img_ok, img_error = check_image_url(product.image_url)
+    img_ok, _ = check_image_url(product.image_url)
     if not img_ok:
-        reasons.append('missing image' if img_error == 'missing image' else 'broken image')
+        reasons.append('no usable primary image')
 
     if product.current_price <= 0:
-        reasons.append('missing price')
+        reasons.append('no parseable price')
     if not product.title:
-        reasons.append('parse failure')
+        reasons.append('title missing')
+
+    if product.source_type == 'marketplace' and product.relevance_score < 35:
+        reasons.append('marketplace confidence too low')
 
     reasons = sorted(set(reasons))
     product.validation_errors = reasons
-
-    hard_blockers = {'dead URL', 'non-product redirect', 'missing price', 'missing image', 'broken image', 'parse failure'}
+    hard_blockers = {
+        'source product URL 404s', 'URL redirects to a non-product page', 'no usable primary image', 'no parseable price', 'title missing'
+    }
     if any(r in hard_blockers for r in reasons):
         product.validation_status = 'failed'
         product.is_active = False
-        return product, (next((r for r in reasons if r in hard_blockers), 'parse failure'))
+        return product, (next((r for r in reasons if r in hard_blockers), 'title missing'))
 
     product.validation_status = 'passed'
     product.is_active = True
@@ -478,66 +546,68 @@ def dedupe_products(products: list[Product]) -> tuple[list[Product], int]:
     out: dict[str, Product] = {}
     collisions = 0
     for p in products:
-        existing = out.get(p.dedupe_key)
-        if not existing:
+        key_variants = {
+            p.dedupe_key,
+            hashlib.sha1(f"{slugify(p.title)}|{p.brand.lower()}|{p.canonical_product_url}".encode()).hexdigest(),
+            hashlib.sha1(f"{slugify(p.title)}|{p.brand.lower()}|{p.current_price}|{p.retailer_domain}".encode()).hexdigest(),
+        }
+        existing_key = next((k for k in key_variants if k in out), None)
+        if existing_key is None:
             out[p.dedupe_key] = p
             continue
         collisions += 1
-        winner = p if (p.relevance_score, p.last_checked_at) > (existing.relevance_score, existing.last_checked_at) else existing
-        out[p.dedupe_key] = winner
-    return sorted(out.values(), key=lambda x: (-x.relevance_score, x.title)), collisions
+        existing = out[existing_key]
+        lhs = (SOURCE_TYPE_PRIORITY.get(p.source_type, 0), p.relevance_score, p.last_checked_at)
+        rhs = (SOURCE_TYPE_PRIORITY.get(existing.source_type, 0), existing.relevance_score, existing.last_checked_at)
+        out[existing_key] = p if lhs > rhs else existing
+    return sorted(out.values(), key=lambda x: (-SOURCE_TYPE_PRIORITY.get(x.source_type, 0), -x.featured_score, x.title)), collisions
 
 
 def build_payload() -> tuple[dict[str, Any], dict[str, Any]]:
     now = NOW()
     candidates, rejected_rows, health = discover_candidates(now)
-
     normalized = [normalize_candidate(c, now) for c in candidates]
 
     validated: list[Product] = []
     reason_counts: Counter[str] = Counter()
-    adapter_rejected: Counter[str] = Counter()
+    source_reason_counts: dict[str, Counter[str]] = defaultdict(Counter)
+
     for p in normalized:
         vp, reject_reason = validate_candidate(p)
         validated.append(vp)
         if reject_reason:
-            adapter_rejected[p.retailer_name] += 1
             reason_counts[reject_reason] += 1
-            rejected_rows.append({
-                'id': p.id,
-                'title': p.title,
-                'retailer_name': p.retailer_name,
-                'source_listing_url': p.source_listing_url,
-                'source_product_url': p.source_product_url,
-                'errors': p.validation_errors,
-                'stage': 'publish_validation',
-            })
+            source_reason_counts[p.source_adapter][reject_reason] += 1
+            rejected_rows.append({'id': p.id, 'title': p.title, 'retailer_name': p.retailer_name, 'source_adapter': p.source_adapter, 'source_listing_url': p.source_listing_url, 'source_product_url': p.source_product_url, 'errors': p.validation_errors, 'stage': 'publish_validation'})
 
     deduped, collisions = dedupe_products(validated)
     published = [p for p in deduped if p.is_active and p.validation_status == 'passed']
 
     by_adapter: dict[str, dict[str, int]] = defaultdict(lambda: {'discovered': 0, 'published': 0, 'rejected': 0})
     for c in candidates:
-        by_adapter[c.retailer_name]['discovered'] += 1
+        by_adapter[c.source_adapter]['discovered'] += 1
     for p in published:
-        by_adapter[p.retailer_name]['published'] += 1
+        by_adapter[p.source_adapter]['published'] += 1
     for r in rejected_rows:
-        by_adapter[r.get('retailer_name', 'unknown')]['rejected'] += 1
+        by_adapter[r.get('source_adapter', 'unknown')]['rejected'] += 1
 
     for source in health.values():
-        retailer = source['retailer_name']
-        source['published_count'] = by_adapter[retailer]['published']
-        source['rejected_count'] = by_adapter[retailer]['rejected']
-        source['sample_accepted'] = [
-            {'title': p.title, 'price': p.current_price, 'url': p.canonical_product_url}
-            for p in published if p.retailer_name == retailer
-        ][:3]
+        name = source['adapter']
+        source['published_count'] = by_adapter[name]['published']
+        source['rejected_count'] = by_adapter[name]['rejected']
+        source['top_rejection_reasons'] = source_reason_counts[name].most_common(5)
+        source['sample_accepted'] = [{'title': p.title, 'price': p.current_price, 'url': p.canonical_product_url} for p in published if p.source_adapter == name][:3]
 
     payload = {
         'generated_at': now,
         'product_count': len(published),
         'products': [asdict(p) for p in published],
         'sources': list(health.values()),
+        'source_groups': {
+            'surf_skate_official': [a['display_name'] for a in ADAPTERS if a['group'] == 'surf_skate_official'],
+            'alt_punk_official': [a['display_name'] for a in ADAPTERS if a['group'] == 'alt_punk_official'],
+            'marketplace': [a['display_name'] for a in ADAPTERS if a['group'] == 'marketplace'],
+        },
         'publish_rules': {
             'listing_card_first': True,
             'requires_real_source_product_url': True,
@@ -585,7 +655,7 @@ def report_rejected(path: Path = REJECTED_PATH) -> dict[str, Any]:
     counts = Counter()
     by_adapter = Counter()
     for row in rejected:
-        by_adapter[row.get('retailer_name', 'unknown')] += 1
+        by_adapter[row.get('source_adapter', row.get('retailer_name', 'unknown'))] += 1
         for err in row.get('errors', []):
             counts[err] += 1
     return {'generated_at': payload.get('generated_at'), 'rejected_count': len(rejected), 'by_adapter': by_adapter, 'top_reasons': counts.most_common(20)}
@@ -593,7 +663,7 @@ def report_rejected(path: Path = REJECTED_PATH) -> dict[str, Any]:
 
 def report_adapter_health(path: Path = OUTPUT_PATH) -> dict[str, Any]:
     payload = json.loads(path.read_text(encoding='utf-8'))
-    return {'generated_at': payload.get('generated_at'), 'sources': payload.get('sources', []), 'pipeline_debug': payload.get('pipeline_debug', {})}
+    return {'generated_at': payload.get('generated_at'), 'sources': payload.get('sources', []), 'pipeline_debug': payload.get('pipeline_debug', {}), 'source_groups': payload.get('source_groups', {})}
 
 
 def main() -> None:

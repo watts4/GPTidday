@@ -1,55 +1,13 @@
 {
-  "generated_at": "2026-03-29T04:10:56Z",
+  "generated_at": "2026-03-29T04:18:14Z",
   "product_count": 0,
   "products": [],
   "sources": [
     {
-      "adapter": "vans_kids_listing",
-      "retailer_name": "Vans",
-      "enabled": true,
-      "listing_fetch_ok": 0,
-      "listing_fetch_failed": 1,
-      "discovered_count": 0,
-      "published_count": 0,
-      "rejected_count": 0,
-      "notes": [
-        "listing failed https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "no listing cards extracted"
-      ],
-      "sample_accepted": []
-    },
-    {
-      "adapter": "reddevil_kids_listing",
-      "retailer_name": "Red Devil Clothing",
-      "enabled": true,
-      "listing_fetch_ok": 0,
-      "listing_fetch_failed": 1,
-      "discovered_count": 0,
-      "published_count": 0,
-      "rejected_count": 0,
-      "notes": [
-        "listing failed https://reddevilclothing.com/collections/all-kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "no listing cards extracted"
-      ],
-      "sample_accepted": []
-    },
-    {
-      "adapter": "teepublic_punk_kids_listing",
-      "retailer_name": "TeePublic",
-      "enabled": true,
-      "listing_fetch_ok": 0,
-      "listing_fetch_failed": 1,
-      "discovered_count": 0,
-      "published_count": 0,
-      "rejected_count": 0,
-      "notes": [
-        "listing failed https://www.teepublic.com/kids-t-shirt/punk: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "no listing cards extracted"
-      ],
-      "sample_accepted": []
-    },
-    {
-      "adapter": "oneill_kids_listing",
+      "adapter": "oneill_kids",
+      "source_label": "O'Neill",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
       "retailer_name": "O'Neill",
       "enabled": true,
       "listing_fetch_ok": 0,
@@ -57,13 +15,223 @@
       "discovered_count": 0,
       "published_count": 0,
       "rejected_count": 0,
+      "top_rejection_reasons": [],
       "notes": [
         "listing failed https://us.oneill.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
         "no listing cards extracted"
       ],
       "sample_accepted": []
+    },
+    {
+      "adapter": "vans_little_kids_toddlers",
+      "source_label": "Vans",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Vans",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "quiksilver_boys",
+      "source_label": "Quiksilver",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Quiksilver",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.quiksilver.com/collections/boys: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "billabong_kids_boys",
+      "source_label": "Billabong",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Billabong",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.billabong.com/collections/kids-boys: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "hurley_kids",
+      "source_label": "Hurley",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Hurley",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.hurley.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "volcom_kids",
+      "source_label": "Volcom",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Volcom",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.volcom.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "red_devil_kids",
+      "source_label": "Red Devil Clothing",
+      "source_group": "alt_punk_official",
+      "source_type": "alt_brand",
+      "retailer_name": "Red Devil Clothing",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://reddevilclothing.com/collections/all-kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "blackcraft_kids",
+      "source_label": "Blackcraft",
+      "source_group": "alt_punk_official",
+      "source_type": "alt_brand",
+      "retailer_name": "Blackcraft",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.blackcraftcult.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "teepublic_hardcore_punk_kids",
+      "source_label": "TeePublic Hardcore Punk",
+      "source_group": "marketplace",
+      "source_type": "marketplace",
+      "retailer_name": "TeePublic",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.teepublic.com/kids-t-shirt/hardcore-punk: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "teepublic_punk_rock_kids",
+      "source_label": "TeePublic Punk Rock",
+      "source_group": "marketplace",
+      "source_type": "marketplace",
+      "retailer_name": "TeePublic",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.teepublic.com/kids-t-shirt/punk-rock: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "etsy_kids_gothic",
+      "source_label": "Etsy Kids Gothic Clothing",
+      "source_group": "marketplace",
+      "source_type": "marketplace",
+      "retailer_name": "Etsy",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.etsy.com/market/kids_gothic_clothing: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
     }
   ],
+  "source_groups": {
+    "surf_skate_official": [
+      "O'Neill",
+      "Vans",
+      "Quiksilver",
+      "Billabong",
+      "Hurley",
+      "Volcom"
+    ],
+    "alt_punk_official": [
+      "Red Devil Clothing",
+      "Blackcraft"
+    ],
+    "marketplace": [
+      "TeePublic Hardcore Punk",
+      "TeePublic Punk Rock",
+      "Etsy Kids Gothic Clothing"
+    ]
+  },
   "publish_rules": {
     "listing_card_first": true,
     "requires_real_source_product_url": true,
@@ -77,22 +245,57 @@
     "validated_candidates": 0,
     "published_products": 0,
     "adapter_counts": {
-      "Vans": {
+      "oneill_kids": {
         "discovered": 0,
         "published": 0,
         "rejected": 0
       },
-      "Red Devil Clothing": {
+      "vans_little_kids_toddlers": {
         "discovered": 0,
         "published": 0,
         "rejected": 0
       },
-      "TeePublic": {
+      "quiksilver_boys": {
         "discovered": 0,
         "published": 0,
         "rejected": 0
       },
-      "O'Neill": {
+      "billabong_kids_boys": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "hurley_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "volcom_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "red_devil_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "blackcraft_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "teepublic_hardcore_punk_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "teepublic_punk_rock_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "etsy_kids_gothic": {
         "discovered": 0,
         "published": 0,
         "rejected": 0

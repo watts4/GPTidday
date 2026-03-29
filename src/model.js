@@ -11,16 +11,19 @@ export const DEFAULT_FILTERS = {
   maxPrice: 500
 };
 
-const includeKeywords = ['toddler', 'baby', 'infant', 'kid', 'romper', 'onesie', 'boardshort', 'skate', 'surf', 'checkerboard', 'hoodie', 'beanie', 'tee', 'shoe'];
-const excludePatterns = [/\badult\b/i, /\bgift\s*card\b/i, /\bmen(?:'s)?\b/i, /\bwomen(?:'s)?\b/i];
+const includeKeywords = ['toddler', 'toddlers', 'baby', 'infant', 'kid', 'kids', 'little kids', 'boys', 'girls', 'youth', 'romper', 'onesie', 'boardshort', 'skate', 'surf', 'checkerboard', 'hoodie', 'beanie', 'tee', 'shoe', 'punk', 'punk rock', 'hardcore', 'goth', 'gothic', 'streetwear', 'rockabilly', 'graphic tee', 'slip-on'];
+const excludePatterns = [/\badult\b/i, /\badult-only\b/i, /\bgift\s*card\b/i, /\bmen(?:'s)?\b/i, /\bwomen(?:'s)?\b/i, /\bhome\s*decor\b/i, /\bwall\s*art\b/i];
 
 const styleKeywordMap = {
-  punk: ['punk', 'distressed', 'grunge', 'alt'],
+  punk: ['punk', 'punk rock', 'hardcore', 'distressed', 'grunge', 'alt'],
   surf: ['surf', 'wave', 'beach', 'saltwater', 'boardshort'],
-  skate: ['skate', 'checkerboard', 'streetwear', 'vans'],
+  skate: ['skate', 'checkerboard', 'streetwear', 'vans', 'slip-on'],
   checkerboard: ['checkerboard'],
   graphic: ['graphic', 'logo', 'print'],
   beach: ['beach', 'ocean', 'coast'],
+  goth: ['goth', 'gothic'],
+  alt: ['alt', 'alternative', 'rockabilly'],
+  streetwear: ['streetwear'],
   'vintage wash': ['vintage', 'washed', 'faded']
 };
 
