@@ -8,13 +8,34 @@ let favorites = new Set(JSON.parse(localStorage.getItem('ttt-favorites') || '[]'
 let data = { generated_at: '', product_count: 0, products: [], sources: [], warnings: [] };
 let visibleCount = PAGE_SIZE;
 
+function escapeHtml(value = '') {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function normalizeAbsoluteUrl(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return '';
+  if (/^https?:\/\//i.test(raw)) return raw;
+  if (raw.startsWith('//')) return `https:${raw}`;
+  try {
+    return new URL(raw, window.location.origin).toString();
+  } catch {
+    return '';
+  }
+}
+
 function sanitizeProduct(raw) {
   const styleTags = Array.isArray(raw?.style_tags) ? raw.style_tags.filter(Boolean) : [];
   const sizes = Array.isArray(raw?.sizes) ? raw.sizes.filter(Boolean) : [];
-  const price = Number(raw?.current_price);
+  const price = Number(raw?.current_price ?? raw?.price ?? raw?.amount);
   const title = String(raw?.title || '').trim();
-  const image = String(raw?.image_url || '').trim();
-  const sourceUrl = String(raw?.canonical_product_url || raw?.source_product_url || '').trim();
+  const image = normalizeAbsoluteUrl(raw?.image_url || raw?.image || raw?.primary_image);
+  const sourceUrl = normalizeAbsoluteUrl(raw?.canonical_product_url || raw?.source_product_url || raw?.product_url || raw?.url || raw?.link);
   if (!title || !image || !sourceUrl || !Number.isFinite(price) || price <= 0) return null;
   return {
     ...raw,
@@ -77,27 +98,29 @@ function nav() {
 }
 
 function productImage(p, cls = '') {
-  return `<img class="${cls}" src="${p.image_url}" alt="${p.title} from ${p.retailer_name}" loading="lazy" onerror="this.closest('.img-wrap,.detail-image-wrap')?.classList.add('img-error'); this.remove();" />`;
+  return `<img class="${cls}" src="${escapeHtml(p.image_url)}" alt="${escapeHtml(p.title)} from ${escapeHtml(p.retailer_name)}" loading="lazy" onerror="this.closest('.img-wrap,.detail-image-wrap')?.classList.add('img-error'); this.remove();" />`;
 }
 
 function productCard(p) {
   const saved = favorites.has(p.id);
+  const encodedSlug = encodeURIComponent(p.slug);
+  const outboundUrl = escapeHtml(p.canonical_product_url || p.source_product_url);
   return `<article class="card">
     <div class="img-wrap">
       ${productImage(p)}
-      <span class="pill">${p.retailer_name}</span>
+      <span class="pill">${escapeHtml(p.retailer_name)}</span>
       <span class="pill">${p.source_type === 'official_brand' ? 'Official Brand' : p.source_type === 'alt_brand' ? 'Alt Brand' : 'Marketplace'}</span>
       ${p.original_price ? '<span class="sale">Sale</span>' : ''}
     </div>
     <div class="body">
-      <p class="brand">${p.brand}</p>
-      <h3><a href="#/product/${p.slug}">${p.title}</a></h3>
-      <p class="meta">${p.category} • ${p.age_range}${p.gender_target ? ` • ${p.gender_target}` : ''}</p>
-      <div class="tags">${p.style_tags.slice(0, 4).map((t) => `<span>${t}</span>`).join('')}</div>
+      <p class="brand">${escapeHtml(p.brand)}</p>
+      <h3><a href="#/product/${encodedSlug}">${escapeHtml(p.title)}</a></h3>
+      <p class="meta">${escapeHtml(p.category)} • ${escapeHtml(p.age_range)}${p.gender_target ? ` • ${escapeHtml(p.gender_target)}` : ''}</p>
+      <div class="tags">${p.style_tags.slice(0, 4).map((t) => `<span>${escapeHtml(t)}</span>`).join('')}</div>
       <p class="price"><strong>${safeCurrency(p.current_price, p.currency)}</strong>${p.original_price ? `<s>${safeCurrency(p.original_price, p.currency)}</s>` : ''}</p>
       <div class="actions">
-        <button type="button" data-fav="${p.id}">${saved ? '★ Saved' : '☆ Save'}</button>
-        <a data-out="${p.id}" target="_blank" rel="noreferrer" href="${p.canonical_product_url || p.source_product_url}">View on retailer site ↗</a>
+        <button type="button" data-fav="${escapeHtml(p.id)}">${saved ? '★ Saved' : '☆ Save'}</button>
+        <a data-out="${escapeHtml(p.id)}" target="_blank" rel="noreferrer" href="${outboundUrl}">View on retailer site ↗</a>
       </div>
     </div>
   </article>`;
@@ -192,7 +215,8 @@ function browsePage() {
 }
 
 function productPage(slug) {
-  const product = data.products.find((item) => item.slug === slug);
+  const normalizedSlug = decodeURIComponent(slug || '');
+  const product = data.products.find((item) => item.slug === normalizedSlug);
   if (!product) {
     return `${nav()}<main><p class="empty">Product not found. It may have been removed after failing active-product validation.</p></main>${footer()}`;
   }
@@ -204,20 +228,20 @@ function productPage(slug) {
   return `${nav()}<main class="detail">
     <div class="detail-image-wrap">${productImage(product, 'detail-img')}</div>
     <section>
-      <p class="kicker">${product.brand} • ${product.retailer_name}</p>
-      <h1>${product.title}</h1>
-      <p>${product.description_short || ''}</p>
+      <p class="kicker">${escapeHtml(product.brand)} • ${escapeHtml(product.retailer_name)}</p>
+      <h1>${escapeHtml(product.title)}</h1>
+      <p>${escapeHtml(product.description_short || '')}</p>
       <p class="price"><strong>${safeCurrency(product.current_price, product.currency)}</strong>${product.original_price ? `<s>${safeCurrency(product.original_price, product.currency)}</s>` : ''}</p>
-      <p>Age: ${product.age_range} • Category: ${product.category}</p>
-      <p>Sizes: ${product.sizes.length ? product.sizes.join(', ') : 'See retailer page for current size availability'}</p>
-      <p class="meta">Retailer: ${product.retailer_name} (${product.retailer_domain})</p>
+      <p>Age: ${escapeHtml(product.age_range)} • Category: ${escapeHtml(product.category)}</p>
+      <p>Sizes: ${product.sizes.length ? escapeHtml(product.sizes.join(', ')) : 'See retailer page for current size availability'}</p>
+      <p class="meta">Retailer: ${escapeHtml(product.retailer_name)} (${escapeHtml(product.retailer_domain)})</p>
       <p class="meta">Last checked: ${product.last_checked_at ? new Date(product.last_checked_at).toLocaleString() : 'unknown'}</p>
-      <div class="tags">${product.style_tags.map((tag) => `<span>${tag}</span>`).join('')}</div>
-      <a class="cta" data-out="${product.id}" target="_blank" rel="noreferrer" href="${product.canonical_product_url || product.source_product_url}">View on retailer site ↗</a>
+      <div class="tags">${product.style_tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>
+      <a class="cta" data-out="${escapeHtml(product.id)}" target="_blank" rel="noreferrer" href="${escapeHtml(product.canonical_product_url || product.source_product_url)}">View on retailer site ↗</a>
     </section>
     <section>
       <h2>Related picks</h2>
-      <ul>${related.map((item) => `<li><a href="#/product/${item.slug}">${item.title}</a></li>`).join('')}</ul>
+      <ul>${related.map((item) => `<li><a href="#/product/${encodeURIComponent(item.slug)}">${escapeHtml(item.title)}</a></li>`).join('')}</ul>
     </section>
   </main>${footer()}`;
 }
@@ -333,12 +357,24 @@ function render() {
 async function init() {
   app.innerHTML = `${nav()}<main><p>Loading catalog…</p></main>${footer()}`;
   try {
-    let response = await fetch('public/data/catalog.json', { cache: 'no-store' });
-    if (!response.ok) response = await fetch('data/products.generated.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Failed to load catalog (${response.status})`);
-    data = await response.json();
-    data.products = (data.products || [])
-      .filter((product) => product?.is_active === true && ['passed', 'soft_pass'].includes(product?.validation_status))
+    const candidates = ['public/data/catalog.json', 'data/catalog.json', 'data/products.generated.json'];
+    let loaded = null;
+    for (const path of candidates) {
+      const response = await fetch(path, { cache: 'no-store' });
+      if (response.ok) {
+        loaded = await response.json();
+        break;
+      }
+    }
+    if (!loaded) throw new Error('Failed to load catalog from known paths');
+    const incomingProducts = Array.isArray(loaded) ? loaded : loaded.products || [];
+    data = Array.isArray(loaded) ? data : loaded;
+    data.products = incomingProducts
+      .filter((product) => product?.is_active !== false)
+      .filter((product) => {
+        const status = String(product?.validation_status || 'soft_pass');
+        return ['passed', 'soft_pass'].includes(status);
+      })
       .map(sanitizeProduct)
       .filter(Boolean);
     data.product_count = data.products.length;
