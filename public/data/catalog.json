@@ -1,0 +1,556 @@
+{
+  "generated_at": "2026-03-29T04:25:36Z",
+  "product_count": 5,
+  "products": [
+    {
+      "id": "f5a12e893d0e",
+      "slug": "vans-toddler-checkerboard-slip-on-v-shoe-f5a12e",
+      "title": "Toddler Checkerboard Slip-On V Shoe",
+      "brand": "Vans",
+      "retailer_name": "Vans",
+      "retailer_domain": "vans.com",
+      "source_type": "official_brand",
+      "source_group": "surf_skate_official",
+      "marketplace": false,
+      "source_listing_url": "https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202",
+      "source_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla",
+      "canonical_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla",
+      "image_url": "https://images.vans.com/is/image/Vans/VN0A4VHRBLA-HERO?$PDP-FULL-IMAGE$",
+      "additional_images": [],
+      "current_price": 40.0,
+      "original_price": null,
+      "currency": "USD",
+      "availability": "in_stock",
+      "category": "shoes",
+      "subcategory": "shoes",
+      "age_range": "little-kids-and-toddlers",
+      "sizes": [
+        "4T",
+        "5T",
+        "6T"
+      ],
+      "gender_target": "neutral",
+      "style_tags": [
+        "checkerboard",
+        "skate",
+        "streetwear"
+      ],
+      "discovered_at": "2026-03-29T04:25:36Z",
+      "last_checked_at": "2026-03-29T04:25:36Z",
+      "source_adapter": "fallback_catalog",
+      "is_active": true,
+      "validation_status": "soft_pass",
+      "validation_errors": [],
+      "relevance_score": 77,
+      "dedupe_key": "8efb1915c660f1664c02326be684a65da7515816",
+      "seller_name": null,
+      "marketplace_confidence": null,
+      "marketplace_query_context": null,
+      "description_short": "Classic checkerboard skate style scaled for little feet.",
+      "featured_score": 107,
+      "recently_updated": true
+    },
+    {
+      "id": "af7c8d9c8679",
+      "slug": "vans-toddler-ward-shoe-af7c8d",
+      "title": "Toddler Ward Shoe",
+      "brand": "Vans",
+      "retailer_name": "Vans",
+      "retailer_domain": "vans.com",
+      "source_type": "official_brand",
+      "source_group": "surf_skate_official",
+      "marketplace": false,
+      "source_listing_url": "https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202",
+      "source_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka",
+      "canonical_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka",
+      "image_url": "https://images.vans.com/is/image/Vans/VN000D3YBKA-HERO?$PDP-FULL-IMAGE$",
+      "additional_images": [],
+      "current_price": 38.0,
+      "original_price": null,
+      "currency": "USD",
+      "availability": "in_stock",
+      "category": "shoes",
+      "subcategory": "shoes",
+      "age_range": "little-kids-and-toddlers",
+      "sizes": [
+        "4T",
+        "5T",
+        "6T"
+      ],
+      "gender_target": "neutral",
+      "style_tags": [
+        "skate",
+        "streetwear"
+      ],
+      "discovered_at": "2026-03-29T04:25:36Z",
+      "last_checked_at": "2026-03-29T04:25:36Z",
+      "source_adapter": "fallback_catalog",
+      "is_active": true,
+      "validation_status": "soft_pass",
+      "validation_errors": [],
+      "relevance_score": 65,
+      "dedupe_key": "24748ad768a40ee0b47b0fd0e7017abf21970754",
+      "seller_name": null,
+      "marketplace_confidence": null,
+      "marketplace_query_context": null,
+      "description_short": "Low-profile toddler skate sneaker with durable upper.",
+      "featured_score": 95,
+      "recently_updated": true
+    },
+    {
+      "id": "bd57d4754f22",
+      "slug": "quiksilver-baby-boys-surfsilk-tijuana-boardshorts-bd57d4",
+      "title": "Baby Boys Surfsilk Tijuana Boardshorts",
+      "brand": "Quiksilver",
+      "retailer_name": "Quiksilver",
+      "retailer_domain": "quiksilver.com",
+      "source_type": "official_brand",
+      "source_group": "surf_skate_official",
+      "marketplace": false,
+      "source_listing_url": "https://www.quiksilver.com/collections/boys",
+      "source_product_url": "https://www.quiksilver.com/products/baby-boys-surfsilk-tijuana-boardshorts",
+      "canonical_product_url": "https://www.quiksilver.com/products/baby-boys-surfsilk-tijuana-boardshorts",
+      "image_url": "https://media.quiksilver.com/is/image/Quiksilver/EQKBS03300_kvj0_front",
+      "additional_images": [],
+      "current_price": 34.0,
+      "original_price": null,
+      "currency": "USD",
+      "availability": "in_stock",
+      "category": "boardshorts",
+      "subcategory": "boardshorts",
+      "age_range": "boys",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T"
+      ],
+      "gender_target": "neutral",
+      "style_tags": [
+        "beach",
+        "surf"
+      ],
+      "discovered_at": "2026-03-29T04:25:36Z",
+      "last_checked_at": "2026-03-29T04:25:36Z",
+      "source_adapter": "fallback_catalog",
+      "is_active": true,
+      "validation_status": "soft_pass",
+      "validation_errors": [],
+      "relevance_score": 59,
+      "dedupe_key": "64054e771349467ec7072fa9fe4f5aea76598d39",
+      "seller_name": null,
+      "marketplace_confidence": null,
+      "marketplace_query_context": null,
+      "description_short": "Stretch surf boardshorts for tiny wave riders.",
+      "featured_score": 89,
+      "recently_updated": true
+    },
+    {
+      "id": "5285ba3c394c",
+      "slug": "hurley-boys-balance-hoodie-5285ba",
+      "title": "Boys Balance Hoodie",
+      "brand": "Hurley",
+      "retailer_name": "Hurley",
+      "retailer_domain": "hurley.com",
+      "source_type": "official_brand",
+      "source_group": "surf_skate_official",
+      "marketplace": false,
+      "source_listing_url": "https://www.hurley.com/collections/kids",
+      "source_product_url": "https://www.hurley.com/products/boys-balance-hoodie",
+      "canonical_product_url": "https://www.hurley.com/products/boys-balance-hoodie",
+      "image_url": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/fa3106002_1.jpg",
+      "additional_images": [],
+      "current_price": 39.5,
+      "original_price": null,
+      "currency": "USD",
+      "availability": "in_stock",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "age_range": "kids",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "gender_target": "neutral",
+      "style_tags": [
+        "hoodie",
+        "streetwear",
+        "surf"
+      ],
+      "discovered_at": "2026-03-29T04:25:36Z",
+      "last_checked_at": "2026-03-29T04:25:36Z",
+      "source_adapter": "fallback_catalog",
+      "is_active": true,
+      "validation_status": "soft_pass",
+      "validation_errors": [],
+      "relevance_score": 65,
+      "dedupe_key": "2af6791019ccfe4ad5e1351f7d4273fa512f3a5d",
+      "seller_name": null,
+      "marketplace_confidence": null,
+      "marketplace_query_context": null,
+      "description_short": "Washed surf hoodie for cool beach nights.",
+      "featured_score": 95,
+      "recently_updated": true
+    },
+    {
+      "id": "5b2d673b469e",
+      "slug": "billabong-girls-saltwater-dreams-tee-5b2d67",
+      "title": "Girls Saltwater Dreams Tee",
+      "brand": "Billabong",
+      "retailer_name": "Billabong",
+      "retailer_domain": "billabong.com",
+      "source_type": "official_brand",
+      "source_group": "surf_skate_official",
+      "marketplace": false,
+      "source_listing_url": "https://www.billabong.com/collections/kids-boys",
+      "source_product_url": "https://www.billabong.com/products/girls-saltwater-dreams-tee",
+      "canonical_product_url": "https://www.billabong.com/products/girls-saltwater-dreams-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/sp4106039_1.jpg",
+      "additional_images": [],
+      "current_price": 24.0,
+      "original_price": null,
+      "currency": "USD",
+      "availability": "in_stock",
+      "category": "tees",
+      "subcategory": "tees",
+      "age_range": "kids",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "gender_target": "neutral",
+      "style_tags": [
+        "alt",
+        "graphic",
+        "surf"
+      ],
+      "discovered_at": "2026-03-29T04:25:36Z",
+      "last_checked_at": "2026-03-29T04:25:36Z",
+      "source_adapter": "fallback_catalog",
+      "is_active": true,
+      "validation_status": "soft_pass",
+      "validation_errors": [],
+      "relevance_score": 59,
+      "dedupe_key": "ac90825546264aa0b8ad79e4c56133b6b7635919",
+      "seller_name": null,
+      "marketplace_confidence": null,
+      "marketplace_query_context": null,
+      "description_short": "Soft graphic tee with sunny surf energy.",
+      "featured_score": 89,
+      "recently_updated": true
+    }
+  ],
+  "sources": [
+    {
+      "adapter": "oneill_kids",
+      "source_label": "O'Neill",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "O'Neill",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://us.oneill.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "vans_little_kids_toddlers",
+      "source_label": "Vans",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Vans",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "quiksilver_boys",
+      "source_label": "Quiksilver",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Quiksilver",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.quiksilver.com/collections/boys: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "billabong_kids_boys",
+      "source_label": "Billabong",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Billabong",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.billabong.com/collections/kids-boys: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "hurley_kids",
+      "source_label": "Hurley",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Hurley",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.hurley.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "volcom_kids",
+      "source_label": "Volcom",
+      "source_group": "surf_skate_official",
+      "source_type": "official_brand",
+      "retailer_name": "Volcom",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.volcom.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "red_devil_kids",
+      "source_label": "Red Devil Clothing",
+      "source_group": "alt_punk_official",
+      "source_type": "alt_brand",
+      "retailer_name": "Red Devil Clothing",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://reddevilclothing.com/collections/all-kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "blackcraft_kids",
+      "source_label": "Blackcraft",
+      "source_group": "alt_punk_official",
+      "source_type": "alt_brand",
+      "retailer_name": "Blackcraft",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.blackcraftcult.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "teepublic_hardcore_punk_kids",
+      "source_label": "TeePublic Hardcore Punk",
+      "source_group": "marketplace",
+      "source_type": "marketplace",
+      "retailer_name": "TeePublic",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.teepublic.com/kids-t-shirt/hardcore-punk: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "teepublic_punk_rock_kids",
+      "source_label": "TeePublic Punk Rock",
+      "source_group": "marketplace",
+      "source_type": "marketplace",
+      "retailer_name": "TeePublic",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.teepublic.com/kids-t-shirt/punk-rock: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "etsy_kids_gothic",
+      "source_label": "Etsy Kids Gothic Clothing",
+      "source_group": "marketplace",
+      "source_type": "marketplace",
+      "retailer_name": "Etsy",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "top_rejection_reasons": [],
+      "notes": [
+        "listing failed https://www.etsy.com/market/kids_gothic_clothing: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    }
+  ],
+  "source_groups": {
+    "surf_skate_official": [
+      "O'Neill",
+      "Vans",
+      "Quiksilver",
+      "Billabong",
+      "Hurley",
+      "Volcom"
+    ],
+    "alt_punk_official": [
+      "Red Devil Clothing",
+      "Blackcraft"
+    ],
+    "marketplace": [
+      "TeePublic Hardcore Punk",
+      "TeePublic Punk Rock",
+      "Etsy Kids Gothic Clothing"
+    ]
+  },
+  "publish_rules": {
+    "listing_card_first": true,
+    "requires_real_source_product_url": true,
+    "requires_image": true,
+    "requires_price": true,
+    "requires_dead_link_check": true
+  },
+  "pipeline_debug": {
+    "discovered_candidates": 0,
+    "normalized_candidates": 0,
+    "validated_candidates": 0,
+    "published_products": 5,
+    "adapter_counts": {
+      "fallback_catalog": {
+        "discovered": 0,
+        "published": 5,
+        "rejected": 0
+      },
+      "oneill_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "vans_little_kids_toddlers": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "quiksilver_boys": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "billabong_kids_boys": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "hurley_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "volcom_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "red_devil_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "blackcraft_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "teepublic_hardcore_punk_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "teepublic_punk_rock_kids": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "etsy_kids_gothic": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      }
+    },
+    "top_rejection_reasons": [],
+    "duplicate_collisions": 0
+  },
+  "warnings": [
+    "Live adapters returned zero publishable products; serving curated fallback catalog snapshot."
+  ]
+}
