@@ -1,319 +1,104 @@
 {
-  "generated_at": "2026-03-28T21:02:13Z",
-  "product_count": 5,
-  "products": [
-    {
-      "id": "56d5d6721b3c",
-      "slug": "vans-toddler-checkerboard-slip-on-v-shoe",
-      "title": "Toddler Checkerboard Slip-On V Shoe",
-      "brand": "Vans",
-      "retailer_name": "Vans",
-      "retailer_domain": "vans.com",
-      "source_listing_url": "https://www.vans.com/en-us/kids-c00003/toddlers-c5011",
-      "source_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla",
-      "canonical_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-checkerboard-slip-on-v-shoe-pvn0a4vhrbla",
-      "image_url": "https://images.vans.com/is/image/Vans/VN0A4VHRBLA-HERO?$PDP-FULL-IMAGE$",
-      "additional_images": [],
-      "current_price": 40.0,
-      "original_price": null,
-      "currency": "USD",
-      "availability": "in_stock",
-      "category": "shoes",
-      "age_range": "2T-6T",
-      "sizes": [
-        "4T",
-        "5T",
-        "6T"
-      ],
-      "style_tags": [
-        "checkerboard",
-        "skate"
-      ],
-      "gender_target": "neutral",
-      "discovered_at": "2026-03-28T21:02:13Z",
-      "last_checked_at": "2026-03-28T21:02:13Z",
-      "source_adapter": "jsonld_product_page",
-      "is_active": true,
-      "validation_status": "soft_pass",
-      "validation_errors": [
-        "fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "image check: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "normalized from fallback snapshot; live page unavailable",
-        "product URL validation uncertain: <urlopen error Tunnel connection failed: 403 Forbidden>"
-      ],
-      "relevance_score": 92,
-      "dedupe_key": "d8419a72a7bfa18ce04d3604c44e8baf0c7e410c",
-      "description_short": "Classic checkerboard skate style scaled for little feet.",
-      "featured_score": 92,
-      "recently_updated": true
-    },
-    {
-      "id": "74bea2d56aa9",
-      "slug": "vans-toddler-ward-shoe",
-      "title": "Toddler Ward Shoe",
-      "brand": "Vans",
-      "retailer_name": "Vans",
-      "retailer_domain": "vans.com",
-      "source_listing_url": "https://www.vans.com/en-us/kids-c00003/toddlers-c5011",
-      "source_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka",
-      "canonical_product_url": "https://www.vans.com/en-us/shoes-c00081/toddler-ward-shoe-pvn000d3ybka",
-      "image_url": "https://images.vans.com/is/image/Vans/VN000D3YBKA-HERO?$PDP-FULL-IMAGE$",
-      "additional_images": [],
-      "current_price": 38.0,
-      "original_price": null,
-      "currency": "USD",
-      "availability": "in_stock",
-      "category": "shoes",
-      "age_range": "2T-6T",
-      "sizes": [
-        "4T",
-        "5T",
-        "6T"
-      ],
-      "style_tags": [
-        "skate",
-        "streetwear"
-      ],
-      "gender_target": "neutral",
-      "discovered_at": "2026-03-28T21:02:13Z",
-      "last_checked_at": "2026-03-28T21:02:13Z",
-      "source_adapter": "jsonld_product_page",
-      "is_active": true,
-      "validation_status": "soft_pass",
-      "validation_errors": [
-        "fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "image check: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "normalized from fallback snapshot; live page unavailable",
-        "product URL validation uncertain: <urlopen error Tunnel connection failed: 403 Forbidden>"
-      ],
-      "relevance_score": 80,
-      "dedupe_key": "03a3c9c0b9583749f8c1cbd21e9527c0c0a9a2ab",
-      "description_short": "Low-profile toddler skate sneaker with durable upper.",
-      "featured_score": 80,
-      "recently_updated": true
-    },
-    {
-      "id": "4e07474ea71e",
-      "slug": "quiksilver-baby-boys-surfsilk-tijuana-boardshorts",
-      "title": "Baby Boys Surfsilk Tijuana Boardshorts",
-      "brand": "Quiksilver",
-      "retailer_name": "Quiksilver",
-      "retailer_domain": "quiksilver.com",
-      "source_listing_url": "https://www.quiksilver.com/kids/",
-      "source_product_url": "https://www.quiksilver.com/baby-boys-2-7-surfsilk-tijuana-boardshorts-EQKBS03300.html",
-      "canonical_product_url": "https://www.quiksilver.com/baby-boys-2-7-surfsilk-tijuana-boardshorts-EQKBS03300.html",
-      "image_url": "https://media.quiksilver.com/is/image/Quiksilver/EQKBS03300_kvj0_front",
-      "additional_images": [],
-      "current_price": 34.0,
-      "original_price": null,
-      "currency": "USD",
-      "availability": "in_stock",
-      "category": "boardshorts",
-      "age_range": "2T-7",
-      "sizes": [
-        "2T",
-        "3T",
-        "4T"
-      ],
-      "style_tags": [
-        "beach",
-        "surf"
-      ],
-      "gender_target": "neutral",
-      "discovered_at": "2026-03-28T21:02:13Z",
-      "last_checked_at": "2026-03-28T21:02:13Z",
-      "source_adapter": "jsonld_product_page",
-      "is_active": true,
-      "validation_status": "soft_pass",
-      "validation_errors": [
-        "fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "image check: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "normalized from fallback snapshot; live page unavailable",
-        "product URL validation uncertain: <urlopen error Tunnel connection failed: 403 Forbidden>"
-      ],
-      "relevance_score": 66,
-      "dedupe_key": "c010899bb7395da58ac7b7e60cec923305d23398",
-      "description_short": "Stretch surf boardshorts for tiny wave riders.",
-      "featured_score": 66,
-      "recently_updated": true
-    },
-    {
-      "id": "317cdd1875ea",
-      "slug": "o-neill-girls-saltwater-dreams-tee",
-      "title": "Girls Saltwater Dreams Tee",
-      "brand": "O'Neill",
-      "retailer_name": "O'Neill",
-      "retailer_domain": "us.oneill.com",
-      "source_listing_url": "https://us.oneill.com/collections/little-boys",
-      "source_product_url": "https://us.oneill.com/products/sp4106039-girls-saltwater-dreams-tee",
-      "canonical_product_url": "https://us.oneill.com/products/sp4106039-girls-saltwater-dreams-tee",
-      "image_url": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/sp4106039_1.jpg",
-      "additional_images": [],
-      "current_price": 24.0,
-      "original_price": null,
-      "currency": "USD",
-      "availability": "in_stock",
-      "category": "tees",
-      "age_range": "2T-7",
-      "sizes": [
-        "2T",
-        "3T",
-        "4T",
-        "5T"
-      ],
-      "style_tags": [
-        "graphic",
-        "punk",
-        "surf"
-      ],
-      "gender_target": "neutral",
-      "discovered_at": "2026-03-28T21:02:13Z",
-      "last_checked_at": "2026-03-28T21:02:13Z",
-      "source_adapter": "jsonld_product_page",
-      "is_active": true,
-      "validation_status": "soft_pass",
-      "validation_errors": [
-        "fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "image check: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "normalized from fallback snapshot; live page unavailable",
-        "product URL validation uncertain: <urlopen error Tunnel connection failed: 403 Forbidden>"
-      ],
-      "relevance_score": 64,
-      "dedupe_key": "28003430c794f2582a5acb9a2543538fd258f7eb",
-      "description_short": "Soft graphic tee with sunny surf energy.",
-      "featured_score": 64,
-      "recently_updated": true
-    },
-    {
-      "id": "ad45179aacab",
-      "slug": "o-neill-boys-balance-hoodie",
-      "title": "Boys Balance Hoodie",
-      "brand": "O'Neill",
-      "retailer_name": "O'Neill",
-      "retailer_domain": "us.oneill.com",
-      "source_listing_url": "https://us.oneill.com/collections/little-boys",
-      "source_product_url": "https://us.oneill.com/products/fa3106002-boyss-balance-hoodie",
-      "canonical_product_url": "https://us.oneill.com/products/fa3106002-boyss-balance-hoodie",
-      "image_url": "https://cdn.shopify.com/s/files/1/0021/9385/5133/files/fa3106002_1.jpg",
-      "additional_images": [],
-      "current_price": 39.5,
-      "original_price": null,
-      "currency": "USD",
-      "availability": "in_stock",
-      "category": "hoodies",
-      "age_range": "2T-7",
-      "sizes": [
-        "2T",
-        "3T",
-        "4T",
-        "5T"
-      ],
-      "style_tags": [
-        "streetwear",
-        "surf"
-      ],
-      "gender_target": "neutral",
-      "discovered_at": "2026-03-28T21:02:13Z",
-      "last_checked_at": "2026-03-28T21:02:13Z",
-      "source_adapter": "jsonld_product_page",
-      "is_active": true,
-      "validation_status": "soft_pass",
-      "validation_errors": [
-        "fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "image check: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "normalized from fallback snapshot; live page unavailable",
-        "product URL validation uncertain: <urlopen error Tunnel connection failed: 403 Forbidden>"
-      ],
-      "relevance_score": 52,
-      "dedupe_key": "2c8884fd64195f38777faabd571fafa9373e7768",
-      "description_short": "Washed surf hoodie for cool beach nights.",
-      "featured_score": 52,
-      "recently_updated": true
-    }
-  ],
+  "generated_at": "2026-03-29T04:10:56Z",
+  "product_count": 0,
+  "products": [],
   "sources": [
     {
       "adapter": "vans_kids_listing",
       "retailer_name": "Vans",
       "enabled": true,
       "listing_fetch_ok": 0,
-      "listing_fetch_failed": 2,
-      "discovered_count": 2,
-      "backup_used": true,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
       "notes": [
-        "listing failed https://www.vans.com/en-us/kids-c00003/toddlers-c5011: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "listing failed https://www.vans.com/en-us/search/product?q=toddler: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "no listing links; using backup candidates"
-      ]
+        "listing failed https://www.vans.com/en-us/c/kids/clothing/little-kids-and-toddlers-3202: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
     },
     {
-      "adapter": "quiksilver_baby_listing",
-      "retailer_name": "Quiksilver",
+      "adapter": "reddevil_kids_listing",
+      "retailer_name": "Red Devil Clothing",
       "enabled": true,
       "listing_fetch_ok": 0,
-      "listing_fetch_failed": 2,
-      "discovered_count": 1,
-      "backup_used": true,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
       "notes": [
-        "listing failed https://www.quiksilver.com/kids/: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "listing failed https://www.quiksilver.com/search?q=baby: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "no listing links; using backup candidates"
-      ]
+        "listing failed https://reddevilclothing.com/collections/all-kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
+    },
+    {
+      "adapter": "teepublic_punk_kids_listing",
+      "retailer_name": "TeePublic",
+      "enabled": true,
+      "listing_fetch_ok": 0,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
+      "notes": [
+        "listing failed https://www.teepublic.com/kids-t-shirt/punk: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
     },
     {
       "adapter": "oneill_kids_listing",
       "retailer_name": "O'Neill",
       "enabled": true,
       "listing_fetch_ok": 0,
-      "listing_fetch_failed": 2,
-      "discovered_count": 2,
-      "backup_used": true,
+      "listing_fetch_failed": 1,
+      "discovered_count": 0,
+      "published_count": 0,
+      "rejected_count": 0,
       "notes": [
-        "listing failed https://us.oneill.com/collections/little-boys: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "listing failed https://us.oneill.com/collections/little-girls: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        "no listing links; using backup candidates"
-      ]
+        "listing failed https://us.oneill.com/collections/kids: <urlopen error Tunnel connection failed: 403 Forbidden>",
+        "no listing cards extracted"
+      ],
+      "sample_accepted": []
     }
   ],
   "publish_rules": {
-    "requires_is_active": true,
-    "allowed_validation_statuses": [
-      "passed",
-      "soft_pass"
-    ],
-    "minimum_relevance_score": 35
+    "listing_card_first": true,
+    "requires_real_source_product_url": true,
+    "requires_image": true,
+    "requires_price": true,
+    "requires_dead_link_check": true
   },
   "pipeline_debug": {
-    "discovered_candidates": 5,
-    "normalized_candidates": 5,
-    "validated_candidates": 5,
-    "published_products": 5,
+    "discovered_candidates": 0,
+    "normalized_candidates": 0,
+    "validated_candidates": 0,
+    "published_products": 0,
     "adapter_counts": {
-      "jsonld_product_page": {
-        "discovered": 5,
-        "accepted": 5,
+      "Vans": {
+        "discovered": 0,
+        "published": 0,
         "rejected": 0
       },
-      "normalize": {
+      "Red Devil Clothing": {
         "discovered": 0,
-        "accepted": 0,
-        "rejected": 5
+        "published": 0,
+        "rejected": 0
+      },
+      "TeePublic": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
+      },
+      "O'Neill": {
+        "discovered": 0,
+        "published": 0,
+        "rejected": 0
       }
     },
-    "top_rejection_reasons": [
-      [
-        "fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>",
-        5
-      ],
-      [
-        "normalized from fallback snapshot; live page unavailable",
-        5
-      ]
-    ],
-    "products_missing_price": 0,
-    "products_missing_image": 0,
-    "products_redirected_away_from_pdp": 0,
-    "duplicate_collisions": 0,
-    "duplicate_examples": []
+    "top_rejection_reasons": [],
+    "duplicate_collisions": 0
   }
 }
