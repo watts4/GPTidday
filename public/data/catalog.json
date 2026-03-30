@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-30T02:51:54Z",
-  "product_count": 212,
+  "generated_at": "2026-03-30T03:03:58Z",
+  "product_count": 214,
   "products": [
     {
       "id": "14dd351ee580",
@@ -7272,6 +7272,69 @@
       "description_short": "Experience modern street style with a fitted women\u2019s tee crafted from soft 100% cotton. Ideal for layering or solo wear,",
       "source_adapter": "shopify_api",
       "validation_status": "passed"
+    },
+    {
+      "id": "7220441cde7c",
+      "slug": "blackcraft-baby-bat-blackcraft-toddler-tee-722044",
+      "title": "Baby Bat Blackcraft Toddler Tee",
+      "brand": "Blackcraft",
+      "retailer_name": "Blackcraft",
+      "retailer_domain": "blackcraftcult.com",
+      "source_type": "official_brand",
+      "source_group": "punk_alt_official",
+      "marketplace": false,
+      "source_listing_url": "https://blackcraftcult.com/collections/kids",
+      "source_product_url": "https://blackcraftcult.com/products/baby-bat-blackcraft-toddler-tee",
+      "canonical_product_url": "https://blackcraftcult.com/products/baby-bat-blackcraft-toddler-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0660/0091/files/toddler-staple-tee-black-front-698676b2207a2.png?v=1770419911",
+      "additional_images": [],
+      "current_price": 30.0,
+      "currency": "USD",
+      "availability": "in_stock",
+      "sizes": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "category": "t-shirts",
+      "age_range": "kids",
+      "style_tags": [],
+      "description_short": "<p><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', s",
+      "source_adapter": "shopify_api",
+      "validation_status": "passed"
+    },
+    {
+      "id": "4c16f2ada080",
+      "slug": "blackcraft-baby-bat-blackcraft-youth-tee-4c16f2",
+      "title": "Baby Bat Blackcraft Youth Tee",
+      "brand": "Blackcraft",
+      "retailer_name": "Blackcraft",
+      "retailer_domain": "blackcraftcult.com",
+      "source_type": "official_brand",
+      "source_group": "punk_alt_official",
+      "marketplace": false,
+      "source_listing_url": "https://blackcraftcult.com/collections/kids",
+      "source_product_url": "https://blackcraftcult.com/products/baby-bat-blackcraft-youth-tee",
+      "canonical_product_url": "https://blackcraftcult.com/products/baby-bat-blackcraft-youth-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0660/0091/files/youth-classic-tee-black-front-698676a894bad.png?v=1770419899",
+      "additional_images": [],
+      "current_price": 30.0,
+      "currency": "USD",
+      "availability": "in_stock",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "category": "t-shirts",
+      "age_range": "kids",
+      "style_tags": [],
+      "description_short": "<p data-pm-slice=\"1 1 []\">A classic fit short sleeve youth tee made with 100% cotton, giving it a soft hand feel and a d",
+      "source_adapter": "shopify_api",
+      "validation_status": "passed"
     }
   ],
   "sources": [
@@ -7304,6 +7367,11 @@
       "adapter": "rvca",
       "domain": "www.rvca.com",
       "products_fetched": 7
+    },
+    {
+      "adapter": "blackcraft",
+      "domain": "blackcraftcult.com",
+      "products_fetched": 2
     }
   ],
   "warnings": []

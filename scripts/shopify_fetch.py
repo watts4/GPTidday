@@ -20,42 +20,29 @@ import urllib.error
 from datetime import datetime, timezone
 
 SHOPIFY_STORES = [
-    {
-        "brand": "Quiksilver",
-        "domain": "www.quiksilver.com",
-        "source_group": "surf_skate_official",
-    },
-    {
-        "brand": "Billabong",
-        "domain": "www.billabong.com",
-        "source_group": "surf_skate_official",
-    },
-    {
-        "brand": "Hurley",
-        "domain": "www.hurley.com",
-        "source_group": "surf_skate_official",
-    },
-    {
-        "brand": "Volcom",
-        "domain": "www.volcom.com",
-        "source_group": "surf_skate_official",
-    },
-    {
-        "brand": "Roxy",
-        "domain": "www.roxy.com",
-        "source_group": "surf_skate_official",
-    },
-    {
-        "brand": "RVCA",
-        "domain": "www.rvca.com",
-        "source_group": "surf_skate_official",
-    },
+    # Surf / skate brands
+    {"brand": "Quiksilver", "domain": "www.quiksilver.com", "source_group": "surf_skate_official"},
+    {"brand": "Billabong",  "domain": "www.billabong.com",  "source_group": "surf_skate_official"},
+    {"brand": "Hurley",     "domain": "www.hurley.com",     "source_group": "surf_skate_official"},
+    {"brand": "Volcom",     "domain": "www.volcom.com",     "source_group": "surf_skate_official"},
+    {"brand": "Roxy",       "domain": "www.roxy.com",       "source_group": "surf_skate_official"},
+    {"brand": "RVCA",       "domain": "www.rvca.com",       "source_group": "surf_skate_official"},
+    # Punk / alternative brands
+    {"brand": "Blackcraft", "domain": "blackcraftcult.com", "source_group": "punk_alt_official"},
 ]
 
-# Keywords that indicate a kids/youth/toddler product
+# Keywords that indicate an infant/toddler/young kids product
 KID_KEYWORDS = {
-    "kids", "kid", "youth", "toddler", "toddlers", "baby", "infant", "children",
-    "child", "boys", "girls", "little", "junior", "mini", "tiny", "grom",
+    "toddler", "toddlers", "baby", "infant", "infants", "little", "tiny",
+    "grom", "kids", "kid", "children", "child", "boys", "girls", "youth", "junior", "mini",
+}
+
+# For surf/skate brands, any kids item qualifies (the brand itself is the style signal).
+# For punk/alt brands, require explicit style keywords in the product text.
+STYLE_KEYWORDS = {
+    "punk", "skull", "skeleton", "bat", "gothic", "goth", "rock", "metal",
+    "band", "horror", "dark", "tattoo", "occult", "witch", "vampire",
+    "surf", "skate", "board", "wave", "beach", "rash", "wetsuit", "checkerboard",
 }
 
 HEADERS = {
@@ -75,8 +62,17 @@ def is_kids_product(product: dict) -> bool:
         product.get("vendor", ""),
         " ".join(product.get("tags", [])),
     ]).lower()
+    return any(kw in text for kw in KID_KEYWORDS)
 
-    return any(kw in text.split() or kw in text for kw in KID_KEYWORDS)
+
+def has_style_relevance(product: dict) -> bool:
+    """Return True if the product has surf/skate/punk style signals."""
+    text = " ".join([
+        product.get("title", ""),
+        product.get("product_type", ""),
+        " ".join(product.get("tags", [])),
+    ]).lower()
+    return any(kw in text for kw in STYLE_KEYWORDS)
 
 
 def fetch_products(store: dict, max_pages: int = 5) -> list:
@@ -189,7 +185,11 @@ def main():
     for store in SHOPIFY_STORES:
         print(f"\nFetching {store['brand']} ({store['domain']})...")
         raw_products = fetch_products(store, max_pages=args.max_pages)
-        kids_products = [p for p in raw_products if is_kids_product(p)]
+        is_punk = store["source_group"] == "punk_alt_official"
+        kids_products = [
+            p for p in raw_products
+            if is_kids_product(p) and (not is_punk or has_style_relevance(p))
+        ]
         print(f"  {len(raw_products)} total → {len(kids_products)} kids items")
 
         normalized = []
