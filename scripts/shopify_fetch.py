@@ -172,7 +172,7 @@ def normalize_product(raw: dict, store: dict) -> dict | None:
         "style_tags": style_tags,
         "description_short": raw.get("body_html", "")[:120].replace("<[^>]+>", "").strip() if raw.get("body_html") else "",
         "source_adapter": "shopify_api",
-        "validation_status": "verified",
+        "validation_status": "passed",
     }
 
 

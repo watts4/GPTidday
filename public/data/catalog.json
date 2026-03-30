@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T02:40:09Z",
+  "generated_at": "2026-03-30T02:51:54Z",
   "product_count": 212,
   "products": [
     {
@@ -30,7 +30,7 @@
       ],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e570bc80e2e5",
@@ -62,7 +62,7 @@
       ],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d3b36be51b13",
@@ -98,7 +98,7 @@
       "style_tags": [],
       "description_short": "<p>Our Mini Dimensions Classic Short Sleeve Shirt keeps it lightweight and casual in 100% cotton poplin. Styled with a c",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "20d97045c13c",
@@ -134,7 +134,7 @@
       "style_tags": [],
       "description_short": "<p>Our classic soft cotton tee: the perfectly versatile mini essential for everyday adventures. A comfy, classic-styled",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d8d62c67a497",
@@ -170,7 +170,7 @@
       "style_tags": [],
       "description_short": "<p>Our Mini Dimensions Classic Short Sleeve Shirt keeps it lightweight and casual in 100% cotton poplin. Styled with a c",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0abe7c43ceaf",
@@ -206,7 +206,7 @@
       "style_tags": [],
       "description_short": "<p>Part of the Billabong x Lottie Hall collection, the Woven Mini Skirt channels Lottie\u2019s free-spirited, hand-drawn arti",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9152540ba86a",
@@ -242,7 +242,7 @@
       "style_tags": [],
       "description_short": "<p>The Billabong x Lottie Hall You're A Star Dress brings playful personality and artistic expression to a classic mini",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "abddc234ca08",
@@ -278,7 +278,7 @@
       "style_tags": [],
       "description_short": "<p>Bringing Lottie\u2019s artistic sensibility into an effortless summer silhouette, the Billabong x Lottie Hall Woven Dress",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "91d7742aa62b",
@@ -312,7 +312,7 @@
       ],
       "description_short": "<p>Made for those who set the rules, our Cool Girls Only tee features premium 100% cotton for all-day comfort. This snug",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "29dc0925fe40",
@@ -346,7 +346,7 @@
       "style_tags": [],
       "description_short": "<p>Seersucker and ruffles \u2014 could she be any sweeter? Our Sweet As Ever mini dress has a floaty silhouette with adjustab",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "4059f98fa829",
@@ -382,7 +382,7 @@
       "style_tags": [],
       "description_short": "<p>Our Sunny Sometimes Dress is a stylish halter mini with a smocked back and self-tie neck detail. The cotton viscose s",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "3386a8430944",
@@ -415,7 +415,7 @@
       "style_tags": [],
       "description_short": "<p>Our Sunny Sometimes Dress is a stylish halter mini with a smocked back and self-tie neck detail. The cotton viscose s",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c4971e47d982",
@@ -445,7 +445,7 @@
       "style_tags": [],
       "description_short": "<p>Your search for the perfect summer mini ends here \u2014 our Summer Love Dress in beautiful Red Dahlia features a breezy l",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ae4a851374bd",
@@ -481,7 +481,7 @@
       "style_tags": [],
       "description_short": "<p>Complement your sunkissed glow with our Sun Rays Mini Dress crafted from 100% cotton crosshatch fabric. The breezy, r",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6261838b5963",
@@ -517,7 +517,7 @@
       "style_tags": [],
       "description_short": "<p>Our lightweight viscose So Bright Mini Dress radiates golden peach in a fitted silhouette adorned with allover smocki",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "109cb28607ca",
@@ -552,7 +552,7 @@
       "style_tags": [],
       "description_short": "<p>Our flirty mini dress combines a fitted bodice with an easy, flowing skirt. The crinkle viscose fabric feels amazing,",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "bc0084f15adf",
@@ -588,7 +588,7 @@
       "style_tags": [],
       "description_short": "<p>Our 100% cotton double slub gauze women's dress defines casual-cool with a relaxed silhouette, fitted bodice and flow",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "24cc6ccbbb43",
@@ -624,7 +624,7 @@
       "style_tags": [],
       "description_short": "<p>Our 100% cotton double slub gauze women's dress defines casual-cool with a relaxed silhouette, fitted bodice and flow",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "572daa2d7a99",
@@ -658,7 +658,7 @@
       "style_tags": [],
       "description_short": "<p>Our Mini Slide Triangle top puts you in control with adjustable straps and back ties. Made with partially recycled ma",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "68a7e5699154",
@@ -693,7 +693,7 @@
       "style_tags": [],
       "description_short": "<p>We love florals and a faux wrap skirt. Combine them with floaty viscose poplin fabric and an invisible back zipper? S",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "92a0413f8d7c",
@@ -725,7 +725,7 @@
       ],
       "description_short": "<p>Our breezy cotton-linen mini dress keeps things effortlessly cool with a flattering scoop neck and adjustable self-ti",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1bb54132f000",
@@ -759,7 +759,7 @@
       "style_tags": [],
       "description_short": "<p>Keep your options open and your style on point with our Salty Waves Reversible Mini Slide Triangle Bikini Top. Featur",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0a7395c22aca",
@@ -789,7 +789,7 @@
       "style_tags": [],
       "description_short": "<p>Textured checks, shirring details, and underwire support? Yes, please. Our Mini Wave Check bikini top offers full bus",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "4b28476d2507",
@@ -823,7 +823,7 @@
       "style_tags": [],
       "description_short": "<p>Featuring textured check fabric and pretty shirring detail at the neck, our Mini Wave Check Teagan Bralette is ready",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7f36df862548",
@@ -856,7 +856,7 @@
       "style_tags": [],
       "description_short": "<p>Our Mini Wave Check Low Tide bikini bottom features a flattering high-leg fit with skimpy coverage for maximum sun. T",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "f6f3b439a0c2",
@@ -889,7 +889,7 @@
       "style_tags": [],
       "description_short": "<p>Turn heads in our Agua Flores Sunni Tiny Bikini Bottom. The ultra-skimpy cut and high leg design create a flattering",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "fc8dff781d4f",
@@ -919,7 +919,7 @@
       "style_tags": [],
       "description_short": "<p>Big tan lines? Not here. Our Sol Playa Sunni Tiny Bikini Bottom is an ultra-skimpy thong style with a flattering high",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "84e19cdcb6a1",
@@ -951,7 +951,7 @@
       "style_tags": [],
       "description_short": "<p>Our Mini Wave Check Tropic Medium Bikini Bottom sits low on the hips with just the right amount of coverage for your",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "66e742c06445",
@@ -989,7 +989,7 @@
       ],
       "description_short": "<p>Float from beach to boardwalk in our breezy Beach Song Printed Mini Dress. The lightweight viscose fabric keeps you c",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e03ac302bc56",
@@ -1025,7 +1025,7 @@
       "style_tags": [],
       "description_short": "<p>Perfect for over-swim or just out and about, our Kora Mini Dress delivers perfect warm-weather style with its crochet",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "adf7c959681e",
@@ -1061,7 +1061,7 @@
       "style_tags": [],
       "description_short": "<p>Drift through summer in our Hallow Wave Mini Short Sleeve dress. This relaxed mini has an easy, boxy fit with a wide",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "5a8755ffc597",
@@ -1099,7 +1099,7 @@
       ],
       "description_short": "<p>Bounce from beach to boardwalk in our Beach Song Solid Mini Dress. The airy viscose-blend fabric has a floaty shape t",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c87a571a73e9",
@@ -1136,7 +1136,7 @@
       ],
       "description_short": "<p>Enhance your natural shine with our Summer Glow Mini Dress. In a perfect body-skimming shape with smocking at the bac",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "73445eca4852",
@@ -1172,7 +1172,7 @@
       ],
       "description_short": "<p>Sweet and snug, our Bright Side Mini Dress hugs your curves with body-con fit and all-over elastic smocking. The wove",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "a4b207a3725f",
@@ -1208,7 +1208,7 @@
       ],
       "description_short": "<p>Our True Love Mini Dress blends comfort and style with a smocked bodice that hugs in all the right places. The cotton",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "aa53f021a184",
@@ -1243,7 +1243,7 @@
       ],
       "description_short": "<p>Strike the perfect balance of flirty and feminine in our True Desire Mini Dress. The cotton-linen blend keeps you coo",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0c9b5b4cf893",
@@ -1275,7 +1275,7 @@
       ],
       "description_short": "<p>Dive into summer with our Le Surf Le Love Maya bikini bottom. This ultra-skimpy style features cute side ties for a p",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "cff57b2a0112",
@@ -1313,7 +1313,7 @@
       ],
       "description_short": "<p>A playful silhouette meets palm tree perfection \u2014 our Tidal Crush mini dress is a dreamy look for your next sunset so",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "3b85ad0f10da",
@@ -1348,7 +1348,7 @@
       ],
       "description_short": "<p>Float through your day in our In The Sky Mini Dress. The viscose poplin fabric feels light against your skin, while t",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8f04bcb76851",
@@ -1385,7 +1385,7 @@
       ],
       "description_short": "<p>Our Lima Mini Dress brings playful charm with its front cut-out detail and self-tie accents. The cotton-linen blend k",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "028540df4ddf",
@@ -1417,7 +1417,7 @@
       ],
       "description_short": "<p>Our Date Palm Crossbody Mini Straw Tote brings beachy vibes to your everyday style. This medium-sized bag is made of",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1774bf65572f",
@@ -1453,7 +1453,7 @@
       ],
       "description_short": "<p>Whether you're heading for a surf or just looking for a little more coverage, you're sure to fall for our Last Summer",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b82ef2b3f4ec",
@@ -1487,7 +1487,7 @@
       "style_tags": [],
       "description_short": "<p>Catch rays in our Mini Slide Triangle Bikini Top with skimpy coverage and maximum bronzing potential. O-ring slider s",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "582adb74e3ed",
@@ -1523,7 +1523,7 @@
       "style_tags": [],
       "description_short": "<p>The mini dress of your dreams \u2014 our Dream Life long-sleeve mini dress has a fitted, bodycon shape that hugs your curv",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "dfad60ba9069",
@@ -1559,7 +1559,7 @@
       "style_tags": [],
       "description_short": "<p>Float through your day in our Sweet Dream Mini Dress. Pure cotton comfort in a playful print, featuring a breezy silh",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1f37bac94ce0",
@@ -1594,7 +1594,7 @@
       "style_tags": [],
       "description_short": "<p>Dare to bare it all with our Des Tropiques Sunni Scrunch Tiny Bikini Bottom. The ultra-skimpy cut and high leg create",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "55f5db65fa40",
@@ -1629,7 +1629,7 @@
       "style_tags": [],
       "description_short": "<p>Our Last Sunset Mini Dress pairs a fitted bodice with a flowy skirt for an effortlessly flattering look. The twist-fr",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ed5eb17c19e3",
@@ -1665,7 +1665,7 @@
       "style_tags": [],
       "description_short": "<p>Summer vibes come alive in our Tropical Haze Mini Dress. The smocked bodice creates a flattering fit while the easy s",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "48a7e9b437a5",
@@ -1701,7 +1701,7 @@
       "style_tags": [],
       "description_short": "<p>Sweet style meets flirty details in our Floral Trip Mini Dress. The body-skimming silhouette features side cut-outs w",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "30e5f9a95bee",
@@ -1736,7 +1736,7 @@
       "style_tags": [],
       "description_short": "<p>Keep it pretty and playful in our Suns Out mini dress in Cactus. The cotton-linen fabric keeps you cool while the smo",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "49c4ad4163b0",
@@ -1772,7 +1772,7 @@
       "style_tags": [],
       "description_short": "<p>Keep it pretty and playful in our Suns Out mini dress in classic Black. The cotton-linen fabric keeps you cool while",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8cbab66265a3",
@@ -1805,7 +1805,7 @@
       "style_tags": [],
       "description_short": "<p>Your search for the perfect summer mini ends here \u2014 our Summer Love Dress in Salt Crystal features a breezy linen-ble",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "528ff8100420",
@@ -1837,7 +1837,7 @@
       "style_tags": [],
       "description_short": "<p>Your search for the perfect summer mini ends here \u2014 our Summer Love Dress in Black features a breezy linen-blend fabr",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "09a8abcbb992",
@@ -1870,7 +1870,7 @@
       "style_tags": [],
       "description_short": "<p>Breezy summer vibes come alive in our Midnight Wave cotton-linen mini dress with a body-skimming silhouette. The doub",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b501c2eb5281",
@@ -1904,7 +1904,7 @@
       "style_tags": [],
       "description_short": "<p>Our You Stunner knit mini dress brings the perfect beachy vibe to your summer closet. Featuring a straight neckline a",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "4d459d0c79ba",
@@ -1940,7 +1940,7 @@
       "style_tags": [],
       "description_short": "Embrace effortless coastal style with this fitted baby tee that brings together comfort and versatility for your everyda",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "cadcd281aedd",
@@ -1973,7 +1973,7 @@
       "style_tags": [],
       "description_short": "Slide into easy breezy vibes in this expressive mini dress, showcasing intricate crochet detailing and chic embroidery t",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2b8ae271730d",
@@ -2009,7 +2009,7 @@
       "style_tags": [],
       "description_short": "Step into sun-drenched days with this effortlessly chic mini dress, designed to keep you cool and stylish wherever you g",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6b45fc920ba1",
@@ -2045,7 +2045,7 @@
       "style_tags": [],
       "description_short": "This vintage-inspired ringer baby tee brings retro vibes with its classic fitted silhouette and contrasting trim details",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8a75f7c0b519",
@@ -2078,7 +2078,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0dfcef5fa973",
@@ -2113,7 +2113,7 @@
       "style_tags": [],
       "description_short": "<p>Turn heads with this effortlessly chic mini dress that brings tropical vibes to your everyday wardrobe. The flatterin",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9d3eeccfbcd2",
@@ -2151,7 +2151,7 @@
       ],
       "description_short": "Turn heads at the beach with the sleek design of our mini rib swim bottom, boasting a trendy scoop knot for a comfortabl",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "74e490b91dab",
@@ -2189,7 +2189,7 @@
       ],
       "description_short": "Get ready to soak up the sun with confidence in this skimpy swimwear bottom, designed for a sleek fit and a bold V front",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9c510b304966",
@@ -2227,7 +2227,7 @@
       ],
       "description_short": "<p>Make waves in our mini rib knot tie swim top, where sleek style meets ultimate comfort. Designed with versatility and",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7f9fa8c38b76",
@@ -2265,7 +2265,7 @@
       ],
       "description_short": "Hit the waves with confidence and style in this sleek and versatile bandeau top, designed for both comfort and flair whe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6eeb83b6ee2d",
@@ -2300,7 +2300,7 @@
       "style_tags": [],
       "description_short": "<p>Performance comfort from park to beach.</p>\n<p>These knit shorts are built for active kids who never slow down. The H",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2cc9aa529832",
@@ -2335,7 +2335,7 @@
       "style_tags": [],
       "description_short": "<p>Everyday comfort with room to move.</p>\n<p>These pull-on shorts are built for kids on the go. Stretch twill gives the",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0c5b51a392d2",
@@ -2370,7 +2370,7 @@
       "style_tags": [],
       "description_short": "<p>A classic polo built for play.</p>\n<p>This space-dye polo keeps kids looking sharp while staying active. The H2O-Dri",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d665f9946360",
@@ -2406,7 +2406,7 @@
       "style_tags": [],
       "description_short": "<p>Bright style, built for water play.</p>\n<p>This floral bikini keeps kids protected and comfortable from poolside to b",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ddb4fd7f5250",
@@ -2441,7 +2441,7 @@
       "style_tags": [],
       "description_short": "<p>Built tough, made to move.</p>\n<p>These cargo pants are ready for every adventure. The H2O-Dri nylon stretch weave ke",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "acf103aad8eb",
@@ -2469,7 +2469,7 @@
       "style_tags": [],
       "description_short": "These performance sunglasses are built for young surfers and skaters who demand style and protection in equal measure. D",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7bc873be1f2d",
@@ -2501,7 +2501,7 @@
       "style_tags": [],
       "description_short": "<p>Sun protection that moves with them.</p>\n<p>This long sleeve top is built for active days outdoors. The H2O-Dri jerse",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b5d671913310",
@@ -2531,7 +2531,7 @@
       "style_tags": [],
       "description_short": "<p>Stay cool, stay covered.</p>\n<p>Built for active days in and out of the water, this UPF shirt combines sun protection",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "f48b0668aa1b",
@@ -2567,7 +2567,7 @@
       "style_tags": [],
       "description_short": "This cropped baby tee delivers that effortless surf-inspired style with a fitted silhouette that's perfect for layering",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "bc216598b3df",
@@ -2603,7 +2603,7 @@
       "style_tags": [],
       "description_short": "This classic ringer baby tee brings retro vibes with a modern twist, featuring contrast trim details that add the perfec",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9dba8da775a0",
@@ -2639,7 +2639,7 @@
       "style_tags": [],
       "description_short": "Embrace effortless beach-to-street style with this flowing mini dress that captures the laid-back coastal vibe you crave",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c29d8a7dda6e",
@@ -2673,7 +2673,7 @@
       ],
       "description_short": "<p>Freedom to move, made for the water.</p>\n<p>These swim shorts are built for comfort and play all day. The 4-way stret",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "657b7ae8d0f7",
@@ -2703,7 +2703,7 @@
       "style_tags": [],
       "description_short": "The Marina V Neck Mini Dress is your go-to piece for effortless beach days. This versatile mini combines a flattering v-",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d1bb5d2ad838",
@@ -2739,7 +2739,7 @@
       ],
       "description_short": "<ul>\n<li><span>SHORT SLEEVE </span></li>\n<li><span>CREW NECK </span></li>\n<li>\n<span>SELF FABRIC NECK BINDING</span><spa",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2339ebaa6cf1",
@@ -2769,7 +2769,7 @@
       "style_tags": [],
       "description_short": "<p>Quick-dry comfort, built to move.</p>\n<p>These walkshorts are ready for school days, weekend hangs, and everything in",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6dbfce4e9b9b",
@@ -2804,7 +2804,7 @@
       "style_tags": [],
       "description_short": "<p>Sun-safe comfort for kids who never stop moving.</p>\n\n<p>This one-piece is built for play, from pool splashes to beac",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1d44238e6b97",
@@ -2837,7 +2837,7 @@
       "style_tags": [],
       "description_short": "<p>Bold style with sun-safe performance.</p>\n<p>This halter monokini brings fun to every swim session. UPF50+ dull trico",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "936eff2b3c5d",
@@ -2874,7 +2874,7 @@
       "style_tags": [],
       "description_short": "<p>Playful print, sun-safe protection.</p>\n<p>This one-piece is built for carefree days in the water. The UPF Pinstripe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7bf8da3a75f0",
@@ -2911,7 +2911,7 @@
       "style_tags": [],
       "description_short": "<p>Playful print, sun-safe protection.</p>\n<p>This one-piece is built for carefree days in the water. The UPF Pinstripe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1c97b24b27b6",
@@ -2943,7 +2943,7 @@
       "style_tags": [],
       "description_short": "<p>A classic polo built for play.</p>\n<p>This space-dye polo keeps kids looking sharp while staying active. The H2O-Dri",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "19afcf424b8f",
@@ -2978,7 +2978,7 @@
       "style_tags": [],
       "description_short": "<p>Bold graphic, laidback comfort.</p>\n<p>This oversized tee is all about easy style with a punch of attitude. Made from",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "56afd7bf1313",
@@ -3012,7 +3012,7 @@
       "style_tags": [],
       "description_short": "<p>Everyday comfort with room to move.</p>\n<p>These pull-on shorts are built for kids on the go. Stretch twill gives the",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "746ec77fde6a",
@@ -3046,7 +3046,7 @@
       "style_tags": [],
       "description_short": "<p>Easy comfort for every adventure.</p>\n<p>These shorts are built for nonstop play\u2014soft French terry keeps kids cozy, w",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1f95d65ea9f3",
@@ -3080,7 +3080,7 @@
       "style_tags": [],
       "description_short": "<p>Cozy layer with a floral twist.</p>\n<p>This long sleeve tee brings comfort and style together. The cotton-poly rib fa",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "14123454945f",
@@ -3112,7 +3112,7 @@
       "style_tags": [],
       "description_short": "<p>Sun-safe comfort in a playful set.</p>\n<p>This two-piece tankini is made for kids who love to splash, swim, and play.",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "89b66a6dc38e",
@@ -3145,7 +3145,7 @@
       ],
       "description_short": "<p>Post-surf comfort meets everyday style.</p>\n<p>This surf poncho hoodie is perfect for throwing on after the beach or",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "410a6cd7fcf0",
@@ -3178,7 +3178,7 @@
       "style_tags": [],
       "description_short": "<p>Desert vibes meet everyday comfort.</p>\n<p>Soft combed cotton jersey and a regular fit make this tee an easy pick for",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "bb26ed56c752",
@@ -3208,7 +3208,7 @@
       "style_tags": [],
       "description_short": "<p>Graphic style with all-day comfort.</p>\n<p>This boxy tee keeps kids cool and confident with a roomy fit and soft comb",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b2fb9ba384b1",
@@ -3238,7 +3238,7 @@
       "style_tags": [],
       "description_short": "<p>Lightweight sun protection that keeps up.</p>\n<p>This hooded top is made for long days outdoors. The H20-Dri Legend J",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1f71e371696f",
@@ -3268,7 +3268,7 @@
       "style_tags": [],
       "description_short": "<p>Fierce comfort that bites back.</p>\n<p>This tee makes a splash with its bold shark graphic and oversized Hurley lette",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0b656b4ba9cd",
@@ -3298,7 +3298,7 @@
       "style_tags": [],
       "description_short": "<p>A classic polo built for play.</p>\n<p>This space-dye polo keeps kids looking sharp while staying active. The H2O-Dri",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2c342c5be1d3",
@@ -3330,7 +3330,7 @@
       ],
       "description_short": "<p>Warmth that\u2019s ready for every session.</p>\n<p>This fleece hoodie keeps kids cozy whether they\u2019re layering up for scho",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "df0b6ea45de0",
@@ -3360,7 +3360,7 @@
       "style_tags": [],
       "description_short": "<p>Positive vibes, all day.</p>\n<p>This long sleeve tee brings playful energy with its bold smiley graphic. Made from so",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "faf631528878",
@@ -3390,7 +3390,7 @@
       "style_tags": [],
       "description_short": "<p>Bold graphic for fearless style.</p>\n<p>Packed with attitude, this tee shows off an all-over skull design behind the",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7bc53cd7e68a",
@@ -3420,7 +3420,7 @@
       "style_tags": [],
       "description_short": "<p>Built tough, made to move.</p>\n<p>These cargo pants are ready for every adventure. The H2O-Dri nylon stretch weave ke",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "1ee9c8e2de8b",
@@ -3450,7 +3450,7 @@
       "style_tags": [],
       "description_short": "<p>Versatile style, built for play.</p>\n<p>Featuring a mix of bold graphics and patches, this tee brings fresh energy to",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2893928abd1f",
@@ -3480,7 +3480,7 @@
       "style_tags": [],
       "description_short": "<p>Graphic edge with everyday comfort.</p>\n<p>This tee takes a playful spin on spooky with its bold bone-style Hurley le",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6916b42c1682",
@@ -3512,7 +3512,7 @@
       ],
       "description_short": "<p>Sharp style, easy comfort.</p>\n<p>This tee brings surf energy with a bold snake graphic wrapping the Hurley logo. Mad",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7c45a0d1779e",
@@ -3543,7 +3543,7 @@
       ],
       "description_short": "<p>Skate-inspired comfort with attitude.</p>\n<p>This tee takes kids\u2019 style up a notch with a bold skating skeleton graph",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "84b51c9e6665",
@@ -3572,7 +3572,7 @@
       "style_tags": [],
       "description_short": "<p>Bold graphic, laidback comfort.</p>\n<p>With its split skull-and-flame artwork, this long sleeve tee makes a strong st",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "44635445dc16",
@@ -3605,7 +3605,7 @@
       "style_tags": [],
       "description_short": "The Wowzer short sleeve polo keeps it sharp with a modern fit in a soft cotton?poly blend, finished with custom logo but",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2613f20d46af",
@@ -3638,7 +3638,7 @@
       "style_tags": [],
       "description_short": "The Wowzer short sleeve polo keeps it sharp with a modern fit in a soft cotton?poly blend, finished with custom logo but",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ec243b7a9f1d",
@@ -3671,7 +3671,7 @@
       "style_tags": [],
       "description_short": "The Wowzer short sleeve polo keeps it sharp with a modern fit in a soft cotton?poly blend, finished with custom logo but",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2d79bc0cc27f",
@@ -3706,7 +3706,7 @@
       ],
       "description_short": "The Watanite Pullover Hoodie for boys brings Pistol Punch energy in a relaxed fit with soft, heavyweight fleece for ever",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "5988da2e646c",
@@ -3743,7 +3743,7 @@
       "style_tags": [],
       "description_short": "Billow Denim II lets your legs live a little with a loose, low-rise fit, a roomy 17.5\" leg opening, and a 26.5\" inseam o",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c094672e5a82",
@@ -3779,7 +3779,7 @@
       "style_tags": [],
       "description_short": "Because even grom feet deserve a lounge chair. The Recliner 2 Big Youth sandal stacks a Recliner Comfort Foam footbed wi",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8e76aa14548d",
@@ -3812,7 +3812,7 @@
       "style_tags": [],
       "description_short": "The Billow denim short brings a loose, low-rise fit that sits below the waist and hangs just right. In Desert Dirt Indig",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ee2db9404885",
@@ -3849,7 +3849,7 @@
       "style_tags": [],
       "description_short": "This little youth sandal stacks comfort with a Recliner Comfort Foam footbed, molded pillows, and arch support, wrapped",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "20cddaea3eea",
@@ -3885,7 +3885,7 @@
       "style_tags": [],
       "description_short": "Daycation 2 Big Youth sandals pack our Recliner Comfort Foam footbed for all-day chill, plus a one-piece molded EVA stra",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "4ee9f4f7a552",
@@ -3922,7 +3922,7 @@
       "style_tags": [],
       "description_short": "The Victor 2 Little Youth packs a Recliner Comfort Foam footbed for all-day cush, a water friendly synthetic nubuck uppe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9e0204184b77",
@@ -3958,7 +3958,7 @@
       "style_tags": [],
       "description_short": "The Victor 2 for big youth brings recliner-level comfort to every step. A water-friendly synthetic nubuck upper and soft",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9d46cef484e4",
@@ -3994,7 +3994,7 @@
       "style_tags": [],
       "description_short": "The Victor 2 for big youth brings recliner-level comfort to every step. A water-friendly synthetic nubuck upper and soft",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "933ee8fc95c8",
@@ -4027,7 +4027,7 @@
       "style_tags": [],
       "description_short": "The Rockout Basic S/S Tee for boys brings a relaxed fit in soft 160gsm jersey made with organic and recycled cotton, so",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "46486a586a0f",
@@ -4063,7 +4063,7 @@
       "style_tags": [],
       "description_short": "Daycation 2 Big Youth sandals pack our Recliner Comfort Foam footbed for all-day chill, plus a one-piece molded EVA stra",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ef7996547423",
@@ -4100,7 +4100,7 @@
       "style_tags": [],
       "description_short": "This little youth sandal stacks comfort with a Recliner Comfort Foam footbed, molded pillows, and arch support, wrapped",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7ec0ab393c29",
@@ -4137,7 +4137,7 @@
       "style_tags": [],
       "description_short": "The Victor 2 Little Youth packs a Recliner Comfort Foam footbed for all-day cush, a water friendly synthetic nubuck uppe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9f952afd2b7c",
@@ -4173,7 +4173,7 @@
       "style_tags": [],
       "description_short": "Because even grom feet deserve a lounge chair. The Recliner 2 Big Youth sandal stacks a Recliner Comfort Foam footbed wi",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "966b46896244",
@@ -4203,7 +4203,7 @@
       "style_tags": [],
       "description_short": "Billow Denim II brings room to move with a loose, low-rise fit that sits below the waist. Bold Blue medium wash with slu",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "05b36bfbd065",
@@ -4236,7 +4236,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "7e8643642deb",
@@ -4271,7 +4271,7 @@
       ],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2acb6bd7fb9e",
@@ -4306,7 +4306,7 @@
       ],
       "description_short": "The 1991 Mini Hoodie chops the hem and keeps the heat, with a relaxed, dropped-shoulder fit, kangaroo pocket, and a scre",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "bf83d2b32b69",
@@ -4345,7 +4345,7 @@
       ],
       "description_short": "The Post Punk Dress throws attitude in Tropic Multi, splashed with an abstract leaf print. Its A-line maxi flow meets cu",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e74fb5afdb6f",
@@ -4385,7 +4385,7 @@
       "style_tags": [],
       "description_short": "Pockets on a mini? Now we're talking. The Delia Cargo Mini Skirt brings a high-waisted fit in washed henna denim with a",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "2b6d640dc02b",
@@ -4422,7 +4422,7 @@
       "style_tags": [],
       "description_short": "Ollie flips the script as a breezy A-line skirtall in a sun-warmed henna hue. Ruffled straps with adjustable buckles cri",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "620f1b383aab",
@@ -4460,7 +4460,7 @@
       ],
       "description_short": "The Simply Seamless Scoop Tiny is a black bikini bottom with a hipster fit and teeny coverage for maximum sun. Smooth, p",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e37651f30b16",
@@ -4496,7 +4496,7 @@
       ],
       "description_short": "The Simply Seamless Scoop Tiny swim bottom keeps it clean and confident with a hipster fit, scoop silhouette, and teeny",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ebcb521b1289",
@@ -4533,7 +4533,7 @@
       "style_tags": [],
       "description_short": "The La Fronda Dress pairs a wavy multicolor print over a Black Natural base with a flirty tie-front and adjustable spagh",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "100e7579449e",
@@ -4567,7 +4567,7 @@
       "style_tags": [],
       "description_short": "The Folkin Stone Dress is an A-line mini in breezy cotton with a straight neckline, adjustable straps, and a tie-front f",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c0ae46e929fa",
@@ -4595,7 +4595,7 @@
       "style_tags": [],
       "description_short": "The Little Class Backpack in Petal Pink keeps your day dialed with a main compartment and padded laptop sleeve, a second",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "5bb69beddaff",
@@ -4623,7 +4623,7 @@
       "style_tags": [],
       "description_short": "Keep it clean with the Full Stone Flexfit hat, a six-panel, structured stretch twill lid that fits like it was made for",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "a98449e3f71e",
@@ -4659,7 +4659,7 @@
       ],
       "description_short": "The  Hydro Fleece Hoodie packs 290g of hydrophobic warmth in a long fit for extra coverage, with ribbed cuffs and hem to",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "da10f156f4cb",
@@ -4695,7 +4695,7 @@
       "style_tags": [],
       "description_short": "The Vroom Service Dress hits with an allover print, a flattering empire seam, and a V-neck with a full button front you",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b43d4d80a01e",
@@ -4728,7 +4728,7 @@
       "style_tags": [],
       "description_short": "This classic-fit crew runs 100% cotton with a soft-hand Circle Stone split print that won't crack your vibe. Self neck t",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8ecf02094f29",
@@ -4763,7 +4763,7 @@
       ],
       "description_short": "Meet the Single Stone PO, your go-to hoodie in Blue Wash built for the long haul. Classic fit, soft brushed fleece made",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "476c42a4256f",
@@ -4793,7 +4793,7 @@
       ],
       "description_short": "Taco Tuesday?! The Voltaco PO lands with a loose fit and ultra-soft recycled brushed fleece in a Blue Wash that feels li",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8ffc4924acf6",
@@ -4828,7 +4828,7 @@
       "style_tags": [],
       "description_short": "With a water-friendly footbed and soft straps featuring padded lycra lining, the Victor Sandal is an easy style for beac",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "32496f4cb62c",
@@ -4863,7 +4863,7 @@
       "style_tags": [],
       "description_short": "Dress to impress? As if. This fitted baby tee brings throwback attitude in clean white with a front screen graphic. Cut",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "818f588c1b6f",
@@ -4895,7 +4895,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "4a8786994996",
@@ -4925,7 +4925,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b0ffcafe8a51",
@@ -4955,7 +4955,7 @@
       "style_tags": [],
       "description_short": "The Mini Dos Pack waist bag in Dark Slate keeps the mission tight with a 2L, double-compartment layout that separates ph",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b6242b53fc22",
@@ -4992,7 +4992,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e83e197ecc75",
@@ -5024,7 +5024,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "17e49d96aad4",
@@ -5058,7 +5058,7 @@
       ],
       "description_short": "Two looks in one: this reversible tiny bikini flaunts maximum leg with its low rise, high cut. The recycled nylon blend",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "89994f36b12b",
@@ -5086,7 +5086,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "3a049ab0eb94",
@@ -5114,7 +5114,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c8e165084c7f",
@@ -5142,7 +5142,7 @@
       "style_tags": [],
       "description_short": "",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "084165f51595",
@@ -5174,7 +5174,7 @@
       ],
       "description_short": "The  Hydro Fleece Hoodie packs 290g of hydrophobic warmth in a long fit for extra coverage, with ribbed cuffs and hem to",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "54734c1fcc7f",
@@ -5211,7 +5211,7 @@
       "style_tags": [],
       "description_short": "Dress to impress? As if. This fitted baby tee brings throwback attitude in clean white with a front screen graphic. Cut",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9129cde684e5",
@@ -5248,7 +5248,7 @@
       "style_tags": [],
       "description_short": "Dress to impress? As if. This fitted baby tee brings throwback attitude in clean white with a front screen graphic. Cut",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "12d5c22230e7",
@@ -5282,7 +5282,7 @@
       ],
       "description_short": "Cold concrete, warm core. The Skidder PO in black throws on easy with a loose fit and hefty fleece that keeps the chill",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e41f67990b60",
@@ -5319,7 +5319,7 @@
       "style_tags": [],
       "description_short": "Our classic Oceanside Short is reimagined with a flirty twist with the Oceanside Mini skirt. Featuring a detailed drawst",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "97cd3617be08",
@@ -5353,7 +5353,7 @@
       "style_tags": [],
       "description_short": "Transition into warm weather in the easy-breezy Spring Fling dress. Featuring a tie-front detail and a flowy fit, this p",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "f60588f18c88",
@@ -5387,7 +5387,7 @@
       "style_tags": [],
       "description_short": "Embody all the beachside ballerina energy with the Take You There dress. Featuring a pleated skirt and a scoop-neck top",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "dab34fa4bf2e",
@@ -5424,7 +5424,7 @@
       ],
       "description_short": "<p>For girls who chase waves and live for sunshine, the Whole Hearted Short Sleeve Rashguard is your ride-or-die essenti",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0f7d748dd247",
@@ -5459,7 +5459,7 @@
       "style_tags": [],
       "description_short": "<p>Make a splash with the magic of the ROXY Ocean Life Oversized Tee\u2014where dolphins dance, sunsets glow, and every momen",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "46908df14766",
@@ -5494,7 +5494,7 @@
       "style_tags": [],
       "description_short": "<p>Catch the coastal breeze with the ROXY California Tee! This retro-inspired graphic brings the golden state to life wi",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "32dc66efc071",
@@ -5531,7 +5531,7 @@
       "style_tags": [],
       "description_short": "<p>Catch the wave in true Roxy spirit with the Crinkle Texture One Piece, your ultimate sidekick for sun-drenched advent",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6caf3ef5cced",
@@ -5565,7 +5565,7 @@
       "style_tags": [],
       "description_short": "<p>Catch the wave in true Roxy spirit with the Crinkle Texture Bikini Set, your ultimate sidekick for sun-drenched adven",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "6adf51acc082",
@@ -5602,7 +5602,7 @@
       ],
       "description_short": "<p>Cozy up in coastal cool with the ROXY Nature Oversized Crew, made for girls who live for sunshine and surf. Crafted f",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d278edc5afce",
@@ -5637,7 +5637,7 @@
       "style_tags": [],
       "description_short": "<p>Adventure-ready and effortlessly cool, the Precious Cargo Pant is your go-to for laid-back days and spontaneous getaw",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e01cf781a673",
@@ -5672,7 +5672,7 @@
       "style_tags": [],
       "description_short": "<p>Transport yourself to island bliss with this Hawaii Oversized Tee from ROXY. Featuring a vibrant tropical scene\u2014sun-k",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e2f40589dcd1",
@@ -5707,7 +5707,7 @@
       "style_tags": [],
       "description_short": "<p>Make a splash with the magic of the ROXY Ocean Life Oversized Tee\u2014where dolphins dance, sunsets glow, and every momen",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8dbee0a92408",
@@ -5742,7 +5742,7 @@
       "style_tags": [],
       "description_short": "<p>The ROXY Board Biscus Tee channels pure surf energy with a splash of island soul. Featured on the back is a sun-drenc",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "f6696f029349",
@@ -5777,7 +5777,7 @@
       "style_tags": [],
       "description_short": "<p>Let her style bloom with island vibes in the ROXY Paradisus Oversized Tee. Each bold letter of the ROXY logo is a win",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d04da0741c2a",
@@ -5812,7 +5812,7 @@
       "style_tags": [],
       "description_short": "<p>Let her style bloom with island vibes in the ROXY Paradisus Oversized Tee. Each bold letter of the ROXY logo is a win",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "80c21d1acabf",
@@ -5849,7 +5849,7 @@
       ],
       "description_short": "<p>Wrap her in warmth and waves with the Sunset Oversized Zip Hoodie, made for breezy beach days and chill sunset stroll",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "18484de9ba37",
@@ -5884,7 +5884,7 @@
       "style_tags": [],
       "description_short": "<p>Chase the tides and live in the glow with the ROXY Sunset Short\u2014your effortless ride-or-die for coastal days and salt",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ea05dcfb9ca7",
@@ -5919,7 +5919,7 @@
       "style_tags": [],
       "description_short": "<p>Made for beach days and vacation strolls, these brushed twill shorts bring the comfy vibes that scream summer. The re",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ab9ec06fad76",
@@ -5954,7 +5954,7 @@
       "style_tags": [],
       "description_short": "<p>Made for beach days and vacation strolls, these brushed twill shorts bring the comfy vibes that scream summer. The re",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ff55d8d09c3a",
@@ -5991,7 +5991,7 @@
       "style_tags": [],
       "description_short": "Beachy vibes meet spring-ready structure with the Tropical Tulip mini. Ruffled straps and a detailed twist-front bodice",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "16cb9eb90f58",
@@ -6026,7 +6026,7 @@
       "style_tags": [],
       "description_short": "Embody soft spring style in the Camellia dress. Featuring a sweetheart neckline, puff sleeves and an empire waist detail",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c9b05ec49e57",
@@ -6061,7 +6061,7 @@
       "style_tags": [],
       "description_short": "<p>Made for beach days and vacation strolls, these lightweight denim shorts bring the throwback vibes with a bold acid w",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "856778ee69f7",
@@ -6096,7 +6096,7 @@
       "style_tags": [],
       "description_short": "<p>Made for beach days and vacation strolls, these lightweight denim shorts bring the throwback vibes with a bold acid w",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ff4998f2b551",
@@ -6133,7 +6133,7 @@
       ],
       "description_short": "<p>For girls who chase waves and live for sunshine, the Whole Hearted Longsleeve Rashguard is your ride-or-die essential",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "fb22a419caae",
@@ -6165,7 +6165,7 @@
       ],
       "description_short": "<ul>  <li>\n<strong>Collection:\u00a0</strong>Prologue +</li>  <li>\n<strong>Exterior Seam Detail:</strong>\u00a0Flatlock Stitch</li",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "df5050d11f73",
@@ -6196,7 +6196,7 @@
       ],
       "description_short": "<ul>  <li>\n<strong>Collection:</strong>\u00a0Prologue +</li>  <li>\n<strong>Exterior Seam Detail:</strong>\u00a0Flatlock Stitch</li",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e1beb930ead5",
@@ -6226,7 +6226,7 @@
       "style_tags": [],
       "description_short": "<ul>  <li>\n<strong>Collection:\u00a0</strong>Prologue +</li>  <li>\n<strong>Exterior Seam Detail:</strong>\u00a0Flatlock Stitch</li",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "0b4f7f3432a2",
@@ -6261,7 +6261,7 @@
       "style_tags": [],
       "description_short": "<p>Say aloha to instant island vibes with the ROXY Ocean Poster Baby Tee! This retro poster inspired beach scene brings",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "82d8915c9ce9",
@@ -6296,7 +6296,7 @@
       "style_tags": [],
       "description_short": "<p>Say aloha to instant island vibes with the ROXY Ocean Poster Baby Tee! This retro poster inspired beach scene brings",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "5441da1d415b",
@@ -6330,7 +6330,7 @@
       "style_tags": [],
       "description_short": "<p>Let the island breeze lead the way in the ROXY Hibiscus Hype Dress\u2014a sun-chasing staple for wave watchers and sunset",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "075e72c11872",
@@ -6365,7 +6365,7 @@
       "style_tags": [],
       "description_short": "<p>Feel the breeze, chase the sun, and skate your way through summer in the Coastal Breeze Jumpsuit\u2014your all-day, every-",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "9c4e67112dd0",
@@ -6400,7 +6400,7 @@
       "style_tags": [],
       "description_short": "<p>Wave hello to paradise &amp; make a splash with this ROXY Swell Seeker Baby Tee. Featuring a bold ocean wave curling",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "eebfe1b99815",
@@ -6435,7 +6435,7 @@
       "style_tags": [],
       "description_short": "<p>Wave hello to paradise &amp; make a splash with this ROXY Swell Seeker Baby Tee. Featuring a bold ocean wave curling",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "887083f9a24b",
@@ -6470,7 +6470,7 @@
       "style_tags": [],
       "description_short": "<p>Sunshine, surf, and vintage vibes\u2014the ROXY Resort Tee \u00a0brings it all together in one effortlessly cool look. Featurin",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "f2078c7e5efb",
@@ -6505,7 +6505,7 @@
       "style_tags": [],
       "description_short": "<p>Turn up the sunshine with the bold energy of the ROXY Oceanwave Oversized Tee. This graphic is a celebration of every",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "5437b88cd71d",
@@ -6540,7 +6540,7 @@
       "style_tags": [],
       "description_short": "<p>Make waves for a cause with the Protect the Locals Tee! Featuring a stunning sea turtle surrounded by bold tribal pat",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "a8d859cf537f",
@@ -6575,7 +6575,7 @@
       "style_tags": [],
       "description_short": "<p>Make waves for a cause with the Protect the Locals Tee! Featuring a stunning sea turtle surrounded by bold tribal pat",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "b66bca740231",
@@ -6610,7 +6610,7 @@
       "style_tags": [],
       "description_short": "<p>Fresh, floral, and full of island charm, the ROXY Hibiscus Oversized Tee brings tropical energy to everyday style. Fe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "a20d1b968ee6",
@@ -6647,7 +6647,7 @@
       ],
       "description_short": "<p>Drift into island time with the ROXY Bali Stripe Pant\u2014your go-to for chasing waves, catching rays, and living the sal",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "69f561c6e3c1",
@@ -6682,7 +6682,7 @@
       "style_tags": [],
       "description_short": "<p>Bring the sunshine wherever you go in the ROXY Collegiate Arch Tank\u2014where vintage vibes meet tropical bloom in the co",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "a8fd628da4a4",
@@ -6717,7 +6717,7 @@
       "style_tags": [],
       "description_short": "<p>Say aloha to laid-back style with the ROXY Hibiscus Stamp Tank! Splashed with oversized hibiscus blooms in cool blue,",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "40a4b1dd25fc",
@@ -6741,15 +6741,13 @@
       "current_price": 36.0,
       "currency": "USD",
       "availability": "in_stock",
-      "sizes": [
-        "Blue Horizon Plumerias & Hibiscus / XL"
-      ],
+      "sizes": [],
       "category": "tees & tops",
       "age_range": "kids",
       "style_tags": [],
       "description_short": "Retro-inspired and full of throwback beachy vibes, the 90s Baby Tee will become your fitted favorite. Slightly longer ye",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "cfa75617d11b",
@@ -6788,7 +6786,7 @@
       ],
       "description_short": "Retro-inspired and full of throwback beachy vibes, the 90s Baby Tee will become your fitted favorite. Slightly longer ye",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "de3eba02a7c7",
@@ -6823,7 +6821,7 @@
       "style_tags": [],
       "description_short": "Beachy vibes meet spring-ready structure with the Tropical Tulip mini. Ruffled straps and a detailed twist-front bodice",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "229b75709deb",
@@ -6860,7 +6858,7 @@
       "style_tags": [],
       "description_short": "Beachy vibes meet spring-ready structure with the Tropical Tulip mini. Ruffled straps and a detailed twist-front bodice",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "127a899d8425",
@@ -6896,7 +6894,7 @@
       "style_tags": [],
       "description_short": "The Magnolia dress is the perfect brunch-to-beach piece for your springtime rotation. Featuring a halter neckline, gathe",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "4e32c2d03386",
@@ -6933,7 +6931,7 @@
       "style_tags": [],
       "description_short": "Sun-washed hues meet spring flair with the Night Bloom dress. Featuring a scoop neckline and flirty side ties that softl",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "a3ee90cb1e78",
@@ -6965,7 +6963,7 @@
       "style_tags": [],
       "description_short": "The Roxy Girls Truckin Trucker is your perfect go-to hat for embracing sunny adventures in style. Designed with a fun an",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e461d845cda4",
@@ -6997,7 +6995,7 @@
       "style_tags": [],
       "description_short": "The Roxy Tw Sweet Emotions Trucker is your perfect go-to hat for embracing sunny adventures in style. Designed with a fu",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "d79e8871d5b5",
@@ -7029,7 +7027,7 @@
       "style_tags": [],
       "description_short": "The Roxy Girls Truckin Trucker is your perfect go-to hat for embracing sunny adventures in style. Designed with a fun an",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "99f867e60467",
@@ -7065,7 +7063,7 @@
       "style_tags": [],
       "description_short": "This women\u2019s mini dress captures the essence of modern coastal style with a slim fit and breezy 100% viscose fabric. Eff",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "c37d6f4e56df",
@@ -7101,7 +7099,7 @@
       "style_tags": [],
       "description_short": "Experience effortless style with this women\u2019s mini dress, crafted from 100% cotton in a slim fit silhouette. Balancing e",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "8346c6962817",
@@ -7136,7 +7134,7 @@
       "style_tags": [],
       "description_short": "Slide into easygoing sophistication with this women\u2019s mini dress. Designed in soft, breathable viscose and a regular fit",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "e022ef30163c",
@@ -7166,7 +7164,7 @@
       "style_tags": [],
       "description_short": "Step out in effortless style with this slim-fit women\u2019s mini dress. Made from 100% cotton for breathable comfort, it cap",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "61026a7ac01c",
@@ -7202,7 +7200,7 @@
       "style_tags": [],
       "description_short": "Turn heads from beachside brunches to downtown evenings in this women\u2019s dress. Crafted from lightweight viscose with a f",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "ff64daac72ec",
@@ -7237,7 +7235,7 @@
       "style_tags": [],
       "description_short": "Step out in effortless style with this women\u2019s tee. Made from soft 100% cotton, its fitted silhouette blends coastal vib",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     },
     {
       "id": "3b32d8ee418f",
@@ -7273,7 +7271,7 @@
       "style_tags": [],
       "description_short": "Experience modern street style with a fitted women\u2019s tee crafted from soft 100% cotton. Ideal for layering or solo wear,",
       "source_adapter": "shopify_api",
-      "validation_status": "verified"
+      "validation_status": "passed"
     }
   ],
   "sources": [
